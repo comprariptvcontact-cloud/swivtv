@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEO Strategy Report — www.iptvlinekaufen.org</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #0a0a0f; --bg-card: rgba(255,255,255,0.03); --border: rgba(255,255,255,0.08);
+    --border-hover: rgba(255,255,255,0.15); --text: #e8e8ed; --text-secondary: #8b8b9e; --text-muted: #5a5a6e;
+    --accent: #facc15; --accent-glow: rgba(250,204,21,0.3);
+    --green: #22c55e; --green-bg: rgba(34,197,94,0.12); --green-border: rgba(34,197,94,0.25);
+    --yellow: #eab308; --yellow-bg: rgba(234,179,8,0.12); --yellow-border: rgba(234,179,8,0.25);
+    --red: #ef4444; --red-bg: rgba(239,68,68,0.12); --red-border: rgba(239,68,68,0.25);
+    --blue: #3b82f6; --blue-bg: rgba(59,130,246,0.12);
+    --orange: #f97316; --orange-bg: rgba(249,115,22,0.12); --orange-border: rgba(249,115,22,0.25);
+    --purple: #a78bfa; --purple-bg: rgba(167,139,250,0.08); --purple-border: rgba(167,139,250,0.15);
+    --radius: 16px; --radius-sm: 10px; --radius-xs: 6px;
+  }
+  ::selection { background: var(--accent); color: #000; }
+  body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; min-height: 100vh; overflow-x: hidden; }
+  body::before { content:''; position: fixed; top:-50%; left:-50%; width:200%; height:200%;
+    background: radial-gradient(ellipse at 20% 50%, rgba(250,204,21,0.05) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 20%, rgba(250,204,21,0.03) 0%, transparent 50%); z-index:-1; }
+  ::-webkit-scrollbar { width:6px; } ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius:3px; }
+  .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+  .header { padding: 40px 0 0; text-align: center; }
+  .header-badge { display:inline-flex; align-items:center; gap:8px; padding:6px 16px; background:var(--bg-card);
+    border:1px solid var(--border); border-radius:100px; font-size:12px; font-weight:500; color:var(--text-secondary);
+    text-transform:uppercase; letter-spacing:1.5px; margin-bottom:20px; }
+  .header-badge .dot { width:6px; height:6px; border-radius:50%; background:var(--green); box-shadow:0 0 8px var(--green); }
+  .header h1 { font-family:'Space Grotesk',sans-serif; font-size:42px; font-weight:700; line-height:1.15; margin-bottom:12px;
+    background:linear-gradient(135deg,#fff 0%,#facc15 120%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+  .header .subtitle { font-size:16px; color:var(--text-secondary); margin-bottom:32px; }
+  .score-section { display:flex; align-items:center; gap:48px; margin-bottom:40px; padding:40px; background:var(--bg-card);
+    border:1px solid var(--border); border-radius:var(--radius); }
+  .score-circle-wrap { position:relative; flex-shrink:0; }
+  .score-circle { width:180px; height:180px; border-radius:50%; display:flex; align-items:center; justify-content:center; flex-direction:column; position:relative; }
+  .score-circle svg { position:absolute; top:0; left:0; width:100%; height:100%; transform:rotate(-90deg); }
+  .score-circle svg circle { fill:none; stroke-width:6; stroke-linecap:round; }
+  .score-circle svg .bg-ring { stroke:rgba(255,255,255,0.06); }
+  .score-circle svg .progress-ring { stroke:var(--accent); stroke-dasharray:502; stroke-dashoffset:81; filter:drop-shadow(0 0 6px var(--accent-glow)); }
+  .score-number { font-family:'Space Grotesk',sans-serif; font-size:56px; font-weight:700; line-height:1; color:#fff; position:relative; z-index:1; }
+  .score-grade { font-family:'Space Grotesk',sans-serif; font-size:14px; font-weight:600; color:var(--text-muted); text-transform:uppercase; letter-spacing:1px; position:relative; z-index:1; margin-top:2px; }
+  .score-label { font-size:13px; color:var(--text-secondary); font-weight:500; position:relative; z-index:1; margin-top:4px; }
+  .score-details { flex:1; }
+  .score-details h2 { font-family:'Space Grotesk',sans-serif; font-size:22px; font-weight:600; margin-bottom:8px; }
+  .score-details p { color:var(--text-secondary); font-size:15px; line-height:1.7; margin-bottom:20px; }
+  .sub-scores { display:grid; grid-template-columns:repeat(auto-fit,minmax(130px,1fr)); gap:12px; }
+  .sub-score { padding:14px 16px; background:rgba(255,255,255,0.02); border:1px solid var(--border); border-radius:var(--radius-sm); }
+  .sub-score-label { font-size:11px; text-transform:uppercase; letter-spacing:1px; color:var(--text-muted); margin-bottom:6px; }
+  .sub-score-value { font-family:'Space Grotesk',sans-serif; font-size:28px; font-weight:700; }
+  .sub-score-bar { height:3px; border-radius:2px; background:rgba(255,255,255,0.06); margin-top:8px; overflow:hidden; }
+  .sub-score-bar-fill { height:100%; border-radius:2px; }
+  .tabs { position:sticky; top:0; z-index:100; background:rgba(10,10,15,0.85); backdrop-filter:blur(20px); border-bottom:1px solid var(--border); }
+  .tabs-inner { max-width:1200px; margin:0 auto; padding:0 24px; display:flex; overflow-x:auto; scrollbar-width:none; }
+  .tabs-inner::-webkit-scrollbar { display:none; }
+  .tab-btn { padding:16px 24px; font-family:'Inter',sans-serif; font-size:14px; font-weight:500; color:var(--text-muted); background:none; border:none; border-bottom:2px solid transparent; cursor:pointer; white-space:nowrap; transition:all 0.2s; }
+  .tab-btn:hover { color:var(--text-secondary); }
+  .tab-btn.active { color:var(--text); border-bottom-color:var(--accent); }
+  .tab-btn .tab-count { display:inline-flex; align-items:center; justify-content:center; min-width:20px; height:20px; padding:0 6px; background:var(--bg-card); border:1px solid var(--border); border-radius:100px; font-size:11px; font-weight:600; margin-left:8px; color:var(--text-secondary); }
+  .tab-btn.active .tab-count { background:var(--accent); border-color:var(--accent); color:#000; }
+  .tab-content { display:none; padding:40px 0 80px; } .tab-content.active { display:block; }
+  .section-title { font-family:'Space Grotesk',sans-serif; font-size:24px; font-weight:700; margin-bottom:8px; }
+  .section-subtitle { color:var(--text-secondary); font-size:15px; margin-bottom:24px; }
+  .stats-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:16px; margin-bottom:40px; }
+  .stat-card { padding:24px; background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); text-align:center; }
+  .stat-value { font-family:'Space Grotesk',sans-serif; font-size:36px; font-weight:700; color:#fff; margin-bottom:4px; }
+  .stat-label { font-size:13px; color:var(--text-secondary); }
+  .card { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); padding:28px; margin-bottom:16px; }
+  .card-title { font-family:'Space Grotesk',sans-serif; font-size:18px; font-weight:600; display:flex; align-items:center; gap:12px; }
+  .badge { display:inline-flex; align-items:center; gap:5px; padding:4px 12px; border-radius:100px; font-size:12px; font-weight:600; }
+  .badge-critical { background:var(--red-bg); color:var(--red); border:1px solid var(--red-border); }
+  .badge-high { background:var(--orange-bg); color:var(--orange); border:1px solid var(--orange-border); }
+  .badge-medium { background:var(--yellow-bg); color:var(--yellow); border:1px solid var(--yellow-border); }
+  .badge-low { background:var(--green-bg); color:var(--green); border:1px solid var(--green-border); }
+  .badge-pass { background:var(--green-bg); color:var(--green); border:1px solid var(--green-border); }
+  .badge-warning { background:var(--yellow-bg); color:var(--yellow); border:1px solid var(--yellow-border); }
+  .badge-fail { background:var(--red-bg); color:var(--red); border:1px solid var(--red-border); }
+  .finding { padding:16px 0; border-bottom:1px solid rgba(255,255,255,0.04); display:grid; grid-template-columns:auto 1fr auto; gap:16px; align-items:start; }
+  .finding:last-child { border-bottom:none; }
+  .finding-status { width:8px; height:8px; border-radius:50%; margin-top:8px; }
+  .finding-status.pass { background:var(--green); } .finding-status.warning { background:var(--yellow); } .finding-status.fail { background:var(--red); }
+  .finding-content h4 { font-size:14px; font-weight:600; margin-bottom:4px; }
+  .finding-content p { font-size:13px; color:var(--text-secondary); line-height:1.6; }
+  .finding-rec { margin-top:8px; padding:10px 14px; background:rgba(250,204,21,0.06); border-left:3px solid var(--accent); border-radius:0 var(--radius-xs) var(--radius-xs) 0; font-size:13px; color:var(--text); line-height:1.5; }
+  .page-table { width:100%; border-collapse:collapse; margin-top:16px; }
+  .page-table th { text-align:left; padding:12px 16px; font-size:11px; text-transform:uppercase; letter-spacing:1px; color:var(--text-muted); border-bottom:1px solid var(--border); font-weight:600; }
+  .page-table td { padding:12px 16px; font-size:14px; border-bottom:1px solid rgba(255,255,255,0.03); vertical-align:top; }
+  .page-url { font-family:'JetBrains Mono',monospace; font-size:13px; color:var(--accent); word-break:break-all; }
+  .checklist-item { display:flex; align-items:flex-start; gap:12px; padding:12px 0; border-bottom:1px solid rgba(255,255,255,0.04); }
+  .checklist-item:last-child { border-bottom:none; }
+  .check-icon { width:22px; height:22px; border-radius:6px; flex-shrink:0; display:flex; align-items:center; justify-content:center; font-size:12px; margin-top:1px; }
+  .check-icon.pass { background:var(--green-bg); color:var(--green); border:1px solid var(--green-border); }
+  .check-icon.fail { background:var(--red-bg); color:var(--red); border:1px solid var(--red-border); }
+  .check-icon.warn { background:var(--yellow-bg); color:var(--yellow); border:1px solid var(--yellow-border); }
+  .check-text { font-size:14px; color:var(--text); } .check-text.muted { color:var(--text-secondary); }
+  .action-item { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-sm); padding:24px; margin-bottom:12px; display:flex; gap:20px; align-items:flex-start; }
+  .action-number { font-family:'Space Grotesk',sans-serif; font-size:24px; font-weight:700; color:var(--accent); flex-shrink:0; width:36px; text-align:center; opacity:0.6; }
+  .action-content { flex:1; } .action-title { font-weight:600; font-size:15px; margin-bottom:6px; }
+  .action-desc { font-size:14px; color:var(--text-secondary); line-height:1.6; }
+  .action-impact { margin-top:8px; font-size:13px; color:var(--green); font-weight:500; }
+  .lsi-cloud { display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }
+  .lsi-tag { padding:6px 14px; border-radius:100px; font-size:13px; font-family:'JetBrains Mono',monospace; }
+  .lsi-tag.integrated { background:var(--green-bg); border:1px solid var(--green-border); color:var(--green); }
+  .lsi-tag.missing { background:var(--red-bg); border:1px solid var(--red-border); color:var(--red); }
+  .cluster { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); padding:24px; margin-bottom:16px; }
+  .cluster-title { font-family:'Space Grotesk',sans-serif; font-weight:600; color:var(--purple); font-size:16px; margin-bottom:12px; }
+  .cluster-pages { display:flex; flex-wrap:wrap; gap:8px; }
+  .cluster-page { padding:6px 14px; border-radius:100px; background:var(--purple-bg); border:1px solid var(--purple-border); font-size:13px; font-family:'JetBrains Mono',monospace; color:var(--text-secondary); }
+  .cluster-page.pillar { background:rgba(167,139,250,0.15); border-color:rgba(167,139,250,0.3); color:var(--purple); font-weight:600; }
+  @media (max-width:768px){ .header h1{font-size:28px;} .score-section{flex-direction:column;text-align:center;padding:24px;gap:24px;} .stats-grid{grid-template-columns:repeat(2,1fr);} .sub-scores{grid-template-columns:repeat(2,1fr);} .action-item{flex-direction:column;gap:12px;} }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="container">
+    <div class="header-badge"><span class="dot"></span> Site-Wide SEO Audit</div>
+    <h1>www.iptvlinekaufen.org</h1>
+    <p class="subtitle">IPTV Kaufen — rebrand &amp; SEO audit across 40 prerendered URLs · Generated October 6, 2026</p>
+  </div>
+</div>
+
+<div class="container" style="padding-top:0; padding-bottom:32px;">
+  <div class="score-section">
+    <div class="score-circle-wrap">
+      <div class="score-circle">
+        <svg viewBox="0 0 160 160"><circle class="bg-ring" cx="80" cy="80" r="74"/><circle class="progress-ring" cx="80" cy="80" r="74"/></svg>
+        <span class="score-number">84</span>
+        <span class="score-grade">Grade A</span>
+        <span class="score-label">Overall Health</span>
+      </div>
+    </div>
+    <div class="score-details">
+      <h2>Technically strong foundation, now cleanly rebranded to IPTV Kaufen</h2>
+      <p>The site ships 40 prerendered static pages across de/en/nl with full JSON-LD, hreflang, canonical URLs, Open Graph and a split sitemap index — an excellent technical base. This audit reflects the rebrand to <strong>IPTV Kaufen</strong> (iptvlinekaufen.org), the DACH geo-targeting (Germany &amp; Switzerland) and the duplicate meta-description fix applied in this session. The biggest remaining wins are a branded 1200×630 social image, server-rendered AggregateRating, and explicit Switzerland/CHF signals.</p>
+      <div class="sub-scores">
+        <div class="sub-score"><div class="sub-score-label">Technical</div><div class="sub-score-value" style="color:var(--green)">90</div><div class="sub-score-bar"><div class="sub-score-bar-fill" style="width:90%; background:var(--green)"></div></div></div>
+        <div class="sub-score"><div class="sub-score-label">Content</div><div class="sub-score-value" style="color:var(--yellow)">78</div><div class="sub-score-bar"><div class="sub-score-bar-fill" style="width:78%; background:var(--yellow)"></div></div></div>
+        <div class="sub-score"><div class="sub-score-label">Architecture</div><div class="sub-score-value" style="color:var(--green)">90</div><div class="sub-score-bar"><div class="sub-score-bar-fill" style="width:90%; background:var(--green)"></div></div></div>
+        <div class="sub-score"><div class="sub-score-label">Cross-Page</div><div class="sub-score-value" style="color:var(--green)">88</div><div class="sub-score-bar"><div class="sub-score-bar-fill" style="width:88%; background:var(--green)"></div></div></div>
+        <div class="sub-score"><div class="sub-score-label">Social &amp; Schema</div><div class="sub-score-value" style="color:var(--yellow)">78</div><div class="sub-score-bar"><div class="sub-score-bar-fill" style="width:78%; background:var(--yellow)"></div></div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="tabs"><div class="tabs-inner">
+  <button class="tab-btn active" onclick="switchTab('executive')">Executive Summary</button>
+  <button class="tab-btn" onclick="switchTab('keywords')">Keywords</button>
+  <button class="tab-btn" onclick="switchTab('technical')">Technical</button>
+  <button class="tab-btn" onclick="switchTab('content')">Content Strategy</button>
+  <button class="tab-btn" onclick="switchTab('actions')">Action Plan</button>
+</div></div>
+
+<!-- EXECUTIVE -->
+<div id="tab-executive" class="tab-content active"><div class="container">
+  <div class="section-title">Executive Summary</div>
+  <div class="section-subtitle">Health of www.iptvlinekaufen.org after the IPTV Kaufen rebrand</div>
+  <div class="stats-grid">
+    <div class="stat-card"><div class="stat-value">40</div><div class="stat-label">Prerendered URLs</div></div>
+    <div class="stat-card"><div class="stat-value">3</div><div class="stat-label">Languages (de/en/nl)</div></div>
+    <div class="stat-card"><div class="stat-value">100%</div><div class="stat-label">Pages with JSON-LD</div></div>
+    <div class="stat-card"><div class="stat-value">0</div><div class="stat-label">Critical Issues</div></div>
+    <div class="stat-card"><div class="stat-value">2</div><div class="stat-label">High Priority</div></div>
+    <div class="stat-card"><div class="stat-value">5</div><div class="stat-label">Opportunities</div></div>
+  </div>
+
+  <div class="card">
+    <div class="card-title" style="margin-bottom:16px;">Key Findings</div>
+    <div style="color:var(--text-secondary); font-size:15px; line-height:1.8;">
+      The site is now fully rebranded from Pandora IPTV to <strong>IPTV Kaufen</strong> on the <strong>iptvlinekaufen.org</strong> domain — 4,800+ brand/domain replacements across 48 source files, plus hand-tuned German SEO on the homepage, blog index and AGB. The primary keyword set is <strong>iptv kaufen / iptv line kaufen / iptv lines kaufen</strong>, with geo-targeting set to <strong>Germany, Switzerland and Austria</strong> (DACH) in the Organization schema. Technical SEO is excellent: every one of the 40 pages has a unique title, a single meta description (a duplicate-description bug was fixed this session), a self-referencing canonical, hreflang for de/en/nl + x-default, robots <code>index,follow</code>, Open Graph, Twitter Card and rich JSON-LD (Organization, WebSite, Article, BreadcrumbList, BlogPosting). The old Google Search Console and Bing verification tags were removed, the favicon was rebranded to a yellow play-mark, and the 1-month package was removed so the 3-month plan is now the entry/"test" package. Remaining opportunities are cosmetic-to-moderate: the social share image is still a 512px favicon rather than a 1200×630 card, AggregateRating is only client-rendered, and Switzerland could be reinforced with CHF pricing and copy.
+    </div>
+  </div>
+
+  <div class="section-title" style="font-size:18px; margin-top:32px;">Top 3 Priorities</div>
+  <div class="section-subtitle">Highest-impact actions remaining after the rebrand</div>
+  <div class="action-item"><div class="action-number">1</div><div class="action-content">
+    <div class="action-title">Create a branded 1200×630 Open Graph image</div>
+    <div class="action-desc">All pages currently use <code>favicon-512.png</code> as <code>og:image</code>. Add a real 1200×630 card with the IPTV Kaufen play-mark, the "IPTV kaufen / IPTV Line kaufen" wordmark and a short value line, then point <code>og:image</code> / <code>twitter:image</code> at it in <code>scripts/prerender.ts</code>.</div>
+    <div class="action-impact">Expected impact: far higher click-through on WhatsApp, Facebook, X and Telegram shares.</div>
+  </div><span class="badge badge-high">High</span></div>
+  <div class="action-item"><div class="action-number">2</div><div class="action-content">
+    <div class="action-title">Server-render AggregateRating &amp; Product/Offer schema</div>
+    <div class="action-desc">The testimonials rating and plan prices exist only in the client bundle, so crawlers don't see them in static HTML. Emit <code>AggregateRating</code> and <code>Product</code>/<code>Offer</code> JSON-LD for the plans in the prerenderer to unlock review stars and price rich-results.</div>
+    <div class="action-impact">Expected impact: star ratings &amp; price in SERPs → higher CTR on commercial queries.</div>
+  </div><span class="badge badge-high">High</span></div>
+  <div class="action-item"><div class="action-number">3</div><div class="action-content">
+    <div class="action-title">Reinforce Switzerland as a primary market</div>
+    <div class="action-desc">German is primary and Germany + Switzerland are the target countries. Add CHF pricing (or a CHF note), Swiss channels/wording on the homepage, and keep "iptv kaufen schweiz" in the keyword set (already added) to compete for Swiss-German queries.</div>
+    <div class="action-impact">Expected impact: visibility for Swiss "iptv kaufen" searches, a high-value low-competition market.</div>
+  </div><span class="badge badge-medium">Medium</span></div>
+</div></div>
+
+<!-- KEYWORDS -->
+<div id="tab-keywords" class="tab-content"><div class="container">
+  <div class="section-title">Keyword Strategy</div>
+  <div class="section-subtitle">Target terms for the IPTV Kaufen rebrand (German-first, DACH)</div>
+  <table class="page-table">
+    <thead><tr><th>Type</th><th>Keyword</th><th>Placement</th><th>Status</th></tr></thead>
+    <tbody>
+      <tr><td><span style="color:var(--accent);font-weight:600;">PRIMARY</span></td><td><strong>iptv kaufen</strong></td><td>Title, H1, first 100 words, keywords meta, logo</td><td><span class="badge badge-pass">Placed</span></td></tr>
+      <tr><td><span class="badge badge-medium">Secondary</span></td><td>iptv line kaufen</td><td>Title, H1, description, home body</td><td><span class="badge badge-pass">Placed</span></td></tr>
+      <tr><td><span class="badge badge-medium">Secondary</span></td><td>iptv lines kaufen</td><td>Description, H2, home body</td><td><span class="badge badge-pass">Placed</span></td></tr>
+      <tr><td><span class="badge badge-low">Long-tail</span></td><td>iptv abo kaufen / iptv abonnement kaufen</td><td>keywords meta, body</td><td><span class="badge badge-pass">Placed</span></td></tr>
+      <tr><td><span class="badge badge-low">Geo</span></td><td>iptv deutschland · iptv schweiz</td><td>keywords meta, areaServed schema</td><td><span class="badge badge-pass">Placed</span></td></tr>
+    </tbody>
+  </table>
+  <div style="margin-top:32px;">
+    <div class="section-title" style="font-size:18px;">Semantic / LSI coverage</div>
+    <div class="section-subtitle">Green = present in the site · Red = worth adding</div>
+    <div class="lsi-cloud">
+      <span class="lsi-tag integrated">iptv kaufen</span><span class="lsi-tag integrated">iptv line kaufen</span>
+      <span class="lsi-tag integrated">iptv lines kaufen</span><span class="lsi-tag integrated">iptv abo</span>
+      <span class="lsi-tag integrated">premium iptv</span><span class="lsi-tag integrated">8K / UHD</span>
+      <span class="lsi-tag integrated">Live-Sender</span><span class="lsi-tag integrated">Filme &amp; Serien / VOD</span>
+      <span class="lsi-tag integrated">Smart TV · Fire TV · Android</span><span class="lsi-tag integrated">Bundesliga · Champions League</span>
+      <span class="lsi-tag integrated">15 Tage Geld-zurück</span><span class="lsi-tag integrated">iptv deutschland</span>
+      <span class="lsi-tag integrated">iptv schweiz</span>
+      <span class="lsi-tag missing">iptv kaufen schweiz (dedicated copy)</span><span class="lsi-tag missing">CHF Preise</span>
+      <span class="lsi-tag missing">iptv testen / testzugang</span><span class="lsi-tag missing">MAG / Formuler setup</span>
+      <span class="lsi-tag missing">m3u / xtream codes</span>
+    </div>
+  </div>
+</div></div>
+
+<!-- TECHNICAL -->
+<div id="tab-technical" class="tab-content"><div class="container">
+  <div class="section-title">Technical SEO</div>
+  <div class="section-subtitle">Implementation across the 40 prerendered pages</div>
+  <div class="card">
+    <div class="card-title" style="margin-bottom:20px;">Implementation Checklist</div>
+    <div class="checklist-item"><div class="check-icon pass">&#10003;</div><div class="check-text">Unique <code>&lt;title&gt;</code> on every page (de/en/nl home, blog, AGB, 30 posts)</div></div>
+    <div class="checklist-item"><div class="check-icon pass">&#10003;</div><div class="check-text">Exactly one meta description per page — <strong>duplicate-description bug fixed this session</strong></div></div>
+    <div class="checklist-item"><div class="check-icon pass">&#10003;</div><div class="check-text">Self-referencing canonical per route (e.g. <code>/de/blog</code>)</div></div>
+    <div class="checklist-item"><div class="check-icon pass">&#10003;</div><div class="check-text">hreflang de / en / nl + x-default on every page</div></div>
+    <div class="checklist-item"><div class="check-icon pass">&#10003;</div><div class="check-text">robots meta <code>index, follow, max-image-preview:large</code></div></div>
+    <div class="checklist-item"><div class="check-icon pass">&#10003;</div><div class="check-text">JSON-LD: Organization, WebSite, Article, BreadcrumbList, BlogPosting, ImageObject</div></div>
+    <div class="checklist-item"><div class="check-icon pass">&#10003;</div><div class="check-text"><code>areaServed</code> = Germany, Switzerland, Austria (DACH geo-targeting)</div></div>
+    <div class="checklist-item"><div class="check-icon pass">&#10003;</div><div class="check-text">Sitemap index + 3 sub-sitemaps, all declared in robots.txt</div></div>
+    <div class="checklist-item"><div class="check-icon pass">&#10003;</div><div class="check-text">Open Graph + Twitter Card on every page</div></div>
+    <div class="checklist-item"><div class="check-icon pass">&#10003;</div><div class="check-text">preconnect/dns-prefetch for fonts, Unsplash, TMDB, flagcdn</div></div>
+    <div class="checklist-item"><div class="check-icon pass">&#10003;</div><div class="check-text">Rebranded favicon set (SVG + 32/96/192/512 + apple-touch)</div></div>
+    <div class="checklist-item"><div class="check-icon pass">&#10003;</div><div class="check-text">Stale Google Search Console + Bing verification tags removed</div></div>
+    <div class="checklist-item"><div class="check-icon warn">!</div><div class="check-text muted"><code>og:image</code> is a 512px favicon, not a 1200×630 social card</div></div>
+    <div class="checklist-item"><div class="check-icon warn">!</div><div class="check-text muted">AggregateRating / Product-Offer schema only in the client bundle, not static HTML</div></div>
+    <div class="checklist-item"><div class="check-icon warn">!</div><div class="check-text muted">Main JS bundle ~662 KB (gzip ~207 KB) — consider code-splitting</div></div>
+  </div>
+  <div class="section-title" style="font-size:18px; margin-top:32px;">Notes &amp; limitations</div>
+  <div class="card">
+    <div class="finding"><div class="finding-status warning"></div><div class="finding-content"><h4>Prerendered home body is condensed</h4><p>The static home HTML carries ~166 words of SEO body; the full experience is client-rendered. Google renders JS, but a slightly deeper static intro (200–300 words) would help non-JS crawlers and first paint.</p><div class="finding-rec">Expand the HOME_BODY block in prerender.ts with 1–2 extra keyword-rich paragraphs (IPTV Line kaufen, Geräte, DACH).</div></div><span class="badge badge-low">Low</span></div>
+    <div class="finding"><div class="finding-status pass"></div><div class="finding-content"><h4>This audit is HTML-based</h4><p>It cannot measure live Core Web Vitals, backlinks or real rankings — those need PageSpeed Insights, Search Console and a backlink tool once the new domain is live.</p></div><span class="badge badge-low">Info</span></div>
+  </div>
+</div></div>
+
+<!-- CONTENT -->
+<div id="tab-content" class="tab-content"><div class="container">
+  <div class="section-title">Content Strategy</div>
+  <div class="section-subtitle">Blog clusters and content opportunities</div>
+  <div class="stats-grid">
+    <div class="stat-card"><div class="stat-value">30</div><div class="stat-label">Blog posts (de+en)</div></div>
+    <div class="stat-card"><div class="stat-value">3</div><div class="stat-label">Content hubs (blog/lang)</div></div>
+    <div class="stat-card"><div class="stat-value">DACH</div><div class="stat-label">Geo focus</div></div>
+    <div class="stat-card"><div class="stat-value">1</div><div class="stat-label">Entry "test" plan (3-mo)</div></div>
+  </div>
+  <div class="section-title" style="font-size:18px;">Recommended content clusters</div>
+  <div class="section-subtitle">Lean the German blog into "iptv kaufen" intent</div>
+  <div class="cluster"><div class="cluster-title">Pillar: IPTV kaufen (Germany)</div><div class="cluster-pages">
+    <span class="cluster-page pillar">/de (home — IPTV kaufen)</span>
+    <span class="cluster-page">/de/blog/iptv-deutschland-2026-...</span>
+    <span class="cluster-page">/de/blog/iptv-anbieter-vergleich-deutschland</span>
+    <span class="cluster-page">/de/blog/iptv-vs-kabel-deutschland-2026</span>
+  </div></div>
+  <div class="cluster"><div class="cluster-title">Opportunity: IPTV kaufen Schweiz</div><div class="cluster-pages">
+    <span class="cluster-page pillar">New: /de/blog/iptv-kaufen-schweiz</span>
+    <span class="cluster-page">Swiss channels (SRF, RSI, Blue Sport)</span>
+    <span class="cluster-page">CHF pricing &amp; payment</span>
+  </div></div>
+  <div class="cluster"><div class="cluster-title">Devices &amp; setup</div><div class="cluster-pages">
+    <span class="cluster-page">/de/blog/iptv-apps-android-tv-fire-tv-deutschland</span>
+    <span class="cluster-page">/de/blog/iptv-multi-device-...</span>
+    <span class="cluster-page">New: MAG / Formuler / m3u setup guide</span>
+  </div></div>
+  <div class="card" style="margin-top:24px;">
+    <div class="finding"><div class="finding-status warning"></div><div class="finding-content"><h4>Blog prose still cites the removed 1-month plan</h4><p>Several German posts mention "1 Monat ab 12,99 €". Since the 1-month package was removed and the 3-month is now the test plan, update those price lines for consistency.</p><div class="finding-rec">Search the blog data for "1 Monat ab 12,99" / "1-Monats-Paket" and rewrite to "3 Monate ab 34,99 € zum Testen".</div></div><span class="badge badge-medium">Medium</span></div>
+    <div class="finding"><div class="finding-status warning"></div><div class="finding-content"><h4>Old SEO report artifacts still in the repo</h4><p><code>seo-report-*.html</code> and <code>seo-strategy-www-ipiptv-store.html</code> reference the old brand. They aren't deployed but should be deleted before pushing to the new repo.</p></div><span class="badge badge-low">Low</span></div>
+  </div>
+</div></div>
+
+<!-- ACTIONS -->
+<div id="tab-actions" class="tab-content"><div class="container">
+  <div class="section-title">Prioritized Action Plan</div>
+  <div class="section-subtitle">What was done this session, and what remains</div>
+  <div class="section-title" style="font-size:18px; color:var(--green);">Completed this session <span style="font-size:14px; color:var(--text-muted); font-weight:400;">&mdash; rebrand &amp; fixes</span></div>
+  <div class="card" style="margin-bottom:24px;">
+    <div class="checklist-item"><div class="check-icon pass">&#10003;</div><div class="check-text">Rebranded Pandora IPTV → <strong>IPTV Kaufen</strong>; domain → iptvlinekaufen.org (4,800+ replacements, 48 files)</div></div>
+    <div class="checklist-item"><div class="check-icon pass">&#10003;</div><div class="check-text">Primary keyword set: iptv kaufen / iptv line kaufen / iptv lines kaufen (title, H1, meta, body)</div></div>
+    <div class="checklist-item"><div class="check-icon pass">&#10003;</div><div class="check-text">German-first + DACH geo-targeting (Germany, Switzerland, Austria) in schema</div></div>
+    <div class="checklist-item"><div class="check-icon pass">&#10003;</div><div class="check-text">New matched favicon (yellow play-mark) across all sizes + rebranded wordmark SVG</div></div>
+    <div class="checklist-item"><div class="check-icon pass">&#10003;</div><div class="check-text">Removed 1-month plan; 3-month is now the entry "test" package (badges, ribbon, CTAs, auth modal)</div></div>
+    <div class="checklist-item"><div class="check-icon pass">&#10003;</div><div class="check-text">Fixed duplicate meta-description on every prerendered page</div></div>
+    <div class="checklist-item"><div class="check-icon pass">&#10003;</div><div class="check-text">Removed Google + Bing verification tags; removed old Git repo &amp; remote (ready for a fresh push)</div></div>
+  </div>
+  <div class="section-title" style="font-size:18px; color:var(--orange);">High impact <span style="font-size:14px; color:var(--text-muted); font-weight:400;">&mdash; do next</span></div>
+  <div class="action-item"><div class="action-number">1</div><div class="action-content"><div class="action-title">Branded 1200×630 OG image</div><div class="action-desc">Design and wire a real social card in prerender.ts.</div></div><span class="badge badge-high">High</span></div>
+  <div class="action-item"><div class="action-number">2</div><div class="action-content"><div class="action-title">Server-render AggregateRating + Product/Offer</div><div class="action-desc">Emit review &amp; price JSON-LD in static HTML for rich results.</div></div><span class="badge badge-high">High</span></div>
+  <div class="section-title" style="font-size:18px; color:var(--purple);">Strategic <span style="font-size:14px; color:var(--text-muted); font-weight:400;">&mdash; ongoing</span></div>
+  <div class="action-item"><div class="action-number">3</div><div class="action-content"><div class="action-title">Switzerland market push</div><div class="action-desc">Dedicated "IPTV kaufen Schweiz" page, CHF pricing, Swiss channels.</div></div><span class="badge badge-medium">Medium</span></div>
+  <div class="action-item"><div class="action-number">4</div><div class="action-content"><div class="action-title">Update blog prices &amp; delete old report artifacts</div><div class="action-desc">Rewrite "1 Monat ab 12,99 €" mentions; remove stale seo-report/seo-strategy HTML before pushing.</div></div><span class="badge badge-medium">Medium</span></div>
+  <div class="action-item"><div class="action-number">5</div><div class="action-content"><div class="action-title">Set up GSC + Bing + Ads for the new property</div><div class="action-desc">Add fresh verification for iptvlinekaufen.org, submit the sitemap index, and (if used) a new Ads conversion ID in analytics.ts.</div></div><span class="badge badge-low">Low</span></div>
+</div></div>
+
+<script>
+function switchTab(id){
+  document.querySelectorAll('.tab-content').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+  document.getElementById('tab-'+id).classList.add('active');
+  event.target.closest('.tab-btn').classList.add('active');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+</script>
+</body>
+</html>
