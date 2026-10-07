@@ -1,0 +1,14 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+.tmp_blog_batches/
+vid/
+
+# Large unreferenced source duplicates (served copies live in finland/public)
+finland/film movies/
+finland/video/
