@@ -97,9 +97,11 @@ function GeoRedirect() {
         const c = (data.country || "").toUpperCase();
         if (c === "NL" || c === "BE" || c === "SR") window.location.replace("/nl");
         else if (c === "DE" || c === "AT" || c === "CH" || c === "LI" || c === "LU") window.location.replace("/de");
-        else window.location.replace("/en");
+        else if (c === "GB" || c === "IE" || c === "US" || c === "CA" || c === "AU") window.location.replace("/en");
+        // German is the site's default: everything not matched above lands on /de.
+        else window.location.replace("/de");
       })
-      .catch(() => window.location.replace("/en"));
+      .catch(() => window.location.replace("/de"));
   }, []);
 
   return (

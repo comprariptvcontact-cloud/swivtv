@@ -124,7 +124,8 @@ function hreflangSet(pathSuffix: string): HreflangLink[] {
     { lang: "de", href: `${SITE}/de${pathSuffix}` },
     { lang: "en", href: `${SITE}/en${pathSuffix}` },
     { lang: "nl", href: `${SITE}/nl${pathSuffix}` },
-    { lang: "x-default", href: `${SITE}/en${pathSuffix}` },
+    // German is the site's default language, so x-default points at the German version.
+    { lang: "x-default", href: `${SITE}/de${pathSuffix}` },
   ];
 }
 
@@ -516,8 +517,8 @@ for (const hLang of HOME_LANGS) {
 }
 
 // Root index.html — the SPA shell that handles geo-redirect via JS.
-// Rebuild it with generic English meta (crawlers see the /en version for
-// content; this page exists only for the client-side redirect).
+// German is the site's default language, so the shell is rendered in German
+// (crawlers that do not run the redirect see the German version for content).
 const rootOrgJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
@@ -530,11 +531,11 @@ const rootWebsiteJsonLd = {
   "@type": "WebSite",
   name: BRAND,
   url: SITE,
-  inLanguage: "en",
+  inLanguage: "de",
   description: HOME_DESCRIPTION,
 };
 const rootHtml = buildPage({
-  lang: "en",
+  lang: "de",
   title: `IPTV kaufen — IPTV Line kaufen | Premium IPTV Abo | iptvlinekaufen.org`,
   description: HOME_DESCRIPTION,
   canonical: `${SITE}/`,
@@ -582,16 +583,41 @@ const urlset = (entries: string[]): string =>
 // is actually about, no longer queue behind 700 foreign-language URLs.
 const sitemapFiles: string[] = [];
 
+// The core pages (home, /blog, /agb) each exist in all three home languages.
+// Carrying the full hreflang cluster on every entry — x-default → German, the
+// domain's primary language — is what tells Google these are one page in three
+// languages rather than three near-duplicate pages competing with each other.
+// (The blog-post sitemaps below stay bare: each post exists in one language.)
+function altCluster(pathSuffix: string): string {
+  return [
+    ...HOME_LANGS.map((l) => ({ hreflang: l, href: `${SITE}${langToPrefix(l)}${pathSuffix}` })),
+    { hreflang: "x-default", href: `${SITE}${langToPrefix("de")}${pathSuffix}` },
+  ]
+    .map((a) => `    <xhtml:link rel="alternate" hreflang="${a.hreflang}" href="${esc(a.href)}" />`)
+    .join("\n");
+}
+
+const pageUrlEntry = (loc: string, lastmod: string, pathSuffix: string): string =>
+  `  <url>\n    <loc>${esc(loc)}</loc>\n    <lastmod>${lastmod}</lastmod>\n${altCluster(pathSuffix)}\n  </url>`;
+
 const corePageEntries: string[] = [
-  urlEntry(`${SITE}/`, newestPostDate),
+  pageUrlEntry(`${SITE}/`, newestPostDate, ""),
 ];
 for (const hLang of HOME_LANGS) {
   const prefix = langToPrefix(hLang);
-  corePageEntries.push(urlEntry(`${SITE}${prefix}`, newestPostDate));
-  corePageEntries.push(urlEntry(`${SITE}${prefix}/blog`, newestPostDate));
-  corePageEntries.push(urlEntry(`${SITE}${prefix}/agb`, today));
+  corePageEntries.push(pageUrlEntry(`${SITE}${prefix}`, newestPostDate, ""));
+  corePageEntries.push(pageUrlEntry(`${SITE}${prefix}/blog`, newestPostDate, "/blog"));
+  corePageEntries.push(pageUrlEntry(`${SITE}${prefix}/agb`, today, "/agb"));
 }
-const corePages = urlset(corePageEntries);
+// hreflang annotations live in the xhtml namespace, so this urlset declares it.
+const corePages =
+  [
+    '<?xml version="1.0" encoding="UTF-8"?>',
+    XSL,
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">',
+    ...corePageEntries,
+    "</urlset>",
+  ].join("\n") + "\n";
 writeFileSync(resolve(DIST, "sitemap-pages.xml"), corePages, "utf8");
 sitemapFiles.push("sitemap-pages.xml");
 
