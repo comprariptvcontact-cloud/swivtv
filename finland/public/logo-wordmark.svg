@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120">
+  <rect width="120" height="120" rx="20" fill="#facc15"/>
+  <path d="M46 34 L46 86 L88 60 Z" fill="black"/>
+  <text x="140" y="84" font-family="Arial,Helvetica,sans-serif" font-weight="900" font-size="60" fill="#facc15">IPTV</text>
+  <text x="300" y="84" font-family="Arial,Helvetica,sans-serif" font-weight="900" font-size="60" fill="white">KAUFEN</text>
+</svg>
