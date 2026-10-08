@@ -99,10 +99,10 @@ const contentTexts: Record<string, ContentRowText> = {
       integrated: "VOLL INTEGRIERT:",
     },
     promoTitles: {
-      subscribe: "IPTV KAUFEN BUCHEN",
-      iptvPlus: "IPTV KAUFEN+",
-      sport: "IPTV KAUFEN SPORT",
-      music: "IPTV KAUFEN MUSIK",
+      subscribe: "SWIV TV BUCHEN",
+      iptvPlus: "SWIV TV+",
+      sport: "SWIV TV SPORT",
+      music: "SWIV TV MUSIK",
       freeTV: "IM FREE-TV SEHEN",
       streaming: "STREAMING-DIENSTE",
     },
@@ -120,10 +120,10 @@ const contentTexts: Record<string, ContentRowText> = {
       integrated: "FULLY INTEGRATED:",
     },
     promoTitles: {
-      subscribe: "SUBSCRIBE TO IPTV KAUFEN",
-      iptvPlus: "IPTV KAUFEN+",
-      sport: "IPTV KAUFEN SPORT",
-      music: "IPTV KAUFEN MUSIC",
+      subscribe: "SUBSCRIBE TO SWIV TV",
+      iptvPlus: "SWIV TV+",
+      sport: "SWIV TV SPORT",
+      music: "SWIV TV MUSIC",
       freeTV: "WATCH FREE TV",
       streaming: "STREAMING SERVICES",
     },
@@ -141,10 +141,10 @@ const contentTexts: Record<string, ContentRowText> = {
       integrated: "VOLLEDIG GEÏNTEGREERD:",
     },
     promoTitles: {
-      subscribe: "ABONNEER OP IPTV KAUFEN",
-      iptvPlus: "IPTV KAUFEN+",
-      sport: "IPTV KAUFEN SPORT",
-      music: "IPTV KAUFEN MUZIEK",
+      subscribe: "ABONNEER OP SWIV TV",
+      iptvPlus: "SWIV TV+",
+      sport: "SWIV TV SPORT",
+      music: "SWIV TV MUZIEK",
       freeTV: "GRATIS TV KIJKEN",
       streaming: "STREAMINGDIENSTEN",
     },
@@ -187,7 +187,7 @@ const PromoBanner: FC<{ card: PromoCard; ct: ContentRowText; onClick: () => void
       >
         <img
           src={card.image}
-          alt={title || "IPTV KAUFEN content"}
+          alt={title || "SWIV TV content"}
           loading="lazy"
           className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-55 transition-opacity duration-300"
         />
@@ -250,7 +250,7 @@ function ContentRowsInner({ onPricingClick }: ContentRowsProps) {
       <ContentRow
         labelColor="white"
         label={ct.getIt}
-        title="IPTV KAUFEN"
+        title="SWIV TV"
         titleColor="accent"
         promoCards={HOL_DIR_CARDS}
         ct={ct}
@@ -258,7 +258,7 @@ function ContentRowsInner({ onPricingClick }: ContentRowsProps) {
       />
       <ContentRow
         labelColor="accent"
-        label="IPTV KAUFEN+:"
+        label="SWIV TV+:"
         title={ct.seriesHighlights}
         items={SERIEN}
         hasArrow

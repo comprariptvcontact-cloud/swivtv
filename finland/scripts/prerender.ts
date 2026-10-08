@@ -21,16 +21,16 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
 const DIST = resolve(ROOT, "dist");
 // Canonical origin — must match the host that actually serves 200s.
-const SITE = "https://www.iptvlinekaufen.org";
-const BRAND = "IPTV KAUFEN";
+const SITE = "https://www.swivtv.be";
+const BRAND = "SWIV TV";
 
 // Must match index.html exactly — these are the anchors the template is patched on.
 const TPL_HTML_TAG = '<html lang="de">';
 const TPL_CANONICAL = `<link rel="canonical" href="${SITE}/" />`;
-const TPL_TITLE = "<title>IPTV kaufen — IPTV Line kaufen | Premium IPTV Abo | iptvlinekaufen.org</title>";
+const TPL_TITLE = "<title>SWIV TV — SWIV IPTV | Premium IPTV Abonnement | swivtv.be</title>";
 
 const HOME_DESCRIPTION =
-  "IPTV kaufen bei iptvlinekaufen.org — IPTV Line kaufen mit 69.000+ Live-Sendern und 220.000+ Filmen & Serien als VOD in bis zu 8K. Premium IPTV Lines kaufen für Smart TV, Android & Fire TV. Jetzt IPTV Abo kaufen.";
+  "SWIV TV — SWIV IPTV auf swivtv.be: Premium IPTV Abonnement mit 69.000+ Live-Sendern und 220.000+ Filmen & Serien als VOD in bis zu 8K. SWIV TV für Smart TV, Android & Fire TV in Deutschland, Belgien und den Niederlanden. Jetzt SWIV TV holen.";
 
 const template = readFileSync(resolve(DIST, "index.html"), "utf8");
 
@@ -293,14 +293,14 @@ for (const post of ALL_POSTS) {
 const sorted = [...ALL_POSTS].sort((a, b) => b.dateISO.localeCompare(a.dateISO));
 
 const BLOG_TITLE: Record<string, string> = {
-  de: `IPTV Kaufen Blog — Anleitungen, Vergleiche & Tipps`,
-  en: `IPTV Kaufen Blog — IPTV Guides, Comparisons & Tips`,
-  nl: `IPTV Kaufen Blog — Handleidingen, Vergelijkingen & Tips`,
+  de: `SWIV TV Blog — Anleitungen, Vergleiche & Tipps`,
+  en: `SWIV TV Blog — IPTV Guides, Comparisons & Tips`,
+  nl: `SWIV TV Blog — Handleidingen, Vergelijkingen & Tips`,
 };
 const BLOG_DESC: Record<string, string> = {
-  de: "IPTV Kaufen Blog: IPTV-Anleitungen, App-Vergleiche, Installationstipps und Ratgeber. Mit IPTV Kaufen ein zuverlässiges Premium-Abonnement in Deutschland wählen.",
-  en: "IPTV Kaufen Blog: IPTV guides, app comparisons, installation tips and advice. Choose a reliable premium IPTV Kaufen subscription in Europe.",
-  nl: "IPTV Kaufen Blog: IPTV-handleidingen, app-vergelijkingen, installatietips en advies. Kies een betrouwbaar premium IPTV Kaufen abonnement in Europa.",
+  de: "SWIV TV Blog: IPTV-Anleitungen, App-Vergleiche, Installationstipps und Ratgeber. Mit SWIV TV ein zuverlässiges Premium-Abonnement in Deutschland wählen.",
+  en: "SWIV TV Blog: IPTV guides, app comparisons, installation tips and advice. Choose a reliable premium SWIV TV subscription in Europe.",
+  nl: "SWIV TV Blog: IPTV-handleidingen, app-vergelijkingen, installatietips en advies. Kies een betrouwbaar premium SWIV TV abonnement in Europa.",
 };
 
 const HOME_LANGS = ["de", "en", "nl"];
@@ -356,14 +356,14 @@ for (const blogLang of HOME_LANGS) {
 
 // ---- /agb (per language) ---------------------------------------------------
 const TERMS_TITLE: Record<string, string> = {
-  de: `AGB & Kundenschutz | IPTV Kaufen`,
-  en: `Terms & Customer Protection | IPTV Kaufen`,
-  nl: `Voorwaarden & Klantbescherming | IPTV Kaufen`,
+  de: `AGB & Kundenschutz | SWIV TV`,
+  en: `Terms & Customer Protection | SWIV TV`,
+  nl: `Voorwaarden & Klantbescherming | SWIV TV`,
 };
 const TERMS_DESC: Record<string, string> = {
-  de: "IPTV Kaufen: 15 Tage Rückerstattungsgarantie, 24/7 Support, wöchentliche Wartung und vierteljährliche Film-Updates. Vollständige AGB und Kundenschutz von IPTV Kaufen.",
-  en: "IPTV Kaufen: 15-day money-back guarantee, 24/7 support, weekly maintenance and quarterly movie updates. Full terms and customer protection of IPTV Kaufen.",
-  nl: "IPTV Kaufen: 15 dagen geld-terug-garantie, 24/7 ondersteuning, wekelijks onderhoud en driemaandelijkse filmupdates. Volledige voorwaarden en klantbescherming van IPTV Kaufen.",
+  de: "SWIV TV: 15 Tage Rückerstattungsgarantie, 24/7 Support, wöchentliche Wartung und vierteljährliche Film-Updates. Vollständige AGB und Kundenschutz von SWIV TV.",
+  en: "SWIV TV: 15-day money-back guarantee, 24/7 support, weekly maintenance and quarterly movie updates. Full terms and customer protection of SWIV TV.",
+  nl: "SWIV TV: 15 dagen geld-terug-garantie, 24/7 ondersteuning, wekelijks onderhoud en driemaandelijkse filmupdates. Volledige voorwaarden en klantbescherming van SWIV TV.",
 };
 const TERMS_LABEL: Record<string, string> = { de: "AGB", en: "Terms", nl: "Voorwaarden" };
 const TERMS_H1: Record<string, string> = {
@@ -422,62 +422,62 @@ for (const tLang of HOME_LANGS) {
 
 // ---- homepage (per language) -----------------------------------------------
 const HOME_TITLE: Record<string, string> = {
-  de: "IPTV kaufen — IPTV Line kaufen | Premium IPTV Abo Deutschland",
-  en: "IPTV kaufen — Buy Premium IPTV Lines | IPTV Subscription EU",
-  nl: "IPTV kaufen — IPTV Lines kopen | Premium IPTV Abonnement NL",
+  de: "SWIV TV — SWIV IPTV Abonnement | Premium IPTV Deutschland",
+  en: "SWIV TV — SWIV IPTV Subscription | Premium IPTV Belgium & NL",
+  nl: "SWIV TV — SWIV IPTV Abonnement | Premium IPTV België & NL",
 };
 const HOME_DESC: Record<string, string> = {
-  de: "IPTV kaufen bei iptvlinekaufen.org: IPTV Line kaufen mit 69.000+ Live-Sendern, 220.000+ Filmen & Serien in bis zu 8K. Premium IPTV Lines kaufen für Smart TV, Android & Fire TV.",
-  en: "IPTV kaufen at iptvlinekaufen.org: buy premium IPTV lines with 69,000+ live channels, 220,000+ movies & series in up to 8K for Smart TV, Android & Fire TV.",
-  nl: "IPTV kaufen op iptvlinekaufen.org: premium IPTV lines kopen met 69.000+ live zenders, 220.000+ films & series in tot 8K voor Smart TV, Android & Fire TV.",
+  de: "SWIV TV (SWIV IPTV) auf swivtv.be: Premium IPTV Abonnement mit 69.000+ Live-Sendern, 220.000+ Filmen & Serien in bis zu 8K. SWIV TV für Smart TV, Android & Fire TV in Deutschland, Belgien und den Niederlanden.",
+  en: "SWIV TV (SWIV IPTV) at swivtv.be: premium IPTV subscription with 69,000+ live channels, 220,000+ movies & series in up to 8K for Smart TV, Android & Fire TV in Belgium, the Netherlands and Germany.",
+  nl: "SWIV TV (SWIV IPTV) op swivtv.be: premium IPTV-abonnement met 69.000+ live zenders, 220.000+ films & series in tot 8K voor Smart TV, Android & Fire TV in België, Nederland en Duitsland.",
 };
 const HOME_BODY: Record<string, string[]> = {
   de: [
-    `<h1>IPTV kaufen — IPTV Line kaufen: Premium IPTV Abonnement für Deutschland</h1>`,
-    `<p>IPTV kaufen leicht gemacht auf iptvlinekaufen.org: Hier können Sie Ihre IPTV Line kaufen — ein Premium-IPTV-Abonnement für Deutschland mit über 69.000 Live-Sendern und 220.000 Filmen und Serien als Video-on-Demand in bis zu 8K Ultra HD. Kompatibel mit Smart TV, Android, Fire TV, MAG-Boxen und weiteren Geräten. Bei IPTV Kaufen erhalten Sie das beste Preis-Leistungs-Verhältnis.</p>`,
-    `<h2>Warum bei IPTV Kaufen Ihre IPTV Lines kaufen?</h2>`,
+    `<h1>SWIV TV — SWIV IPTV: Premium IPTV Abonnement für Deutschland, Belgien & die Niederlande</h1>`,
+    `<p>SWIV TV auf swivtv.be ist Ihr SWIV IPTV Premium-Abonnement mit über 69.000 Live-Sendern und 220.000 Filmen und Serien als Video-on-Demand in bis zu 8K Ultra HD. SWIV TV läuft auf Smart TV, Android, Fire TV, MAG-Boxen und weiteren Geräten — in Deutschland, Belgien und den Niederlanden. Bei SWIV TV erhalten Sie das beste Preis-Leistungs-Verhältnis.</p>`,
+    `<h2>Warum SWIV TV (SWIV IPTV) wählen?</h2>`,
     `<ul>`,
-    `<li>69.000+ Live-Sender aus Deutschland und ganz Europa, inklusive Bundesliga und UEFA Champions League</li>`,
+    `<li>69.000+ Live-Sender aus Deutschland, Belgien, den Niederlanden und ganz Europa, inklusive Bundesliga, Pro League, Eredivisie und UEFA Champions League</li>`,
     `<li>220.000+ Filme und Serien als VOD, wöchentlich aktualisiert</li>`,
     `<li>Bis zu 8K Ultra HD Bildqualität</li>`,
     `<li>15 Tage Rückerstattungsgarantie und 24/7 Support</li>`,
     `<li>Läuft auf Smart TV, Android, Fire TV Stick und weiteren Geräten</li>`,
     `</ul>`,
-    `<p><a href="/de/blog">Alle Ratgeber im Blog</a></p>`,
+    `<p><a href="/de/blog">Alle SWIV TV Ratgeber im Blog</a></p>`,
   ],
   en: [
-    `<h1>IPTV kaufen — Buy Premium IPTV Lines for Germany & Switzerland</h1>`,
-    `<p>IPTV kaufen made simple at iptvlinekaufen.org: buy your IPTV line here — a premium IPTV subscription for Germany, Switzerland and Europe with over 69,000 live channels and 220,000 movies and series as video-on-demand in up to 8K Ultra HD. Compatible with Smart TV, Android, Fire TV, MAG boxes and more. At IPTV Kaufen you get the best value for premium streaming.</p>`,
-    `<h2>Why buy your IPTV lines at IPTV Kaufen?</h2>`,
+    `<h1>SWIV TV — SWIV IPTV: Premium IPTV Subscription for Belgium, the Netherlands & Germany</h1>`,
+    `<p>SWIV TV at swivtv.be is your SWIV IPTV premium subscription with over 69,000 live channels and 220,000 movies and series as video-on-demand in up to 8K Ultra HD. SWIV TV works on Smart TV, Android, Fire TV, MAG boxes and more — across Belgium, the Netherlands and Germany. With SWIV TV you get the best value for premium streaming.</p>`,
+    `<h2>Why choose SWIV TV (SWIV IPTV)?</h2>`,
     `<ul>`,
-    `<li>69,000+ live channels from Europe and worldwide, including Premier League and UEFA Champions League</li>`,
+    `<li>69,000+ live channels from Belgium, the Netherlands, Germany and across Europe, including the Pro League, Eredivisie, Bundesliga and UEFA Champions League</li>`,
     `<li>220,000+ movies and series as VOD, updated weekly</li>`,
     `<li>Up to 8K Ultra HD picture quality</li>`,
     `<li>15-day money-back guarantee and 24/7 support</li>`,
     `<li>Works on Smart TV, Android, Fire TV Stick and more</li>`,
     `</ul>`,
-    `<p><a href="/en/blog">Browse all guides on the blog</a></p>`,
+    `<p><a href="/en/blog">Browse all SWIV TV guides on the blog</a></p>`,
   ],
   nl: [
-    `<h1>IPTV kaufen — Premium IPTV Lines kopen voor Duitsland & Zwitserland</h1>`,
-    `<p>IPTV kaufen eenvoudig gemaakt op iptvlinekaufen.org: koop hier je IPTV line — een premium IPTV-abonnement voor Duitsland, Zwitserland en Europa met meer dan 69.000 live zenders en 220.000 films en series als video-on-demand in maximaal 8K Ultra HD. Compatibel met Smart TV, Android, Fire TV, MAG-boxen en meer. Bij IPTV Kaufen krijg je de beste prijs-kwaliteitverhouding.</p>`,
-    `<h2>Waarom je IPTV lines kopen bij IPTV Kaufen?</h2>`,
+    `<h1>SWIV TV — SWIV IPTV: Premium IPTV-abonnement voor België, Nederland & Duitsland</h1>`,
+    `<p>SWIV TV op swivtv.be is je SWIV IPTV premium-abonnement met meer dan 69.000 live zenders en 220.000 films en series als video-on-demand in maximaal 8K Ultra HD. SWIV TV werkt op Smart TV, Android, Fire TV, MAG-boxen en meer — in België, Nederland en Duitsland. Bij SWIV TV krijg je de beste prijs-kwaliteitverhouding.</p>`,
+    `<h2>Waarom kiezen voor SWIV TV (SWIV IPTV)?</h2>`,
     `<ul>`,
-    `<li>69.000+ live zenders uit Nederland en heel Europa, inclusief Eredivisie en UEFA Champions League</li>`,
+    `<li>69.000+ live zenders uit België, Nederland, Duitsland en heel Europa, inclusief Pro League, Eredivisie, Bundesliga en UEFA Champions League</li>`,
     `<li>220.000+ films en series als VOD, wekelijks bijgewerkt</li>`,
     `<li>Tot 8K Ultra HD beeldkwaliteit</li>`,
     `<li>15 dagen geld-terug-garantie en 24/7 ondersteuning</li>`,
     `<li>Werkt op Smart TV, Android, Fire TV Stick en meer</li>`,
     `</ul>`,
-    `<p><a href="/nl/blog">Bekijk alle handleidingen op de blog</a></p>`,
+    `<p><a href="/nl/blog">Bekijk alle SWIV TV handleidingen op de blog</a></p>`,
   ],
 };
-// Primary markets are the German-speaking DACH countries — Germany and
-// Switzerland first — with the EN/NL pages kept broader.
+// Primary markets are Germany, Belgium and the Netherlands — the three
+// countries SWIV TV targets, in the language most relevant to each page.
 const AREA_SERVED: Record<string, string[]> = {
-  de: ["Germany", "Switzerland", "Austria"],
-  en: ["Germany", "Switzerland", "Europe"],
-  nl: ["Netherlands", "Belgium"],
+  de: ["Germany", "Belgium", "Netherlands"],
+  en: ["Belgium", "Netherlands", "Germany"],
+  nl: ["Belgium", "Netherlands", "Germany"],
 };
 
 for (const hLang of HOME_LANGS) {
@@ -536,7 +536,7 @@ const rootWebsiteJsonLd = {
 };
 const rootHtml = buildPage({
   lang: "de",
-  title: `IPTV kaufen — IPTV Line kaufen | Premium IPTV Abo | iptvlinekaufen.org`,
+  title: `SWIV TV — SWIV IPTV | Premium IPTV Abonnement | swivtv.be`,
   description: HOME_DESCRIPTION,
   canonical: `${SITE}/`,
   ogType: "website",

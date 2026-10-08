@@ -136,9 +136,9 @@ export default function Testimonials() {
           dangerouslySetInnerHTML={{ __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Product",
-            name: "IPTV KAUFEN",
+            name: "SWIV TV",
             description: "Premium IPTV subscription for Europe — 69,000+ live channels, 220,000+ movies & series in up to 8K.",
-            brand: { "@type": "Brand", name: "IPTV KAUFEN" },
+            brand: { "@type": "Brand", name: "SWIV TV" },
             aggregateRating: {
               "@type": "AggregateRating",
               ratingValue: avgRating,

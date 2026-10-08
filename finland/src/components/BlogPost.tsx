@@ -20,7 +20,7 @@ export default function BlogPost({ slug, onPricingClick }: BlogPostProps) {
   const text = post ? getPostText(post, lang) : null;
 
   useEffect(() => {
-    document.title = text ? `${text.title} — IPTV KAUFEN` : `${bt.notFoundTitle} — IPTV KAUFEN`;
+    document.title = text ? `${text.title} — SWIV TV` : `${bt.notFoundTitle} — SWIV TV`;
     let meta = document.querySelector('meta[name="description"]');
     if (!meta) {
       meta = document.createElement("meta");
@@ -105,17 +105,17 @@ export default function BlogPost({ slug, onPricingClick }: BlogPostProps) {
             {bt.ctaButton} <ArrowRight className="w-4 h-4" />
           </button>
           <a
-            href="https://www.instagram.com/iptvlinekaufen/"
+            href="https://www.instagram.com/swivtv/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-white/10 border border-white/25 text-white font-bold px-6 py-3 rounded-full hover:bg-white/20 transition-all"
           >
-            <Instagram className="w-4 h-4" /> @IPTV KAUFEN
+            <Instagram className="w-4 h-4" /> @SWIV TV
           </a>
         </div>
         <p className="text-white/50 text-xs mt-4 font-mono">
           <span className="hover:text-white transition-colors">
-            IPTV KAUFEN
+            SWIV TV
           </span>
         </p>
       </div>

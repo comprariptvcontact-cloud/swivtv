@@ -6,17 +6,17 @@ interface VideoShowcaseProps {
 }
 
 const videoBadge: Record<string, string> = {
-  de: "HOL DIR IPTV KAUFEN",
-  en: "GET IPTV KAUFEN",
-  nl: "ONTDEK IPTV KAUFEN",
-  fr: "DÉCOUVREZ IPTV KAUFEN",
-  es: "OBTÉN IPTV KAUFEN",
-  it: "SCOPRI IPTV KAUFEN",
-  sv: "SKAFFA IPTV KAUFEN",
-  no: "SKAFF DEG IPTV KAUFEN",
-  da: "FÅ IPTV KAUFEN",
-  fi: "HANKI IPTV KAUFEN",
-  ar: "احصل على IPTV KAUFEN",
+  de: "HOL DIR SWIV TV",
+  en: "GET SWIV TV",
+  nl: "ONTDEK SWIV TV",
+  fr: "DÉCOUVREZ SWIV TV",
+  es: "OBTÉN SWIV TV",
+  it: "SCOPRI SWIV TV",
+  sv: "SKAFFA SWIV TV",
+  no: "SKAFF DEG SWIV TV",
+  da: "FÅ SWIV TV",
+  fi: "HANKI SWIV TV",
+  ar: "احصل على SWIV TV",
 };
 
 const videoSections: Record<string, { heading: string; headingItalic: string; subtitle: string }> = {
