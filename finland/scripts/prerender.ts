@@ -15,6 +15,7 @@ import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { ALL_POSTS } from "../src/data/allPosts";
 import { getPostText, getPostLang, type BlogPost } from "../src/data/blogPosts";
+import { KEYWORD_PAGES } from "../src/data/keywordPages";
 import { SITE_LANG, type LangCode } from "../src/i18n";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -32,6 +33,15 @@ const TPL_TITLE = "<title>SWIV TV — SWIV IPTV | Premium IPTV Abonnement | swiv
 const HOME_DESCRIPTION =
   "SWIV TV — SWIV IPTV auf swivtv.be: Premium IPTV Abonnement mit 69.000+ Live-Sendern und 220.000+ Filmen & Serien als VOD in bis zu 8K. SWIV TV für Smart TV, Android & Fire TV in Deutschland, Belgien und den Niederlanden. Jetzt SWIV TV holen.";
 
+const WA_URL = "https://wa.me/447462229301";
+const OFFER_HTML = [
+  `<section aria-label="Zeitlich begrenztes Angebot">`,
+  `<p><strong>Zeitlich begrenztes Angebot</strong></p>`,
+  `<h2>12 + 3 Monate GRATIS — 15 Monate ${BRAND}</h2>`,
+  `<p>Zahle 12 Monate und erhalte 3 Monate geschenkt — 220.000+ VOD, 69.000+ Sender, permanente Updates, 4K UHD.</p>`,
+  `<p><a href="${SITE}/iptv-12-monate">Angebot sichern</a> · <a href="${WA_URL}" rel="noopener">Per WhatsApp bestellen</a></p>`,
+  `</section>`,
+].join("\n");
 const template = readFileSync(resolve(DIST, "index.html"), "utf8");
 
 for (const [name, anchor] of Object.entries({ TPL_HTML_TAG, TPL_CANONICAL, TPL_TITLE })) {
@@ -237,6 +247,7 @@ for (const post of ALL_POSTS) {
     `<h1>${esc(t.title)}</h1>`,
     `<p>${esc(stripMd(t.excerpt))}</p>`,
     `<img src="${esc(post.image)}" alt="${esc(t.title)}" width="1200" height="675" />`,
+    ...(post.offer ? [OFFER_HTML] : []),
     // A body paragraph starting with "## " becomes a real <h2>, so long posts can carry
     // scannable subheadings (and featured-snippet-friendly sections) instead of one flat
     // wall of <p> tags. Plain paragraphs are unaffected.
@@ -546,6 +557,69 @@ const rootHtml = buildPage({
 });
 writeFileSync(resolve(DIST, "index.html"), rootHtml, "utf8");
 
+// ---- SEO keyword landing pages (/<slug>) -----------------------------------
+// Root-level, single-language (Dutch) landing pages that reuse the Pricing
+// packages in the SPA. Emitted here as real crawlable HTML with WebPage +
+// BreadcrumbList + FAQPage JSON-LD, and added to sitemap-pages.xml below.
+const DE_KW_SLUGS = new Set(["iptv-12-monate", "welcher-iptv-anbieter-ist-der-beste", "iptv-bundesliga"]);
+const keywordPageLocs: string[] = [];
+for (const kp of KEYWORD_PAGES) {
+  const canonical = `${SITE}/${kp.slug}`;
+  const leadHtml = kp.lead
+    .map((p) => (p.startsWith("## ") ? `<h2>${paragraphToHtml(p.slice(3))}</h2>` : `<p>${paragraphToHtml(p)}</p>`))
+    .join("\n");
+  const faqHtml = [
+    `<section><h2>FAQ</h2>`,
+    ...kp.faq.map((f) => `<h3>${esc(f.q)}</h3>\n<p>${esc(f.a)}</p>`),
+    `</section>`,
+  ].join("\n");
+  const keywordHtml = buildPage({
+    lang: DE_KW_SLUGS.has(kp.slug) ? "de" : "nl",
+    title: kp.title,
+    description: kp.description,
+    canonical,
+    ogType: "website",
+    jsonLd: [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        name: kp.title,
+        url: canonical,
+        inLanguage: DE_KW_SLUGS.has(kp.slug) ? "de" : "nl",
+        description: kp.description,
+        isPartOf: { "@type": "WebSite", name: BRAND, url: SITE },
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: BRAND, item: SITE },
+          { "@type": "ListItem", position: 2, name: kp.keyword, item: canonical },
+        ],
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: kp.faq.map((f) => ({
+          "@type": "Question",
+          name: f.q,
+          acceptedAnswer: { "@type": "Answer", text: f.a },
+        })),
+      },
+    ],
+    bodyHtml: [
+      `<nav><a href="/nl">${BRAND}</a> › ${esc(kp.keyword)}</nav>`,
+      `<h1>${esc(kp.h1)}</h1>`,
+      leadHtml,
+      faqHtml,
+      `<p><a href="/nl">Bekijk alle ${BRAND} pakketten</a> · <a href="/nl/blog">Naar de blog</a></p>`,
+    ].join("\n"),
+  });
+  mkdirSync(resolve(DIST, kp.slug), { recursive: true });
+  writeFileSync(resolve(DIST, kp.slug, "index.html"), keywordHtml, "utf8");
+  keywordPageLocs.push(canonical);
+}
+
 // ---- sitemap.xml ----------------------------------------------------------
 // Generated from the real post list so it can never drift out of sync with the
 // pages that were actually emitted above.
@@ -610,6 +684,11 @@ for (const hLang of HOME_LANGS) {
   corePageEntries.push(pageUrlEntry(`${SITE}${prefix}/agb`, today, "/agb"));
 }
 // hreflang annotations live in the xhtml namespace, so this urlset declares it.
+// Root-level keyword landing pages: single-language (Dutch), appended to the
+// core-pages sitemap as plain loc+lastmod entries (no hreflang cluster).
+for (const loc of keywordPageLocs) {
+  corePageEntries.push(urlEntry(loc, newestPostDate));
+}
 const corePages =
   [
     '<?xml version="1.0" encoding="UTF-8"?>',

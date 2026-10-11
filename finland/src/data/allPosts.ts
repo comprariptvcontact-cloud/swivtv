@@ -1,8 +1,9 @@
 import { BlogPost } from "./blogPosts";
 import { SEO_BLOG_POSTS } from "./seoBlogPosts";
+import { DE_OFFER_POSTS } from "./deOfferPost";
 import { SWIV_LAUNCH_POSTS } from "./swivLaunchPosts";
 
-export const ALL_POSTS: BlogPost[] = [...SWIV_LAUNCH_POSTS, ...SEO_BLOG_POSTS].sort((a, b) =>
+export const ALL_POSTS: BlogPost[] = [...DE_OFFER_POSTS, ...SWIV_LAUNCH_POSTS, ...SEO_BLOG_POSTS].sort((a, b) =>
   b.dateISO.localeCompare(a.dateISO)
 );
 
