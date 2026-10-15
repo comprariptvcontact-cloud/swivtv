@@ -41,6 +41,49 @@ export interface KeywordPage {
 
 const RAW_KEYWORD_PAGES: KeywordPage[] = [
   {
+    slug: "swiv-tv",
+    keyword: "SWIV TV",
+    title: "SWIV TV — IPTV Abo in 4K | SWIV TV",
+    description: "SWIV TV: über 69.000 Live-Sender und 220.000+ Filme & Serien in bis zu 4K/8K. Transparentes IPTV-Abo mit 15 Tagen Geld-zurück-Garantie und 24/7 Support.",
+    h1: "SWIV TV — dein IPTV-Abo für Deutschland",
+    lead: [
+      "SWIV TV bei [SWIV TV](https://www.swivtv.be) bedeutet Premium-Fernsehen über das Internet: über 69.000 Live-Sender und mehr als 220.000 Filme und Serien als Video-on-Demand, in Full HD, 4K und auf kompatiblen Inhalten bis zu 8K. Statt Kabel, Satellit und mehrere Streaming-Dienste bekommst du alles in einem transparenten IPTV-Abonnement.",
+      "Wer „swiv tv\" sucht, will vor allem Stabilität und einen seriösen Anbieter. [SWIV TV](https://www.swivtv.be) nennt Pakete und Preise offen, pflegt den Sender- und VOD-Katalog täglich und ist per WhatsApp erreichbar – anders als die anonymen Wiederverkäufer hinter vielen Billigangeboten.",
+      "## Was SWIV TV bietet",
+      "Deutsche Sender wie ARD, ZDF, RTL, Sat.1 und ProSieben, dazu Sport mit Sky- und DAZN-Kanälen, internationale Programme und eine riesige Mediathek. Dank eines Relay-Server-Netzwerks bleibt das Bild auch zur Primetime und an vollen Fußballabenden flüssig – für HD reichen rund 16 Mbit/s, für 4K etwa 25 Mbit/s.",
+      "## Pakete & Einrichtung",
+      "Wähle unten dein Paket und aktiviere es in wenigen Minuten. Dein Zugang läuft auf Smart TV, Amazon Fire TV Stick, Android-Box, MAG und Apple TV und funktioniert mit IPTV Smarters Pro, TiviMate sowie jedem Xtream-Codes- oder M3U-Player. Dazu 15 Tage Geld-zurück-Garantie und 24/7 Support.",
+    ],
+    faq: [
+      { q: "Was ist SWIV TV?", a: "SWIV TV ist ein IPTV-Abonnement von SWIV TV mit über 69.000 Live-Sendern und 220.000+ Filmen & Serien als VOD in bis zu 4K/8K – für Smart TV, Fire TV, Android und Apple TV." },
+      { q: "Wie viel kostet das IPTV-Abo?", a: "Die Preise pro Paket und Laufzeit findest du in der Übersicht oben – mit transparentem Festpreis, ohne versteckte Kosten, und mit 15 Tagen Geld-zurück-Garantie." },
+      { q: "Welche Geräte und Apps werden unterstützt?", a: "Smart TV, Amazon Fire TV Stick, Android-Box, MAG und Apple TV – über IPTV Smarters Pro, TiviMate und jeden Xtream-Codes-/M3U-Player." },
+      { q: "Gibt es eine Geld-zurück-Garantie?", a: "Ja. SWIV TV bietet 15 Tage Geld-zurück-Garantie und 24/7 Support per WhatsApp." },
+    ],
+  },
+  {
+    slug: "swiv-iptv",
+    keyword: "SWIV IPTV",
+    title: "SWIV IPTV — IPTV Abo in 4K | SWIV TV",
+    description: "SWIV IPTV: über 69.000 Live-Sender und 220.000+ Filme & Serien in bis zu 4K/8K. Transparentes IPTV-Abo mit 15 Tagen Geld-zurück-Garantie und 24/7 Support.",
+    h1: "SWIV IPTV — dein IPTV-Abo für Deutschland",
+    lead: [
+      "SWIV IPTV bei [SWIV TV](https://www.swivtv.be) bedeutet Premium-Fernsehen über das Internet: über 69.000 Live-Sender und mehr als 220.000 Filme und Serien als Video-on-Demand, in Full HD, 4K und auf kompatiblen Inhalten bis zu 8K. Statt Kabel, Satellit und mehrere Streaming-Dienste bekommst du alles in einem transparenten IPTV-Abonnement.",
+      "Wer „swiv iptv\" sucht, will vor allem Stabilität und einen seriösen Anbieter. [SWIV TV](https://www.swivtv.be) nennt Pakete und Preise offen, pflegt den Sender- und VOD-Katalog täglich und ist per WhatsApp erreichbar – anders als die anonymen Wiederverkäufer hinter vielen Billigangeboten.",
+      "## Was SWIV TV bietet",
+      "Deutsche Sender wie ARD, ZDF, RTL, Sat.1 und ProSieben, dazu Sport mit Sky- und DAZN-Kanälen, internationale Programme und eine riesige Mediathek. Dank eines Relay-Server-Netzwerks bleibt das Bild auch zur Primetime und an vollen Fußballabenden flüssig – für HD reichen rund 16 Mbit/s, für 4K etwa 25 Mbit/s.",
+      "## Pakete & Einrichtung",
+      "Wähle unten dein Paket und aktiviere es in wenigen Minuten. Dein Zugang läuft auf Smart TV, Amazon Fire TV Stick, Android-Box, MAG und Apple TV und funktioniert mit IPTV Smarters Pro, TiviMate sowie jedem Xtream-Codes- oder M3U-Player. Dazu 15 Tage Geld-zurück-Garantie und 24/7 Support.",
+    ],
+    faq: [
+      { q: "Was ist SWIV IPTV?", a: "SWIV IPTV ist ein IPTV-Abonnement von SWIV TV mit über 69.000 Live-Sendern und 220.000+ Filmen & Serien als VOD in bis zu 4K/8K – für Smart TV, Fire TV, Android und Apple TV." },
+      { q: "Wie viel kostet das IPTV-Abo?", a: "Die Preise pro Paket und Laufzeit findest du in der Übersicht oben – mit transparentem Festpreis, ohne versteckte Kosten, und mit 15 Tagen Geld-zurück-Garantie." },
+      { q: "Welche Geräte und Apps werden unterstützt?", a: "Smart TV, Amazon Fire TV Stick, Android-Box, MAG und Apple TV – über IPTV Smarters Pro, TiviMate und jeden Xtream-Codes-/M3U-Player." },
+      { q: "Gibt es eine Geld-zurück-Garantie?", a: "Ja. SWIV TV bietet 15 Tage Geld-zurück-Garantie und 24/7 Support per WhatsApp." },
+    ],
+  },
+
+  {
     slug: BRAND_SLUG,
     keyword: BRAND_KEYWORD,
     title: `${BRAND} — Premium IPTV Abonnement Nederland`,
