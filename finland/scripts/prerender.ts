@@ -31,7 +31,7 @@ const TPL_CANONICAL = `<link rel="canonical" href="${SITE}/" />`;
 const TPL_TITLE = "<title>SWIV TV — SWIV IPTV | Premium IPTV Abonnement | swivtv.be</title>";
 
 const HOME_DESCRIPTION =
-  "SWIV TV — SWIV IPTV auf swivtv.be: Premium IPTV Abonnement mit 69.000+ Live-Sendern und 220.000+ Filmen & Serien als VOD in bis zu 8K. SWIV TV für Smart TV, Android & Fire TV in Deutschland, Belgien und den Niederlanden. Jetzt SWIV TV holen.";
+  "SWIV TV — SWIV IPTV auf swivtv.be: Premium IPTV Abonnement mit 69.000+ Live-Sendern und 220.000+ Filmen & Serien als VOD in bis zu 8K. SWIV TV für Smart TV, Android & Fire TV in Deutschland, Belgien und den Niederlanden. Jetzt SWIV TV holen. ★ 4.9/5 auf Basis von 300+ Bewertungen.";
 
 const WA_URL = "https://wa.me/447462229301";
 const OFFER_HTML = [

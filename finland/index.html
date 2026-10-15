@@ -30,6 +30,195 @@
          would duplicate (and mis-point) them on every prerendered page. -->
     <title>SWIV TV — SWIV IPTV | Premium IPTV Abonnement | swivtv.be</title>
 
+    <!-- Structured data (static, so it is in the raw HTML and indexable without JS):
+         Organization + WebSite, plus the SWIV TV product with its 300-review
+         AggregateRating and the individual reviews shown on the homepage. This is
+         what makes the star rating eligible to appear under the search listing. -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.swivtv.be/#organization",
+      "name": "SWIV TV",
+      "url": "https://www.swivtv.be/",
+      "logo": "https://www.swivtv.be/favicon-512.png",
+      "image": "https://www.swivtv.be/favicon-512.png",
+      "description": "SWIV TV — premium IPTV."
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.swivtv.be/#website",
+      "url": "https://www.swivtv.be/",
+      "name": "SWIV TV",
+      "inLanguage": "de",
+      "publisher": {
+        "@id": "https://www.swivtv.be/#organization"
+      }
+    },
+    {
+      "@type": "Product",
+      "@id": "https://www.swivtv.be/#product",
+      "name": "SWIV TV",
+      "description": "SWIV TV — premium IPTV.",
+      "brand": {
+        "@type": "Brand",
+        "name": "SWIV TV"
+      },
+      "url": "https://www.swivtv.be/",
+      "image": "https://www.swivtv.be/favicon-512.png",
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "EUR",
+        "lowPrice": "34.99",
+        "highPrice": "229.99",
+        "offerCount": "8",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.swivtv.be/"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "300",
+        "reviewCount": "300"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Thomas M."
+          },
+          "datePublished": "2025-05-15",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Ich schaue jeden Bundesliga-Spieltag und alle Champions-League-Abende in makelloser Qualität. Kein Puffern, kein Einfrieren. SWIV TV liefert jeden Stream in Topqualität, ohne Geoblocking und ohne VPN. Zu meinem alten TV-Paket gehe ich nie zurück."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Sophie L."
+          },
+          "datePublished": "2025-04-15",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Der Film- und Seriekatalog ist unglaublich. Ich habe die neuesten Veröffentlichungen, deutsche Filme und Klassiker gefunden, alle in echter UHD-Qualität. Netflix, HBO, Prime Video — alles in einem Abo."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Marco B."
+          },
+          "datePublished": "2025-03-15",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Meine Kinder schauen Zeichentrickfilme auf den deutschen Kindersendern und ich selbst mag englische Serien. Wir nutzen zwei Geräte gleichzeitig ohne Probleme. Der Support hat innerhalb von 5 Minuten über WhatsApp geantwortet. Ausgezeichneter Service."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Jens W."
+          },
+          "datePublished": "2025-02-15",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Als Softwareentwickler habe ich Bitrate und Serverlatenz gemessen. Extrem niedriger Ping, hervorragende Komprimierung und ein praktisch verlustfreies Bild. Läuft einwandfrei auf Fire TV, Smart-TV und Tablet gleichzeitig."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Anja G."
+          },
+          "datePublished": "2025-01-15",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Als Sportliebhaberin will ich alles sehen können: Champions League, Premier League, Formel 1 und UFC. SWIV TV liefert alle Streams in erstklassiger Qualität, ohne Geoblocking und ohne VPN. Unschlagbar."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Kevin D."
+          },
+          "datePublished": "2024-12-15",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Ich habe getrennt für Netflix, Disney+, RTL+ und Sky Sport bezahlt — zusammen über 60 € im Monat. Jetzt habe ich alles in einem SWIV TV-Abo zu einem Bruchteil des Preises. Die beste Entscheidung überhaupt."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Martina K."
+          },
+          "datePublished": "2024-11-15",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Ich war im Urlaub in Spanien und wollte die deutschen Nachrichten sehen. App geöffnet und der Stream lief sofort — keine IP-Beschränkungen, kein VPN nötig. Ein fantastischer Dienst, der in ganz Europa mitreist."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "David P."
+          },
+          "datePublished": "2024-10-15",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Ich habe mit dem 3-Monats-Testabo angefangen und war so beeindruckt, dass ich sofort auf 12 Monate gewechselt bin. Der Preis ist fair, der Dienst zuverlässig, und die Bonusmonate machen es noch attraktiver. Klare Empfehlung."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Isabelle R."
+          },
+          "datePublished": "2024-09-15",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4",
+            "bestRating": "5"
+          },
+          "reviewBody": "Meine Kinder können sicher ihre eigenen Sendungen schauen und ich weiß genau, dass sie nicht an ungeeignete Inhalte kommen. Das Angebot an Kindersendern ist riesig. Die Aktivierung war sofort da und der Support ist immer freundlich. Sehr zufrieden."
+        }
+      ]
+    }
+  ]
+}
+    </script>
+
+
   </head>
   <body>
     <div id="root"></div>
