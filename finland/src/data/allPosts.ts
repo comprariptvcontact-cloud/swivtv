@@ -1,11 +1,13 @@
 import { BlogPost } from "./blogPosts";
+import { NL_KW_BLOG_POSTS } from "./nlKeywordBlogPosts";
 import { PRINCIPAL_POSTS } from "./principalPosts";
 import { DE_KW_BLOG_POSTS } from "./deKeywordBlogPosts";
 import { SEO_BLOG_POSTS } from "./seoBlogPosts";
 import { DE_OFFER_POSTS } from "./deOfferPost";
 import { SWIV_LAUNCH_POSTS } from "./swivLaunchPosts";
 
-export const ALL_POSTS: BlogPost[] = [...PRINCIPAL_POSTS, ...DE_KW_BLOG_POSTS, ...DE_OFFER_POSTS, ...SWIV_LAUNCH_POSTS, ...SEO_BLOG_POSTS].sort((a, b) =>
+export const ALL_POSTS: BlogPost[] = [
+  ...NL_KW_BLOG_POSTS,...PRINCIPAL_POSTS, ...DE_KW_BLOG_POSTS, ...DE_OFFER_POSTS, ...SWIV_LAUNCH_POSTS, ...SEO_BLOG_POSTS].sort((a, b) =>
   b.dateISO.localeCompare(a.dateISO)
 );
 
