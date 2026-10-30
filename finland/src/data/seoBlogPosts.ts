@@ -1,7 +1,7 @@
 ﻿import { BlogPost } from "./blogPosts";
 
-const SITE = "https://www.swivtv.be";
-const INSTA = "https://www.swivtv.be";
+const SITE = "https://www.swiv-tv.nl";
+const INSTA = "https://www.swiv-tv.nl";
 
 export const SEO_BLOG_POSTS: BlogPost[] = [
   // ============================= GERMANY / GERMAN =============================

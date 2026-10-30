@@ -35,7 +35,7 @@ export const NETWORK_SITES: NetworkSite[] = [
   { name: "Hakuna IPTV", url: "https://www.hakunaiptv.pro" },
   { name: "Dark IPTV", url: "https://www.darkiptv.eu" },
   { name: "Hot IPTV", url: "https://www.hotiptv.be" },
-  { name: "Swiv TV", url: "https://www.swivtv.be" },
+  { name: "Swiv TV", url: "https://www.swiv-tv.nl" },
   { name: "Beste IPTV", url: "https://www.besteiptv.site" },
   { name: "Beste IPTV Nederland", url: "https://www.besteiptvneder.land" },
   { name: "Nederland IPTV", url: "https://www.denederlandiptv.com" },

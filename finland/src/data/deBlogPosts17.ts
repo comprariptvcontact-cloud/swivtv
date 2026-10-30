@@ -1,11 +1,11 @@
 ﻿import { BlogPost } from "./blogPosts";
 
-const SITE = "https://www.swivtv.be";
+const SITE = "https://www.swiv-tv.nl";
 const INSTA = "https://www.instagram.com/my8k.tv/";
 
 /**
  * SEO-Batch DE 17 — 20 deutschsprachige Ratgeber mit dem Fokus-Keyword "SWIV TV"
- * (Markenbegriff von SWIV TV / swivtv.be). Jeder Beitrag hat einen Slug, der
+ * (Markenbegriff von SWIV TV / swiv-tv.nl). Jeder Beitrag hat einen Slug, der
  * "SWIV TV" enthält, damit sich die URL selbst als Ranking-Signal für den
  * Markennamen eignet. Titel führen mit dem Keyword, Exzerpte dienen als
  * Meta-Description (150–160 Zeichen), und die Fließtexte binden LSI-Begriffe

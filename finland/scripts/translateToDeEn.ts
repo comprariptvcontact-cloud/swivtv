@@ -36,7 +36,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
 const DATA = resolve(ROOT, "src", "data");
 
-const SITE = "https://www.swivtv.be";
+const SITE = "https://www.swiv-tv.nl";
 const INSTA = "https://www.instagram.com/swivtv/";
 
 /** Everything that is neither German nor English gets rewritten. */

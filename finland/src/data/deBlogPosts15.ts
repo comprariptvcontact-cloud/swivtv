@@ -1,13 +1,13 @@
 ﻿import { BlogPost } from "./blogPosts";
 
-const SITE = "https://www.swivtv.be";
+const SITE = "https://www.swiv-tv.nl";
 const INSTA = "https://www.instagram.com/my8k.tv/";
 
 /**
  * SEO-Batch DE 15 — 10 deutschsprachige Ratgeber speziell um die Marke „SWIV TV"
  * und ihre Variationen (SWIV TV erfahrungen, test, kaufen, forum, app, fire tv,
  * kosten, streams, sender, support). Jeder Beitrag verweist auf die Pakete
- * und den Support von SWIV TV (swivtv.be).
+ * und den Support von SWIV TV (swiv-tv.nl).
  */
 export const DE_BLOG_POSTS_15: BlogPost[] = [
   {
@@ -79,7 +79,7 @@ export const DE_BLOG_POSTS_15: BlogPost[] = [
           `Nach der Bestellung bei [SWIV TV](${SITE}) bekommst du die Zugangsdaten direkt per E-Mail – meist innerhalb weniger Minuten. Ein echtes Support-Team antwortet per WhatsApp, wenn etwas nicht läuft.`,
           `Der Preis ist ein Anhalt: Wenn ein Angebot mit SWIV TV-ähnlichem Namen um die Hälfte billiger ist als [SWIV TV](${SITE}), ist es entweder alt, instabil oder illegal. [SWIV TV](${SITE}) nennt konkrete Zahlen – über 69.000 Live-Sender, mehr als 220.000 Titel on demand – das lässt sich nicht unendlich billig nachmachen.`,
           `Bevor du kaufst, nutze das 1-Monats-Testpaket von [SWIV TV](${SITE}) ab 12,99 €. Das läuft über dieselbe Infrastruktur wie längere Laufzeiten und kostet wenig. Ein seriöser Anbieter traut sich so einen kurzfristigen Test an.`,
-          `Bei der Bezahlung: Vermeide Kanäle, auf denen niemand ein Impressum hat. [SWIV TV](${SITE}) ist unter der Adresse swivtv.be erreichbar mit klarem Angebot und Support.`,
+          `Bei der Bezahlung: Vermeide Kanäle, auf denen niemand ein Impressum hat. [SWIV TV](${SITE}) ist unter der Adresse swiv-tv.nl erreichbar mit klarem Angebot und Support.`,
           `Nach dem Kauf: Deine Zugangsdaten gehören nur zu dir – teile sie nicht mit Freunden oder Familienmitgliedern außerhalb deines Haushalts. Der Server erkennt zu viele gleichzeitige Zugriffe und sperrt den Zugang. Für Mehrgerate-Haushalte gibt es das 2-Geräte-Paket von [SWIV TV](${SITE}).`,
         ],
       },

@@ -11,7 +11,7 @@
 // BRAND_SLUG, BRAND_KEYWORD, WA). Every page string is built from them, so the
 // rest of this file is copy-paste identical across the Netherlands sites.
 
-const SITE = "https://www.swivtv.be";
+const SITE = "https://www.swiv-tv.nl";
 const BRAND = "SWIV TV";
 const BRAND_SLUG = "swiv-iptv";
 const BRAND_KEYWORD = "SWIV TV";
@@ -47,8 +47,8 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "SWIV TV: über 69.000 Live-Sender und 220.000+ Filme & Serien in bis zu 4K/8K. Transparentes IPTV-Abo mit 15 Tagen Geld-zurück-Garantie und 24/7 Support.",
     h1: "SWIV TV — dein IPTV-Abo für Deutschland",
     lead: [
-      "SWIV TV bei [SWIV TV](https://www.swivtv.be) bedeutet Premium-Fernsehen über das Internet: über 69.000 Live-Sender und mehr als 220.000 Filme und Serien als Video-on-Demand, in Full HD, 4K und auf kompatiblen Inhalten bis zu 8K. Statt Kabel, Satellit und mehrere Streaming-Dienste bekommst du alles in einem transparenten IPTV-Abonnement.",
-      "Wer „swiv tv\" sucht, will vor allem Stabilität und einen seriösen Anbieter. [SWIV TV](https://www.swivtv.be) nennt Pakete und Preise offen, pflegt den Sender- und VOD-Katalog täglich und ist per WhatsApp erreichbar – anders als die anonymen Wiederverkäufer hinter vielen Billigangeboten.",
+      "SWIV TV bei [SWIV TV](https://www.swiv-tv.nl) bedeutet Premium-Fernsehen über das Internet: über 69.000 Live-Sender und mehr als 220.000 Filme und Serien als Video-on-Demand, in Full HD, 4K und auf kompatiblen Inhalten bis zu 8K. Statt Kabel, Satellit und mehrere Streaming-Dienste bekommst du alles in einem transparenten IPTV-Abonnement.",
+      "Wer „swiv tv\" sucht, will vor allem Stabilität und einen seriösen Anbieter. [SWIV TV](https://www.swiv-tv.nl) nennt Pakete und Preise offen, pflegt den Sender- und VOD-Katalog täglich und ist per WhatsApp erreichbar – anders als die anonymen Wiederverkäufer hinter vielen Billigangeboten.",
       "## Was SWIV TV bietet",
       "Deutsche Sender wie ARD, ZDF, RTL, Sat.1 und ProSieben, dazu Sport mit Sky- und DAZN-Kanälen, internationale Programme und eine riesige Mediathek. Dank eines Relay-Server-Netzwerks bleibt das Bild auch zur Primetime und an vollen Fußballabenden flüssig – für HD reichen rund 16 Mbit/s, für 4K etwa 25 Mbit/s.",
       "## Pakete & Einrichtung",
@@ -68,8 +68,8 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "SWIV IPTV: über 69.000 Live-Sender und 220.000+ Filme & Serien in bis zu 4K/8K. Transparentes IPTV-Abo mit 15 Tagen Geld-zurück-Garantie und 24/7 Support.",
     h1: "SWIV IPTV — dein IPTV-Abo für Deutschland",
     lead: [
-      "SWIV IPTV bei [SWIV TV](https://www.swivtv.be) bedeutet Premium-Fernsehen über das Internet: über 69.000 Live-Sender und mehr als 220.000 Filme und Serien als Video-on-Demand, in Full HD, 4K und auf kompatiblen Inhalten bis zu 8K. Statt Kabel, Satellit und mehrere Streaming-Dienste bekommst du alles in einem transparenten IPTV-Abonnement.",
-      "Wer „swiv iptv\" sucht, will vor allem Stabilität und einen seriösen Anbieter. [SWIV TV](https://www.swivtv.be) nennt Pakete und Preise offen, pflegt den Sender- und VOD-Katalog täglich und ist per WhatsApp erreichbar – anders als die anonymen Wiederverkäufer hinter vielen Billigangeboten.",
+      "SWIV IPTV bei [SWIV TV](https://www.swiv-tv.nl) bedeutet Premium-Fernsehen über das Internet: über 69.000 Live-Sender und mehr als 220.000 Filme und Serien als Video-on-Demand, in Full HD, 4K und auf kompatiblen Inhalten bis zu 8K. Statt Kabel, Satellit und mehrere Streaming-Dienste bekommst du alles in einem transparenten IPTV-Abonnement.",
+      "Wer „swiv iptv\" sucht, will vor allem Stabilität und einen seriösen Anbieter. [SWIV TV](https://www.swiv-tv.nl) nennt Pakete und Preise offen, pflegt den Sender- und VOD-Katalog täglich und ist per WhatsApp erreichbar – anders als die anonymen Wiederverkäufer hinter vielen Billigangeboten.",
       "## SWIV IPTV — Was SWIV TV bietet",
       "Deutsche Sender wie ARD, ZDF, RTL, Sat.1 und ProSieben, dazu Sport mit Sky- und DAZN-Kanälen, internationale Programme und eine riesige Mediathek. Dank eines Relay-Server-Netzwerks bleibt das Bild auch zur Primetime und an vollen Fußballabenden flüssig – für HD reichen rund 16 Mbit/s, für 4K etwa 25 Mbit/s.",
       "## Pakete & Einrichtung",
@@ -763,7 +763,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV kopen nederland bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV kopen in Nederland",
     lead: [
-      "IPTV kopen in Nederland was nog nooit zo eenvoudig. Bij [SWIV TV](https://www.swivtv.be) krijg je direct toegang tot meer dan 69.000 livezenders en 220.000+ films en series, werkend op elk apparaat. Bekijk hieronder de pakketten en start binnen vijf minuten.",
+      "IPTV kopen in Nederland was nog nooit zo eenvoudig. Bij [SWIV TV](https://www.swiv-tv.nl) krijg je direct toegang tot meer dan 69.000 livezenders en 220.000+ films en series, werkend op elk apparaat. Bekijk hieronder de pakketten en start binnen vijf minuten.",
       "## IPTV kopen nederland — Waarom bij SWIV TV",
       "Je betaalt een transparante prijs zonder verborgen kosten, kijkt in Full HD, 4K en op geschikte content tot 8K, en krijgt 24/7 support via WhatsApp. Dankzij een netwerk van relay-servers blijft het beeld vloeiend, ook op drukke avonden.",
       "Twijfel je nog? Je start met 15 dagen niet-goed-geld-terug, zodat je risicoloos kunt testen. Stel je vragen gerust via [WhatsApp](https://wa.me/447462229301).",
@@ -781,7 +781,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV abonnement nederland bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV abonnement voor Nederland",
     lead: [
-      "Een IPTV abonnement bij [SWIV TV](https://www.swivtv.be) geeft je alle televisie via internet in één transparant pakket: livezenders, sport, films en series. Kies hieronder de looptijd die bij je past.",
+      "Een IPTV abonnement bij [SWIV TV](https://www.swiv-tv.nl) geeft je alle televisie via internet in één transparant pakket: livezenders, sport, films en series. Kies hieronder de looptijd die bij je past.",
       "## IPTV abonnement nederland — Flexibel en transparant",
       "Geen stilzwijgende verlenging en geen installateur aan de deur. Je kiest je eigen looptijd en kijkt op het apparaat dat je al hebt, met een Nederlandstalige EPG-programmagids.",
       "Start met 15 dagen niet-goed-geld-terug en 24/7 support via [WhatsApp](https://wa.me/447462229301).",
@@ -799,7 +799,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV kopen ideal bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV kopen en betalen via iDEAL",
     lead: [
-      "Bij [SWIV TV](https://www.swivtv.be) reken je eenvoudig en veilig af en ontvang je je inloggegevens direct. Bekijk de pakketten en betaal op de manier die jou uitkomt.",
+      "Bij [SWIV TV](https://www.swiv-tv.nl) reken je eenvoudig en veilig af en ontvang je je inloggegevens direct. Bekijk de pakketten en betaal op de manier die jou uitkomt.",
       "## IPTV kopen ideal — Snel en duidelijk",
       "Kies je pakket, rond de betaling af en ontvang je serveradres, gebruikersnaam en wachtwoord of je M3U-link via WhatsApp. Je kijkt binnen vijf minuten, zonder verborgen kosten.",
       "Vragen over betalen? Stel ze gerust via [WhatsApp](https://wa.me/447462229301). Je start met 15 dagen niet-goed-geld-terug.",
@@ -817,7 +817,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Goedkoop IPTV abonnement met topkwaliteit bij SWIV TV: 69.000+ zenders, 220.000+ VOD in 4K. Eerlijke prijs, 15 dagen geld-terug.",
     h1: "Goedkoop IPTV abonnement met topkwaliteit",
     lead: [
-      "Goedkoop hoeft niet onbetrouwbaar te zijn. [SWIV TV](https://www.swivtv.be) combineert een scherpe prijs met een stabiele, kwalitatieve dienst. Bekijk de voordelige pakketten hieronder.",
+      "Goedkoop hoeft niet onbetrouwbaar te zijn. [SWIV TV](https://www.swiv-tv.nl) combineert een scherpe prijs met een stabiele, kwalitatieve dienst. Bekijk de voordelige pakketten hieronder.",
       "## Goedkoop IPTV abonnement — Voordelig én betrouwbaar",
       "Je krijgt 69.000+ zenders en 220.000+ films en series in 4K, een stabiel netwerk en echte support. Langere looptijden zijn per maand het voordeligst.",
       "Let op: extreem goedkope, anonieme aanbiedingen geven vaak wisselende kwaliteit. Kies voor een eerlijke prijs met 15 dagen niet-goed-geld-terug via [WhatsApp](https://wa.me/447462229301).",
@@ -835,7 +835,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV 1 jaar abonnement bij SWIV TV: de voordeligste prijs per maand, 69.000+ zenders en 220.000+ VOD in 4K/8K.",
     h1: "IPTV 1 jaar abonnement",
     lead: [
-      "Een jaarabonnement is de voordeligste manier om IPTV te kijken. Bij [SWIV TV](https://www.swivtv.be) krijg je een vol jaar toegang tot 69.000+ zenders en 220.000+ films en series.",
+      "Een jaarabonnement is de voordeligste manier om IPTV te kijken. Bij [SWIV TV](https://www.swiv-tv.nl) krijg je een vol jaar toegang tot 69.000+ zenders en 220.000+ films en series.",
       "## IPTV 1 jaar — Het beste tarief per maand",
       "Een jaarpakket heeft de laagste prijs per maand en is ideaal als je zeker weet dat de dienst bij je past. Test daarom eerst binnen de 15 dagen niet-goed-geld-terug.",
       "Bekijk het jaarpakket hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301).",
@@ -853,7 +853,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV 12 maanden bij SWIV TV: een jaar lang 69.000+ zenders en 220.000+ VOD in 4K. Scherpe prijs, 15 dagen geld-terug.",
     h1: "IPTV 12 maanden abonnement",
     lead: [
-      "Met een abonnement van 12 maanden bij [SWIV TV](https://www.swivtv.be) kijk je een vol jaar zonder omkijken, tegen de scherpste prijs per maand.",
+      "Met een abonnement van 12 maanden bij [SWIV TV](https://www.swiv-tv.nl) kijk je een vol jaar zonder omkijken, tegen de scherpste prijs per maand.",
       "## IPTV 12 maanden — Een jaar zorgeloos kijken",
       "Je krijgt 69.000+ zenders, 220.000+ films en series en 4K-kwaliteit, met 24/7 support. Ideaal voor wie de dienst al kent en waardeert.",
       "Bekijk het 12-maandenpakket hieronder en vraag details via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -871,7 +871,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Premium IPTV bij SWIV TV: 69.000+ zenders en 220.000+ VOD in 4K en 8K, stabiel netwerk en 24/7 support. 15 dagen geld-terug.",
     h1: "Premium IPTV met topkwaliteit",
     lead: [
-      "Premium IPTV draait om kwaliteit en stabiliteit. [SWIV TV](https://www.swivtv.be) levert haarscherp beeld en een betrouwbaar netwerk, zodat je zonder haperingen kijkt.",
+      "Premium IPTV draait om kwaliteit en stabiliteit. [SWIV TV](https://www.swiv-tv.nl) levert haarscherp beeld en een betrouwbaar netwerk, zodat je zonder haperingen kijkt.",
       "## Premium IPTV — Wat premium betekent",
       "Full HD, 4K en op geschikte content tot 8K, HEVC voor scherp beeld bij minder bandbreedte, en relay-servers die de stream vloeiend houden tijdens piekmomenten.",
       "Bekijk de premium pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -889,7 +889,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Profiteer van de IPTV aanbieding bij SWIV TV: 12+3 maanden, 69.000+ zenders en 220.000+ VOD in 4K. 15 dagen geld-terug.",
     h1: "IPTV aanbieding: 12+3 maanden",
     lead: [
-      "Maak gebruik van de actuele IPTV aanbieding bij [SWIV TV](https://www.swivtv.be): extra maanden voordeel bovenop je jaarpakket. Bekijk de details hierboven en hieronder.",
+      "Maak gebruik van de actuele IPTV aanbieding bij [SWIV TV](https://www.swiv-tv.nl): extra maanden voordeel bovenop je jaarpakket. Bekijk de details hierboven en hieronder.",
       "## IPTV aanbieding — Meer kijken voor minder",
       "Met de 12+3 maanden-actie krijg je een vol jaar plus drie extra maanden, met 69.000+ zenders, 220.000+ films en series en 4K-kwaliteit.",
       "Grijp de aanbieding en stel je vragen via [WhatsApp](https://wa.me/447462229301). Je start met 15 dagen niet-goed-geld-terug.",
@@ -907,7 +907,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV Nederland kopen bij SWIV TV: alle Nederlandse zenders, sport en 220.000+ films. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV Nederland kopen",
     lead: [
-      "Zoek je een IPTV-dienst afgestemd op Nederland? [SWIV TV](https://www.swivtv.be) biedt alle grote Nederlandse zenders plus duizenden internationale kanalen in één abonnement.",
+      "Zoek je een IPTV-dienst afgestemd op Nederland? [SWIV TV](https://www.swiv-tv.nl) biedt alle grote Nederlandse zenders plus duizenden internationale kanalen in één abonnement.",
       "## IPTV nederland kopen — Afgestemd op Nederlandse kijkers",
       "Nederlandstalige EPG, Nederlandse en Belgische zenders, sport en een enorme VOD-bibliotheek. Alles werkt op je bestaande apparaten.",
       "Bestel hieronder en ontvang je gegevens via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -925,7 +925,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Beste IPTV 2026 bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "De beste IPTV voor 2026 kiezen",
     lead: [
-      "Wat maakt in 2026 de beste IPTV? Betrouwbaarheid, kwaliteit en support. [SWIV TV](https://www.swivtv.be) scoort op alle drie en toont alles transparant.",
+      "Wat maakt in 2026 de beste IPTV? Betrouwbaarheid, kwaliteit en support. [SWIV TV](https://www.swiv-tv.nl) scoort op alle drie en toont alles transparant.",
       "## Beste IPTV 2026 — Waar je op let",
       "Let op een stabiel netwerk, een complete en dagelijks bijgewerkte zender- en VOD-lijst, 4K-kwaliteit en snelle support. Vermijd anonieme, onrealistisch goedkope aanbieders.",
       "Overtuig jezelf met 15 dagen niet-goed-geld-terug en stel je vragen via [WhatsApp](https://wa.me/447462229301).",
@@ -943,7 +943,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV smarters abonnement bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV abonnement voor IPTV Smarters Pro",
     lead: [
-      "Gebruik je graag IPTV Smarters Pro? Het abonnement van [SWIV TV](https://www.swivtv.be) werkt er naadloos mee via Xtream Codes of een M3U-afspeellijst.",
+      "Gebruik je graag IPTV Smarters Pro? Het abonnement van [SWIV TV](https://www.swiv-tv.nl) werkt er naadloos mee via Xtream Codes of een M3U-afspeellijst.",
       "## IPTV smarters abonnement — Direct aan de slag",
       "Vul in de app je serveradres, gebruikersnaam en wachtwoord in; de zenderlijst en EPG-programmagids laden automatisch. Werkt ook met TiviMate en andere spelers.",
       "Bestel hieronder en ontvang je Xtream-gegevens via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -961,7 +961,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Smart IPTV abonnement voor je Smart TV bij SWIV TV: 69.000+ zenders, 220.000+ VOD in 4K. Werkt met Xtream en M3U.",
     h1: "Smart IPTV abonnement voor Smart TV",
     lead: [
-      "Kijk IPTV rechtstreeks op je Smart TV zonder extra kastje. Het abonnement van [SWIV TV](https://www.swivtv.be) werkt met Smart IPTV en andere spelers via Xtream Codes of M3U.",
+      "Kijk IPTV rechtstreeks op je Smart TV zonder extra kastje. Het abonnement van [SWIV TV](https://www.swiv-tv.nl) werkt met Smart IPTV en andere spelers via Xtream Codes of M3U.",
       "## Smart IPTV abonnement — Zonder extra hardware",
       "Installeer een IPTV-speler op je Samsung, LG of Android TV en koppel je abonnement. De zenderlijst en programmagids verschijnen automatisch.",
       "Bekijk de pakketten hieronder en vraag hulp via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -979,7 +979,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV tv kopen bij SWIV TV: televisie via internet met 69.000+ zenders en 220.000+ films in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV tv kopen: televisie via internet",
     lead: [
-      "IPTV brengt televisie via je internetverbinding in plaats van via kabel of schotel. Bij [SWIV TV](https://www.swivtv.be) kijk je zo duizenden zenders en films op elk scherm.",
+      "IPTV brengt televisie via je internetverbinding in plaats van via kabel of schotel. Bij [SWIV TV](https://www.swiv-tv.nl) kijk je zo duizenden zenders en films op elk scherm.",
       "## IPTV tv kopen — Alles in één abonnement",
       "Livezenders, sport, films en series, in Full HD en 4K, zonder losse abonnementen. Alles werkt op je bestaande tv, box of telefoon.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -997,7 +997,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "4K IPTV abonnement bij SWIV TV: haarscherp beeld, 69.000+ zenders en 220.000+ VOD. HEVC-ondersteuning, 15 dagen geld-terug.",
     h1: "4K IPTV abonnement",
     lead: [
-      "Wil je haarscherp kijken? Het 4K-abonnement van [SWIV TV](https://www.swivtv.be) levert beeld in Ultra HD op geschikte zenders en films.",
+      "Wil je haarscherp kijken? Het 4K-abonnement van [SWIV TV](https://www.swiv-tv.nl) levert beeld in Ultra HD op geschikte zenders en films.",
       "## 4k IPTV abonnement — Scherp beeld, slim gestreamd",
       "Dankzij HEVC blijft het beeld scherp bij minder bandbreedte. Voor 4K reken je op ongeveer 25 Mbit/s en bij voorkeur een bekabelde verbinding.",
       "Bekijk de 4K-pakketten hieronder en vraag details via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1015,7 +1015,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "8K IPTV bij SWIV TV: streaming tot 8K op geschikte content, 69.000+ zenders en 220.000+ VOD. 15 dagen geld-terug.",
     h1: "8K IPTV: klaar voor de toekomst",
     lead: [
-      "Voor wie het scherpste beeld wil: [SWIV TV](https://www.swivtv.be) ondersteunt streaming tot 8K op geschikte content, naast 4K en Full HD.",
+      "Voor wie het scherpste beeld wil: [SWIV TV](https://www.swiv-tv.nl) ondersteunt streaming tot 8K op geschikte content, naast 4K en Full HD.",
       "## 8k IPTV — Toekomstbestendig kijken",
       "8K vraagt een geschikte tv en een snelle, stabiele verbinding. Met HEVC en relay-servers blijft het beeld vloeiend en scherp.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1033,7 +1033,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV full hd bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV in Full HD",
     lead: [
-      "Niet iedereen heeft 4K nodig. In Full HD kijk je al haarscherp met een gewone verbinding. [SWIV TV](https://www.swivtv.be) streamt vloeiend in HD op elk apparaat.",
+      "Niet iedereen heeft 4K nodig. In Full HD kijk je al haarscherp met een gewone verbinding. [SWIV TV](https://www.swiv-tv.nl) streamt vloeiend in HD op elk apparaat.",
       "## IPTV full hd — Soepel met weinig bandbreedte",
       "Voor HD volstaat ongeveer 16 Mbit/s. Dankzij een stabiel netwerk blijft het beeld vloeiend, ook als meerdere apparaten tegelijk kijken.",
       "Bekijk de pakketten hieronder en vraag hulp via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1051,7 +1051,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Compleet IPTV Nederland abonnement bij SWIV TV: Nederlandse zenders, sport en 220.000+ films in 4K. 15 dagen geld-terug.",
     h1: "Compleet IPTV Nederland abonnement",
     lead: [
-      "Eén abonnement voor al je televisie: dat is IPTV bij [SWIV TV](https://www.swivtv.be). Nederlandse zenders, sport, films en series in topkwaliteit.",
+      "Eén abonnement voor al je televisie: dat is IPTV bij [SWIV TV](https://www.swiv-tv.nl). Nederlandse zenders, sport, films en series in topkwaliteit.",
       "## IPTV nederland abonnement — Compleet en overzichtelijk",
       "Een Nederlandstalige EPG-programmagids, favorietenlijsten en een enorme VOD-bibliotheek houden alles overzichtelijk. Werkt op al je apparaten.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1069,7 +1069,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV nederlandse zenders bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV met Nederlandse zenders",
     lead: [
-      "Wil je de vertrouwde Nederlandse zenders via IPTV? [SWIV TV](https://www.swivtv.be) biedt een breed aanbod Nederlandse en Belgische zenders, met Nederlandstalige gids.",
+      "Wil je de vertrouwde Nederlandse zenders via IPTV? [SWIV TV](https://www.swiv-tv.nl) biedt een breed aanbod Nederlandse en Belgische zenders, met Nederlandstalige gids.",
       "## IPTV nederlandse zenders — Vertrouwd en compleet",
       "Naast de bekende publieke en commerciële zenders krijg je internationale kanalen en een grote VOD-bibliotheek, allemaal in één abonnement.",
       "Bekijk de pakketten hieronder en vraag het zenderoverzicht via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1087,7 +1087,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV sport abonnement bij SWIV TV: live sport in HD en 4K, stabiel beeld dankzij relay-servers. 15 dagen geld-terug.",
     h1: "IPTV sport abonnement",
     lead: [
-      "Mis geen wedstrijd meer met het sportaanbod van [SWIV TV](https://www.swivtv.be). Live sport in HD en 4K, vloeiend op elk apparaat.",
+      "Mis geen wedstrijd meer met het sportaanbod van [SWIV TV](https://www.swiv-tv.nl). Live sport in HD en 4K, vloeiend op elk apparaat.",
       "## IPTV sport abonnement — Sport zonder haperingen",
       "Dankzij een netwerk van relay-servers blijft het beeld stabiel tijdens drukke sportavonden. Een duidelijke EPG helpt je de aftrap te vinden.",
       "Bekijk de pakketten hieronder en vraag naar de sportzenders via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1105,7 +1105,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV voetbal abonnement bij SWIV TV: live voetbal in hoge kwaliteit op tv, tablet en telefoon. Stabiel beeld, 15 dagen geld-terug.",
     h1: "IPTV voetbal abonnement",
     lead: [
-      "Voetballiefhebbers kijken met [SWIV TV](https://www.swivtv.be) live wedstrijden in hoge kwaliteit op elk scherm.",
+      "Voetballiefhebbers kijken met [SWIV TV](https://www.swiv-tv.nl) live wedstrijden in hoge kwaliteit op elk scherm.",
       "## IPTV voetbal abonnement — Elke wedstrijd scherp",
       "Met 4K-ondersteuning en relay-servers blijft het beeld vloeiend, ook op drukke voetbalavonden. Schakel snel tussen zenders met een speler als TiviMate.",
       "Bekijk de pakketten hieronder en vraag naar de voetbalzenders via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1123,7 +1123,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV eredivisie bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "Eredivisie kijken via IPTV",
     lead: [
-      "Volg je favoriete competitie zoals de Eredivisie via [SWIV TV](https://www.swivtv.be) in hoge kwaliteit op je grote scherm.",
+      "Volg je favoriete competitie zoals de Eredivisie via [SWIV TV](https://www.swiv-tv.nl) in hoge kwaliteit op je grote scherm.",
       "## IPTV eredivisie — Scherp en stabiel",
       "Dankzij 4K-ondersteuning en relay-servers kijk je vloeiend, en met een duidelijke EPG-programmagids mis je geen aftrap.",
       "Bekijk de pakketten hieronder en vraag naar het sportaanbod via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1141,7 +1141,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV films en series bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV films en series (VOD)",
     lead: [
-      "Naast live-tv biedt [SWIV TV](https://www.swivtv.be) een enorme video-on-demand-bibliotheek: meer dan 220.000 films en series, altijd beschikbaar.",
+      "Naast live-tv biedt [SWIV TV](https://www.swiv-tv.nl) een enorme video-on-demand-bibliotheek: meer dan 220.000 films en series, altijd beschikbaar.",
       "## IPTV films en series — Kijken wanneer jij wilt",
       "Kies een titel in je speler en speel hem direct af, met ondertiteling waar beschikbaar, in HD en 4K.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1159,7 +1159,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV voor firestick bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV voor Firestick kopen",
     lead: [
-      "De Fire TV Stick is ideaal voor IPTV. Het abonnement van [SWIV TV](https://www.swivtv.be) werkt perfect met IPTV Smarters Pro en TiviMate op je Firestick.",
+      "De Fire TV Stick is ideaal voor IPTV. Het abonnement van [SWIV TV](https://www.swiv-tv.nl) werkt perfect met IPTV Smarters Pro en TiviMate op je Firestick.",
       "## IPTV voor firestick — Snel ingesteld",
       "Installeer de app, log in met Xtream Codes of M3U en kijk direct. Gebruik een ethernet-adapter voor het meest stabiele beeld.",
       "Bestel hieronder en ontvang je gegevens via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1177,7 +1177,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV voor Smart TV bij SWIV TV: rechtstreeks kijken zonder extra kastje. Werkt met Xtream en M3U, 15 dagen geld-terug.",
     h1: "IPTV voor Smart TV kopen",
     lead: [
-      "Kijk IPTV rechtstreeks op je Samsung, LG of Android Smart TV. Het abonnement van [SWIV TV](https://www.swivtv.be) werkt met de meeste IPTV-spelers uit de store.",
+      "Kijk IPTV rechtstreeks op je Samsung, LG of Android Smart TV. Het abonnement van [SWIV TV](https://www.swiv-tv.nl) werkt met de meeste IPTV-spelers uit de store.",
       "## IPTV voor smart tv — Zonder extra hardware",
       "Installeer een speler, koppel je abonnement met Xtream Codes of M3U en begin. Bij oudere modellen helpt een voordelige Fire TV Stick.",
       "Bekijk de pakketten hieronder en vraag hulp via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1195,7 +1195,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV voor Android bij SWIV TV: werkt op Android TV, box en telefoon met TiviMate of IPTV Smarters Pro. 15 dagen geld-terug.",
     h1: "IPTV voor Android kopen",
     lead: [
-      "Android biedt de meeste keuze aan IPTV-spelers. Het abonnement van [SWIV TV](https://www.swivtv.be) werkt op Android TV, boxen en telefoons.",
+      "Android biedt de meeste keuze aan IPTV-spelers. Het abonnement van [SWIV TV](https://www.swiv-tv.nl) werkt op Android TV, boxen en telefoons.",
       "## IPTV voor android — Veel keuze aan spelers",
       "Gebruik TiviMate, IPTV Smarters Pro of een andere speler en koppel je abonnement met Xtream Codes of M3U. De gids laadt automatisch.",
       "Bestel hieronder en ontvang je gegevens via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1213,7 +1213,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV voor Apple TV bij SWIV TV: premium kijkervaring met een App Store-speler. Xtream en M3U, 15 dagen geld-terug.",
     h1: "IPTV voor Apple TV kopen",
     lead: [
-      "Apple TV levert een premium kijkervaring en is prima geschikt voor IPTV. Het abonnement van [SWIV TV](https://www.swivtv.be) werkt met App Store-spelers.",
+      "Apple TV levert een premium kijkervaring en is prima geschikt voor IPTV. Het abonnement van [SWIV TV](https://www.swiv-tv.nl) werkt met App Store-spelers.",
       "## IPTV voor apple tv — Premium en stabiel",
       "Installeer een speler die Xtream Codes en M3U ondersteunt, koppel je abonnement en kijk in HD of 4K via een stabiele verbinding.",
       "Bestel hieronder en ontvang je gegevens via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1231,7 +1231,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV box kopen? SWIV TV werkt met elke Android-box en geeft advies. 69.000+ zenders, 220.000+ VOD, 15 dagen geld-terug.",
     h1: "IPTV box kopen: advies en abonnement",
     lead: [
-      "Een IPTV-box maakt van elke tv een slimme streaming-tv. [SWIV TV](https://www.swivtv.be) werkt met elke Android-box en adviseert je graag over de juiste keuze.",
+      "Een IPTV-box maakt van elke tv een slimme streaming-tv. [SWIV TV](https://www.swiv-tv.nl) werkt met elke Android-box en adviseert je graag over de juiste keuze.",
       "## IPTV box kopen — Welke box past bij jou",
       "Kies een box met minstens 2 GB RAM en 4K-ondersteuning. Populaire opties zijn de Nvidia Shield en Xiaomi Mi Box, met HEVC voor een scherp beeld.",
       "Bekijk de pakketten hieronder en vraag advies via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1249,7 +1249,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV kastje kopen en direct kijken met SWIV TV: 69.000+ zenders en 220.000+ VOD in 4K. Werkt met MAG, Formuler en Android.",
     h1: "IPTV kastje kopen",
     lead: [
-      "Een IPTV-kastje sluit je eenvoudig op je tv aan en je kijkt direct. [SWIV TV](https://www.swivtv.be) werkt met MAG, Formuler en Android-kastjes.",
+      "Een IPTV-kastje sluit je eenvoudig op je tv aan en je kijkt direct. [SWIV TV](https://www.swiv-tv.nl) werkt met MAG, Formuler en Android-kastjes.",
       "## IPTV kastje kopen — Plug-and-play kijken",
       "Sluit het kastje aan, voer je portal- of Xtream-gegevens in en de zenderlijst laadt automatisch. Ideaal voor wie geen smart-tv heeft.",
       "Bekijk de pakketten hieronder en vraag advies via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1267,7 +1267,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV 1 maand bij SWIV TV: flexibel proberen zonder lange verplichting. 69.000+ zenders, 220.000+ VOD. 15 dagen geld-terug.",
     h1: "IPTV 1 maand abonnement",
     lead: [
-      "Wil je flexibel blijven? Met een maandabonnement bij [SWIV TV](https://www.swivtv.be) probeer je de dienst zonder lange verplichting.",
+      "Wil je flexibel blijven? Met een maandabonnement bij [SWIV TV](https://www.swiv-tv.nl) probeer je de dienst zonder lange verplichting.",
       "## IPTV 1 maand — Flexibel en zonder contract",
       "Je kijkt een maand volledig mee en verlengt alleen als je tevreden bent. Geen stilzwijgende verlenging, geen opzegtermijn.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1285,7 +1285,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV proefabonnement bij SWIV TV: test risicoloos met 15 dagen niet-goed-geld-terug. 69.000+ zenders en 220.000+ VOD.",
     h1: "IPTV proefabonnement",
     lead: [
-      "Eerst testen voordat je kiest? Met de geld-terug-garantie van [SWIV TV](https://www.swivtv.be) beoordeel je de dienst risicoloos op je eigen netwerk.",
+      "Eerst testen voordat je kiest? Met de geld-terug-garantie van [SWIV TV](https://www.swiv-tv.nl) beoordeel je de dienst risicoloos op je eigen netwerk.",
       "## IPTV proefabonnement — Zo test je goed",
       "Controleer tijdens de proefperiode de beeldkwaliteit, je favoriete zenders en de EPG-programmagids, bij voorkeur op een bekabelde verbinding en een drukke avond.",
       "Bekijk de pakketten hieronder en start je test via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1303,7 +1303,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Interesse om IPTV reseller te worden? Neem contact op met SWIV TV via WhatsApp voor de mogelijkheden en voorwaarden.",
     h1: "IPTV reseller worden",
     lead: [
-      "Wil je zelf IPTV-abonnementen aanbieden? [SWIV TV](https://www.swivtv.be) bespreekt graag de mogelijkheden voor een samenwerking.",
+      "Wil je zelf IPTV-abonnementen aanbieden? [SWIV TV](https://www.swiv-tv.nl) bespreekt graag de mogelijkheden voor een samenwerking.",
       "## IPTV reseller — Samenwerken",
       "Neem contact op voor informatie over voorwaarden, ondersteuning en hoe je klanten kunt bedienen met een stabiele, kwalitatieve dienst.",
       "Interesse? Stel je vragen rechtstreeks via [WhatsApp](https://wa.me/447462229301).",
@@ -1321,7 +1321,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Betrouwbare IPTV in Nederland bij SWIV TV: transparante prijzen, stabiel netwerk, echte support en 15 dagen geld-terug.",
     h1: "Betrouwbare IPTV in Nederland",
     lead: [
-      "Betrouwbaarheid staat voorop bij [SWIV TV](https://www.swivtv.be): transparante prijzen, een stabiel netwerk en support waar je echt iemand spreekt.",
+      "Betrouwbaarheid staat voorop bij [SWIV TV](https://www.swiv-tv.nl): transparante prijzen, een stabiel netwerk en support waar je echt iemand spreekt.",
       "## Betrouwbare IPTV — Waaraan je ons herkent",
       "Openlijk getoonde pakketten, een dagelijks bijgewerkte zender- en VOD-lijst, snelle support en een geld-terug-garantie. Geen anonieme beloftes.",
       "Overtuig jezelf met 15 dagen niet-goed-geld-terug en stel je vragen via [WhatsApp](https://wa.me/447462229301).",
@@ -1339,7 +1339,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Legale IPTV bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV in Nederland: eerlijk en transparant",
     lead: [
-      "De techniek van IPTV, televisie kijken via internet, is volstrekt legaal. Bij [SWIV TV](https://www.swivtv.be) kiezen we voor transparantie over het bedrijf, de voorwaarden en de support.",
+      "De techniek van IPTV, televisie kijken via internet, is volstrekt legaal. Bij [SWIV TV](https://www.swiv-tv.nl) kiezen we voor transparantie over het bedrijf, de voorwaarden en de support.",
       "## Legale IPTV — Verantwoord kiezen",
       "Let op een aanbieder die open is over prijzen en voorwaarden en die een geld-terug-garantie biedt. Vermijd anonieme, onrealistisch goedkope aanbiedingen.",
       "Vragen over hoe we werken? Stel ze gerust via [WhatsApp](https://wa.me/447462229301) voordat je kiest.",
@@ -1357,7 +1357,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV zonder buffering bij SWIV TV: stabiel beeld dankzij relay-servers en HEVC. Tips voor een vloeiende stream. 15 dagen geld-terug.",
     h1: "IPTV zonder buffering",
     lead: [
-      "Niets zo vervelend als een haperende stream. [SWIV TV](https://www.swivtv.be) zet in op een stabiel netwerk met relay-servers voor een vloeiend beeld.",
+      "Niets zo vervelend als een haperende stream. [SWIV TV](https://www.swiv-tv.nl) zet in op een stabiel netwerk met relay-servers voor een vloeiend beeld.",
       "## IPTV zonder buffering — Zo blijft het vloeiend",
       "Gebruik een bekabelde verbinding, zorg voor voldoende snelheid (16 Mbit/s voor HD, 25 voor 4K) en kies een speler met de juiste instellingen. HEVC houdt het beeld scherp bij minder bandbreedte.",
       "Bekijk de pakketten hieronder en vraag tips via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1375,7 +1375,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "4k IPTV nederland bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "4K IPTV in Nederland",
     lead: [
-      "Kijk in Nederland in haarscherp Ultra HD met [SWIV TV](https://www.swivtv.be). Een deel van de zenders en films is beschikbaar in 4K.",
+      "Kijk in Nederland in haarscherp Ultra HD met [SWIV TV](https://www.swiv-tv.nl). Een deel van de zenders en films is beschikbaar in 4K.",
       "## 4k IPTV nederland — Scherp en efficiënt",
       "Dankzij HEVC blijft het beeld scherp bij minder bandbreedte. Voor 4K reken je op ongeveer 25 Mbit/s en bij voorkeur ethernet.",
       "Bekijk de 4K-pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1393,7 +1393,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV met ideal betalen bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV bestellen en betalen",
     lead: [
-      "Bij [SWIV TV](https://www.swivtv.be) regel je je abonnement snel en duidelijk. Kies een pakket en ontvang je inloggegevens binnen enkele minuten.",
+      "Bij [SWIV TV](https://www.swiv-tv.nl) regel je je abonnement snel en duidelijk. Kies een pakket en ontvang je inloggegevens binnen enkele minuten.",
       "## IPTV met ideal betalen — Zo werkt het",
       "Kies je pakket, neem contact op via WhatsApp en rond de betaling af. Daarna ontvang je je serveradres, gebruikersnaam en wachtwoord of je M3U-link.",
       "Bekijk de pakketten hieronder en start via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1411,7 +1411,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV abonnement kopen in Nederland bij SWIV TV: 69.000+ zenders, 220.000+ VOD in 4K, direct actief. 15 dagen geld-terug.",
     h1: "IPTV abonnement kopen in Nederland",
     lead: [
-      "Een IPTV abonnement kopen doe je snel en veilig bij [SWIV TV](https://www.swivtv.be). Bekijk de pakketten en kijk binnen vijf minuten.",
+      "Een IPTV abonnement kopen doe je snel en veilig bij [SWIV TV](https://www.swiv-tv.nl). Bekijk de pakketten en kijk binnen vijf minuten.",
       "## IPTV abonnement kopen — Direct geregeld",
       "Kies je looptijd, reken af en ontvang je gegevens via WhatsApp. Alles werkt op je bestaande apparaten, met een Nederlandstalige gids.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1429,7 +1429,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV aanbieder nederland bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "Betrouwbare IPTV aanbieder in Nederland",
     lead: [
-      "Een goede IPTV aanbieder onderscheidt zich in kwaliteit en service. [SWIV TV](https://www.swivtv.be) staat voor transparantie, stabiliteit en echte support.",
+      "Een goede IPTV aanbieder onderscheidt zich in kwaliteit en service. [SWIV TV](https://www.swiv-tv.nl) staat voor transparantie, stabiliteit en echte support.",
       "## IPTV aanbieder nederland — Waarom voor ons kiezen",
       "Openlijke prijzen, een dagelijks bijgewerkte zender- en VOD-lijst, 4K-kwaliteit en 24/7 support via WhatsApp. En een geld-terug-garantie om risicoloos te starten.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1447,7 +1447,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Nederlandse IPTV aanbieder SWIV TV: NL en BE zenders, sport en 220.000+ films in 4K. Nederlandstalige support, 15 dagen geld-terug.",
     h1: "Nederlandse IPTV aanbieder",
     lead: [
-      "Als op Nederland gerichte dienst biedt [SWIV TV](https://www.swivtv.be) de vertrouwde zenders plus een enorm internationaal aanbod.",
+      "Als op Nederland gerichte dienst biedt [SWIV TV](https://www.swiv-tv.nl) de vertrouwde zenders plus een enorm internationaal aanbod.",
       "## Nederlandse IPTV aanbieder — Gericht op Nederland",
       "Nederlandse en Belgische zenders, een Nederlandstalige EPG en support, en servers geoptimaliseerd voor de Benelux voor een stabiel beeld.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1465,7 +1465,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Kies jouw IPTV pakket bij SWIV TV: van proef tot jaarabonnement, met 69.000+ zenders en 220.000+ VOD. 15 dagen geld-terug.",
     h1: "Kies jouw IPTV pakket",
     lead: [
-      "Bij [SWIV TV](https://www.swivtv.be) kies je het pakket dat bij jou past, van kort om te testen tot een voordelig jaarabonnement. Bekijk de opties hieronder.",
+      "Bij [SWIV TV](https://www.swiv-tv.nl) kies je het pakket dat bij jou past, van kort om te testen tot een voordelig jaarabonnement. Bekijk de opties hieronder.",
       "## IPTV pakket — Voor elke kijker",
       "Elk pakket geeft toegang tot 69.000+ zenders en 220.000+ films en series in 4K, op al je apparaten. Langere looptijden zijn per maand voordeliger.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1483,7 +1483,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Bekijk de IPTV pakketten en prijzen van SWIV TV: transparant, met 69.000+ zenders en 220.000+ VOD in 4K. 15 dagen geld-terug.",
     h1: "IPTV pakketten en prijzen",
     lead: [
-      "Een duidelijk overzicht van de IPTV pakketten van [SWIV TV](https://www.swivtv.be) vind je hieronder, met transparante prijzen zonder verborgen kosten.",
+      "Een duidelijk overzicht van de IPTV pakketten van [SWIV TV](https://www.swiv-tv.nl) vind je hieronder, met transparante prijzen zonder verborgen kosten.",
       "## IPTV pakketten — Transparant en compleet",
       "Alle pakketten bieden dezelfde complete toegang tot zenders en VOD; je kiest alleen de looptijd. Hoe langer, hoe voordeliger per maand.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1501,7 +1501,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Profiteer van de IPTV deal bij SWIV TV: 12+3 maanden, 69.000+ zenders en 220.000+ VOD in 4K. 15 dagen geld-terug.",
     h1: "IPTV deal: 12+3 maanden",
     lead: [
-      "Pak de actuele IPTV deal bij [SWIV TV](https://www.swivtv.be): extra maanden bovenop je jaarpakket. Bekijk de details boven en onder op deze pagina.",
+      "Pak de actuele IPTV deal bij [SWIV TV](https://www.swiv-tv.nl): extra maanden bovenop je jaarpakket. Bekijk de details boven en onder op deze pagina.",
       "## IPTV deal — Meer voordeel",
       "Met de 12+3 maanden-actie krijg je vijftien maanden toegang tot 69.000+ zenders en 220.000+ films en series in 4K.",
       "Grijp de deal en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1519,7 +1519,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Profiteer van IPTV korting bij SWIV TV: voordelige pakketten met 69.000+ zenders en 220.000+ VOD. 15 dagen geld-terug.",
     h1: "IPTV met korting",
     lead: [
-      "Voordelig kijken kan met de actuele aanbiedingen van [SWIV TV](https://www.swivtv.be). Bekijk de pakketten en profiteer van het beste tarief per maand.",
+      "Voordelig kijken kan met de actuele aanbiedingen van [SWIV TV](https://www.swiv-tv.nl). Bekijk de pakketten en profiteer van het beste tarief per maand.",
       "## IPTV korting — Het meeste voordeel",
       "Langere looptijden geven de grootste korting per maand. Combineer dat met de 12+3 maanden-actie voor extra voordeel.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1537,7 +1537,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV NL abonnement bij SWIV TV: Nederlandse zenders, sport en 220.000+ films in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV NL abonnement",
     lead: [
-      "Een IPTV NL abonnement bij [SWIV TV](https://www.swivtv.be) is afgestemd op Nederlandse kijkers: vertrouwde zenders plus een groot internationaal aanbod.",
+      "Een IPTV NL abonnement bij [SWIV TV](https://www.swiv-tv.nl) is afgestemd op Nederlandse kijkers: vertrouwde zenders plus een groot internationaal aanbod.",
       "## IPTV nl abonnement — Compleet voor NL",
       "Nederlandse en Belgische zenders, een Nederlandstalige gids, sport en een enorme VOD-bibliotheek, allemaal in één transparant abonnement.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1555,7 +1555,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "De beste IPTV kopen bij SWIV TV: kwaliteit, stabiliteit en service. 69.000+ zenders, 220.000+ VOD in 4K. 15 dagen geld-terug.",
     h1: "De beste IPTV kopen",
     lead: [
-      "Wie de beste IPTV wil kopen, let op meer dan de prijs. [SWIV TV](https://www.swivtv.be) combineert kwaliteit, stabiliteit en service.",
+      "Wie de beste IPTV wil kopen, let op meer dan de prijs. [SWIV TV](https://www.swiv-tv.nl) combineert kwaliteit, stabiliteit en service.",
       "## Beste IPTV kopen — Kwaliteit die telt",
       "Een stabiel netwerk, 4K-kwaliteit, een complete zender- en VOD-lijst en snelle support maken het verschil. En een geld-terug-garantie om risicoloos te starten.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1573,7 +1573,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV kopen goedkoop bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV goedkoop kopen",
     lead: [
-      "Goedkoop IPTV kopen kan, zonder in te leveren op kwaliteit. [SWIV TV](https://www.swivtv.be) biedt scherpe prijzen met een stabiele dienst.",
+      "Goedkoop IPTV kopen kan, zonder in te leveren op kwaliteit. [SWIV TV](https://www.swiv-tv.nl) biedt scherpe prijzen met een stabiele dienst.",
       "## IPTV kopen goedkoop — Scherp geprijsd",
       "Je krijgt 69.000+ zenders en 220.000+ films in 4K voor een eerlijke prijs. Langere looptijden zijn per maand het voordeligst.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1591,7 +1591,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Premium IPTV nederland bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "Premium IPTV voor Nederland",
     lead: [
-      "Voor de beste ervaring kies je premium IPTV. [SWIV TV](https://www.swivtv.be) levert topkwaliteit en stabiliteit, afgestemd op Nederlandse kijkers.",
+      "Voor de beste ervaring kies je premium IPTV. [SWIV TV](https://www.swiv-tv.nl) levert topkwaliteit en stabiliteit, afgestemd op Nederlandse kijkers.",
       "## Premium IPTV nederland — Premium in alles",
       "Haarscherp beeld in 4K en op geschikte content 8K, een stabiel netwerk met relay-servers en 24/7 Nederlandstalige support via WhatsApp.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1609,7 +1609,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV abonnement aanbieding bij SWIV TV: 12+3 maanden voordeel, 69.000+ zenders en 220.000+ VOD in 4K. 15 dagen geld-terug.",
     h1: "IPTV abonnement aanbieding",
     lead: [
-      "Profiteer van de actuele aanbieding op het IPTV abonnement van [SWIV TV](https://www.swivtv.be): extra maanden voordeel bovenop je jaarpakket.",
+      "Profiteer van de actuele aanbieding op het IPTV abonnement van [SWIV TV](https://www.swiv-tv.nl): extra maanden voordeel bovenop je jaarpakket.",
       "## IPTV abonnement aanbieding — Nu extra voordelig",
       "Met de 12+3 maanden-actie krijg je vijftien maanden toegang tot alle zenders en de VOD-bibliotheek in 4K.",
       "Grijp de aanbieding en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1627,7 +1627,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV direct actief bij SWIV TV: binnen vijf minuten kijken na activatie. 69.000+ zenders en 220.000+ VOD. 15 dagen geld-terug.",
     h1: "IPTV direct actief",
     lead: [
-      "Geen wachttijd: bij [SWIV TV](https://www.swivtv.be) ben je binnen vijf minuten actief. Bestel, ontvang je gegevens en begin direct met kijken.",
+      "Geen wachttijd: bij [SWIV TV](https://www.swiv-tv.nl) ben je binnen vijf minuten actief. Bestel, ontvang je gegevens en begin direct met kijken.",
       "## IPTV direct actief — Meteen aan de slag",
       "Installeer een speler, log in met Xtream Codes of M3U en de zenderlijst met EPG-programmagids laadt automatisch. Zo simpel is het.",
       "Bekijk de pakketten hieronder en start via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1645,7 +1645,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV 15 maanden (12+3 actie) bij SWIV TV: vijftien maanden kijken voor de prijs van een jaar. 69.000+ zenders, 15 dagen geld-terug.",
     h1: "IPTV 15 maanden: de 12+3 actie",
     lead: [
-      "Met de 12+3 maanden-actie van [SWIV TV](https://www.swivtv.be) kijk je vijftien maanden: een vol jaar plus drie extra maanden.",
+      "Met de 12+3 maanden-actie van [SWIV TV](https://www.swiv-tv.nl) kijk je vijftien maanden: een vol jaar plus drie extra maanden.",
       "## IPTV 15 maanden — Maximaal voordeel",
       "Je krijgt vijftien maanden toegang tot 69.000+ zenders en 220.000+ films en series in 4K, tegen de scherpste prijs per maand.",
       "Grijp de actie en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -1663,7 +1663,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV kaufen deutschland bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "IPTV kaufen in Deutschland",
     lead: [
-      "IPTV kaufen in Deutschland war noch nie so einfach. Bei [SWIV TV](https://www.swivtv.be) erhältst du sofort Zugriff auf über 69.000 Live-Sender und 220.000+ Filme und Serien, kompatibel mit jedem Gerät. Sieh dir unten die Pakete an und starte in wenigen Minuten.",
+      "IPTV kaufen in Deutschland war noch nie so einfach. Bei [SWIV TV](https://www.swiv-tv.nl) erhältst du sofort Zugriff auf über 69.000 Live-Sender und 220.000+ Filme und Serien, kompatibel mit jedem Gerät. Sieh dir unten die Pakete an und starte in wenigen Minuten.",
       "## IPTV kaufen deutschland — Warum bei SWIV TV",
       "Du zahlst einen transparenten Preis ohne versteckte Kosten, schaust in Full HD, 4K und auf geeigneten Inhalten bis 8K und erhältst 24/7 Support per WhatsApp. Dank eines Netzes aus Relay-Servern bleibt das Bild flüssig, auch zur Primetime.",
       "Noch unsicher? Du startest mit 15 Tagen Geld-zurück-Garantie, sodass du risikofrei testen kannst. Stelle deine Fragen gern per [WhatsApp](https://wa.me/447462229301).",
@@ -1681,7 +1681,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV Abo kaufen bei SWIV TV: 69.000+ Sender und 220.000+ VOD-Titel in 4K/8K. Kein Vertrag, 15 Tage Geld-zurück-Garantie.",
     h1: "IPTV Abo kaufen",
     lead: [
-      "Ein IPTV Abo bei [SWIV TV](https://www.swivtv.be) bringt dir das gesamte Fernsehen über das Internet in einem transparenten Paket: Live-Sender, Sport, Filme und Serien. Wähle unten die passende Laufzeit.",
+      "Ein IPTV Abo bei [SWIV TV](https://www.swiv-tv.nl) bringt dir das gesamte Fernsehen über das Internet in einem transparenten Paket: Live-Sender, Sport, Filme und Serien. Wähle unten die passende Laufzeit.",
       "## IPTV abo kaufen — Flexibel und transparent",
       "Keine automatische Verlängerung und kein Techniker an der Tür. Du wählst deine eigene Laufzeit und schaust auf dem Gerät, das du bereits hast, mit einem deutschsprachigen EPG-Programmführer.",
       "Starte mit 15 Tagen Geld-zurück-Garantie und 24/7 Support per [WhatsApp](https://wa.me/447462229301).",
@@ -1699,7 +1699,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV kaufen paypal bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "IPTV kaufen und per PayPal bezahlen",
     lead: [
-      "Bei [SWIV TV](https://www.swivtv.be) bezahlst du einfach und nachvollziehbar und erhältst deine Zugangsdaten sofort. Sieh dir die Pakete an und wähle die Zahlungsart, die dir passt.",
+      "Bei [SWIV TV](https://www.swiv-tv.nl) bezahlst du einfach und nachvollziehbar und erhältst deine Zugangsdaten sofort. Sieh dir die Pakete an und wähle die Zahlungsart, die dir passt.",
       "## IPTV kaufen paypal — Schnell und klar",
       "Wähle dein Paket, nimm per WhatsApp Kontakt auf und schließe die Zahlung ab. Danach bekommst du deine Serveradresse, deinen Benutzernamen und dein Passwort oder deinen M3U-Link.",
       "Fragen zur Zahlung? Stelle sie gern per [WhatsApp](https://wa.me/447462229301). Du startest mit 15 Tagen Geld-zurück-Garantie.",
@@ -1717,7 +1717,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Günstiges IPTV Abo mit Top-Qualität bei SWIV TV: 69.000+ Sender, 220.000+ VOD in 4K. Fairer Preis, 15 Tage Geld-zurück.",
     h1: "Günstiges IPTV Abo mit Top-Qualität",
     lead: [
-      "Günstig muss nicht unseriös heißen. [SWIV TV](https://www.swivtv.be) kombiniert einen scharfen Preis mit einem stabilen, hochwertigen Dienst. Sieh dir unten die günstigen Pakete an.",
+      "Günstig muss nicht unseriös heißen. [SWIV TV](https://www.swiv-tv.nl) kombiniert einen scharfen Preis mit einem stabilen, hochwertigen Dienst. Sieh dir unten die günstigen Pakete an.",
       "## Günstiges IPTV abo — Günstig und zuverlässig",
       "Du erhältst 69.000+ Sender und 220.000+ Filme und Serien in 4K, ein stabiles Netz und echten Support. Längere Laufzeiten sind pro Monat am günstigsten.",
       "Achtung: Extrem günstige, anonyme Angebote liefern oft schwankende Qualität. Wähle einen fairen Preis mit 15 Tagen Geld-zurück-Garantie per [WhatsApp](https://wa.me/447462229301).",
@@ -1735,7 +1735,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV 1 Jahr Abo bei SWIV TV: der günstigste Preis pro Monat, 69.000+ Sender und 220.000+ VOD in 4K/8K.",
     h1: "IPTV 1 Jahr Abo",
     lead: [
-      "Ein Jahresabo ist die günstigste Art, IPTV zu schauen. Bei [SWIV TV](https://www.swivtv.be) erhältst du ein ganzes Jahr Zugriff auf 69.000+ Sender und 220.000+ Filme und Serien.",
+      "Ein Jahresabo ist die günstigste Art, IPTV zu schauen. Bei [SWIV TV](https://www.swiv-tv.nl) erhältst du ein ganzes Jahr Zugriff auf 69.000+ Sender und 220.000+ Filme und Serien.",
       "## IPTV 1 jahr — Der beste Preis pro Monat",
       "Ein Jahrespaket hat den niedrigsten Preis pro Monat und ist ideal, wenn du sicher weißt, dass der Dienst zu dir passt. Teste daher zuerst innerhalb der 15 Tage Geld-zurück-Garantie.",
       "Sieh dir das Jahrespaket unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301).",
@@ -1753,7 +1753,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV Jahresabo bei SWIV TV: 12+3 Monate, 69.000+ Sender und 220.000+ VOD in 4K. Scharfer Preis, 15 Tage Geld-zurück.",
     h1: "IPTV Jahresabo mit 12+3 Monaten",
     lead: [
-      "Mit einem Jahresabo bei [SWIV TV](https://www.swivtv.be) schaust du ein volles Jahr ohne Sorgen, zum schärfsten Preis pro Monat. Mit der 12+3-Aktion erhältst du drei Monate extra.",
+      "Mit einem Jahresabo bei [SWIV TV](https://www.swiv-tv.nl) schaust du ein volles Jahr ohne Sorgen, zum schärfsten Preis pro Monat. Mit der 12+3-Aktion erhältst du drei Monate extra.",
       "## IPTV jahresabo — Ein Jahr sorgenfrei schauen",
       "Du bekommst 69.000+ Sender, 220.000+ Filme und Serien und 4K-Qualität mit 24/7 Support. Ideal für alle, die den Dienst bereits kennen und schätzen.",
       "Sieh dir das Jahrespaket unten an und frage Details per [WhatsApp](https://wa.me/447462229301) an, mit 15 Tagen Geld-zurück-Garantie.",
@@ -1771,7 +1771,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Premium IPTV bei SWIV TV: 69.000+ Sender und 220.000+ VOD in 4K und 8K, stabiles Netz und 24/7 Support. 15 Tage Geld-zurück.",
     h1: "Premium IPTV mit Top-Qualität",
     lead: [
-      "Premium IPTV dreht sich um Qualität und Stabilität. [SWIV TV](https://www.swivtv.be) liefert gestochen scharfes Bild und ein zuverlässiges Netz, sodass du ohne Aussetzer schaust.",
+      "Premium IPTV dreht sich um Qualität und Stabilität. [SWIV TV](https://www.swiv-tv.nl) liefert gestochen scharfes Bild und ein zuverlässiges Netz, sodass du ohne Aussetzer schaust.",
       "## Premium IPTV — Was premium bedeutet",
       "Full HD, 4K und auf geeigneten Inhalten bis 8K, HEVC für scharfes Bild bei geringerer Bandbreite und Relay-Server, die den Stream zur Primetime flüssig halten.",
       "Sieh dir die Premium-Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -1789,7 +1789,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Profitiere vom IPTV Angebot bei SWIV TV: 12+3 Monate, 69.000+ Sender und 220.000+ VOD in 4K. 15 Tage Geld-zurück.",
     h1: "IPTV Angebot: 12+3 Monate",
     lead: [
-      "Nutze das aktuelle IPTV Angebot bei [SWIV TV](https://www.swivtv.be): zusätzliche Monate Vorteil zu deinem Jahrespaket. Die Details siehst du oben und unten auf dieser Seite.",
+      "Nutze das aktuelle IPTV Angebot bei [SWIV TV](https://www.swiv-tv.nl): zusätzliche Monate Vorteil zu deinem Jahrespaket. Die Details siehst du oben und unten auf dieser Seite.",
       "## IPTV angebot — Mehr schauen für weniger",
       "Mit der 12+3-Monate-Aktion erhältst du ein volles Jahr plus drei extra Monate, mit 69.000+ Sendern, 220.000+ Filmen und Serien und 4K-Qualität.",
       "Sichere dir das Angebot und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301). Du startest mit 15 Tagen Geld-zurück-Garantie.",
@@ -1807,7 +1807,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV Deutschland kaufen bei SWIV TV: alle deutschen Sender, Sport und 220.000+ Filme. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "IPTV Deutschland kaufen",
     lead: [
-      "Suchst du einen IPTV-Dienst, der auf Deutschland zugeschnitten ist? [SWIV TV](https://www.swivtv.be) bietet alle großen deutschen Sender plus Tausende internationale Kanäle in einem Abo.",
+      "Suchst du einen IPTV-Dienst, der auf Deutschland zugeschnitten ist? [SWIV TV](https://www.swiv-tv.nl) bietet alle großen deutschen Sender plus Tausende internationale Kanäle in einem Abo.",
       "## IPTV deutschland kaufen — Auf deutsche Zuschauer zugeschnitten",
       "Deutschsprachiger EPG, deutsche und internationale Sender, Sport und eine riesige VOD-Bibliothek. Alles funktioniert auf deinen bestehenden Geräten.",
       "Bestelle unten und erhalte deine Daten per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -1825,7 +1825,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Bester IPTV anbieter 2026 bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "Den besten IPTV-Anbieter 2026 wählen",
     lead: [
-      "Was macht 2026 den besten IPTV-Anbieter aus? Seriosität, Qualität und Support. [SWIV TV](https://www.swivtv.be) punktet bei allen drei und zeigt alles transparent.",
+      "Was macht 2026 den besten IPTV-Anbieter aus? Seriosität, Qualität und Support. [SWIV TV](https://www.swiv-tv.nl) punktet bei allen drei und zeigt alles transparent.",
       "## Bester IPTV anbieter 2026 — Worauf du achtest",
       "Achte auf ein stabiles Netz, eine komplette und täglich aktualisierte Sender- und VOD-Liste, 4K-Qualität und schnellen Support. Meide anonyme, unrealistisch günstige Anbieter und prüfe die Lizenzlage.",
       "Überzeuge dich mit 15 Tagen Geld-zurück-Garantie und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301).",
@@ -1843,7 +1843,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV smarters abo bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV Abo für IPTV Smarters Pro",
     lead: [
-      "Nutzt du gern IPTV Smarters Pro? Das Abo von [SWIV TV](https://www.swivtv.be) funktioniert nahtlos damit über Xtream Codes oder eine M3U-Playlist.",
+      "Nutzt du gern IPTV Smarters Pro? Das Abo von [SWIV TV](https://www.swiv-tv.nl) funktioniert nahtlos damit über Xtream Codes oder eine M3U-Playlist.",
       "## IPTV smarters abo — Sofort loslegen",
       "Trage in der App deine Serveradresse, deinen Benutzernamen und dein Passwort ein; Senderliste und EPG-Programmführer laden automatisch. Funktioniert auch mit TiviMate und anderen Playern.",
       "Bestelle unten und erhalte deine Xtream-Daten per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -1861,7 +1861,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Smart IPTV Abo für deinen Smart TV bei SWIV TV: 69.000+ Sender, 220.000+ VOD in 4K. Funktioniert mit Xtream und M3U.",
     h1: "Smart IPTV Abo für Smart TV",
     lead: [
-      "Schau IPTV direkt auf deinem Smart TV ohne Zusatzbox. Das Abo von [SWIV TV](https://www.swivtv.be) funktioniert mit Smart IPTV und anderen Playern über Xtream Codes oder M3U.",
+      "Schau IPTV direkt auf deinem Smart TV ohne Zusatzbox. Das Abo von [SWIV TV](https://www.swiv-tv.nl) funktioniert mit Smart IPTV und anderen Playern über Xtream Codes oder M3U.",
       "## Smart IPTV abo — Ohne Zusatzhardware",
       "Installiere einen IPTV-Player auf deinem Samsung, LG oder Android TV und verbinde dein Abo. Senderliste und Programmführer erscheinen automatisch.",
       "Sieh dir die Pakete unten an und hol dir Hilfe per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -1879,7 +1879,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV TV kaufen bei SWIV TV: Fernsehen über das Internet mit 69.000+ Sendern und 220.000+ Filmen in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "IPTV TV kaufen: Fernsehen über das Internet",
     lead: [
-      "IPTV bringt Fernsehen über deine Internetverbindung statt über Kabel oder Schüssel. Bei [SWIV TV](https://www.swivtv.be) schaust du so Tausende Sender und Filme auf jedem Bildschirm.",
+      "IPTV bringt Fernsehen über deine Internetverbindung statt über Kabel oder Schüssel. Bei [SWIV TV](https://www.swiv-tv.nl) schaust du so Tausende Sender und Filme auf jedem Bildschirm.",
       "## IPTV tv kaufen — Alles in einem Abo",
       "Live-Sender, Sport, Filme und Serien, in Full HD und 4K, ohne einzelne Abos. Alles funktioniert auf deinem bestehenden Fernseher, deiner Box oder deinem Handy.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -1897,7 +1897,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "4K IPTV Abo bei SWIV TV: gestochen scharfes Bild, 69.000+ Sender und 220.000+ VOD. HEVC-Unterstützung, 15 Tage Geld-zurück.",
     h1: "4K IPTV Abo",
     lead: [
-      "Willst du gestochen scharf schauen? Das 4K-Abo von [SWIV TV](https://www.swivtv.be) liefert Bild in Ultra HD auf geeigneten Sendern und Filmen.",
+      "Willst du gestochen scharf schauen? Das 4K-Abo von [SWIV TV](https://www.swiv-tv.nl) liefert Bild in Ultra HD auf geeigneten Sendern und Filmen.",
       "## 4k IPTV abo — Scharfes Bild, clever gestreamt",
       "Dank HEVC bleibt das Bild bei geringerer Bandbreite scharf. Für 4K rechnest du mit etwa 25 Mbit/s und am besten einer LAN-Verbindung.",
       "Sieh dir die 4K-Pakete unten an und frage Details per [WhatsApp](https://wa.me/447462229301) an, mit 15 Tagen Geld-zurück-Garantie.",
@@ -1915,7 +1915,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "8K IPTV bei SWIV TV: Streaming bis 8K auf geeigneten Inhalten, 69.000+ Sender und 220.000+ VOD. 15 Tage Geld-zurück.",
     h1: "8K IPTV: bereit für die Zukunft",
     lead: [
-      "Für alle, die das schärfste Bild wollen: [SWIV TV](https://www.swivtv.be) unterstützt Streaming bis 8K auf geeigneten Inhalten, neben 4K und Full HD.",
+      "Für alle, die das schärfste Bild wollen: [SWIV TV](https://www.swiv-tv.nl) unterstützt Streaming bis 8K auf geeigneten Inhalten, neben 4K und Full HD.",
       "## 8k IPTV — Zukunftssicher schauen",
       "8K erfordert einen geeigneten Fernseher und eine schnelle, stabile Verbindung. Mit HEVC und Relay-Servern bleibt das Bild flüssig und scharf.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -1933,7 +1933,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV full hd bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV in Full HD",
     lead: [
-      "Nicht jeder braucht 4K. In Full HD schaust du bereits gestochen scharf mit einer normalen Verbindung. [SWIV TV](https://www.swivtv.be) streamt flüssig in HD auf jedem Gerät.",
+      "Nicht jeder braucht 4K. In Full HD schaust du bereits gestochen scharf mit einer normalen Verbindung. [SWIV TV](https://www.swiv-tv.nl) streamt flüssig in HD auf jedem Gerät.",
       "## IPTV full hd — Reibungslos mit wenig Bandbreite",
       "Für HD genügen rund 16 Mbit/s. Dank eines stabilen Netzes bleibt das Bild flüssig, auch wenn mehrere Geräte gleichzeitig schauen.",
       "Sieh dir die Pakete unten an und hol dir Hilfe per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -1951,7 +1951,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Komplettes IPTV Deutschland Abo bei SWIV TV: deutsche Sender, Sport und 220.000+ Filme in 4K. 15 Tage Geld-zurück.",
     h1: "Komplettes IPTV Deutschland Abo",
     lead: [
-      "Ein Abo für dein gesamtes Fernsehen: Das ist IPTV bei [SWIV TV](https://www.swivtv.be). Deutsche Sender, Sport, Filme und Serien in Top-Qualität.",
+      "Ein Abo für dein gesamtes Fernsehen: Das ist IPTV bei [SWIV TV](https://www.swiv-tv.nl). Deutsche Sender, Sport, Filme und Serien in Top-Qualität.",
       "## IPTV deutschland abo — Komplett und übersichtlich",
       "Ein deutschsprachiger EPG-Programmführer, Favoritenlisten und eine riesige VOD-Bibliothek halten alles übersichtlich. Funktioniert auf all deinen Geräten.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -1969,7 +1969,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV deutsche sender kaufen bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "IPTV mit deutschen Sendern",
     lead: [
-      "Willst du die vertrauten deutschen Sender über IPTV? [SWIV TV](https://www.swivtv.be) bietet ein breites Angebot deutscher Sender, mit deutschsprachigem Guide.",
+      "Willst du die vertrauten deutschen Sender über IPTV? [SWIV TV](https://www.swiv-tv.nl) bietet ein breites Angebot deutscher Sender, mit deutschsprachigem Guide.",
       "## IPTV deutsche sender kaufen — Vertraut und komplett",
       "Neben den bekannten öffentlich-rechtlichen und privaten Sendern erhältst du internationale Kanäle und eine große VOD-Bibliothek, alles in einem Abo.",
       "Sieh dir die Pakete unten an und frage den Senderüberblick per [WhatsApp](https://wa.me/447462229301) an, mit 15 Tagen Geld-zurück-Garantie.",
@@ -1987,7 +1987,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV Sport Abo bei SWIV TV: Live-Sport in HD und 4K, stabiles Bild dank Relay-Servern. 15 Tage Geld-zurück.",
     h1: "IPTV Sport Abo",
     lead: [
-      "Verpasse kein Spiel mehr mit dem Sportangebot von [SWIV TV](https://www.swivtv.be). Live-Sport in HD und 4K, flüssig auf jedem Gerät.",
+      "Verpasse kein Spiel mehr mit dem Sportangebot von [SWIV TV](https://www.swiv-tv.nl). Live-Sport in HD und 4K, flüssig auf jedem Gerät.",
       "## IPTV sport abo — Sport ohne Aussetzer",
       "Dank eines Netzes aus Relay-Servern bleibt das Bild an vollen Sportabenden stabil. Ein klarer EPG hilft dir, den Anpfiff zu finden.",
       "Sieh dir die Pakete unten an und frage nach den Sportsendern per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -2005,7 +2005,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV Fußball Abo bei SWIV TV: Live-Fußball in hoher Qualität auf TV, Tablet und Handy. Stabiles Bild, 15 Tage Geld-zurück.",
     h1: "IPTV Fußball Abo",
     lead: [
-      "Fußballfans schauen mit [SWIV TV](https://www.swivtv.be) Live-Spiele in hoher Qualität auf jedem Bildschirm.",
+      "Fußballfans schauen mit [SWIV TV](https://www.swiv-tv.nl) Live-Spiele in hoher Qualität auf jedem Bildschirm.",
       "## IPTV fußball abo — Jedes Spiel scharf",
       "Mit 4K-Unterstützung und Relay-Servern bleibt das Bild flüssig, auch an vollen Spieltagen. Wechsle schnell zwischen Sendern mit einem Player wie TiviMate.",
       "Sieh dir die Pakete unten an und frage nach den Fußballsendern per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -2023,7 +2023,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV bundesliga abo bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "Fußball-Spieltage über IPTV",
     lead: [
-      "Verfolge deine Lieblingsspieltage über [SWIV TV](https://www.swivtv.be) in hoher Qualität auf deinem großen Bildschirm.",
+      "Verfolge deine Lieblingsspieltage über [SWIV TV](https://www.swiv-tv.nl) in hoher Qualität auf deinem großen Bildschirm.",
       "## IPTV bundesliga abo — Scharf und stabil",
       "Dank 4K-Unterstützung und Relay-Servern schaust du flüssig, und mit einem klaren EPG-Programmführer verpasst du keinen Anpfiff.",
       "Sieh dir die Pakete unten an und frage nach dem Sportangebot per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -2041,7 +2041,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV filme serien abo bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV Filme und Serien (VOD)",
     lead: [
-      "Neben Live-TV bietet [SWIV TV](https://www.swivtv.be) eine riesige Video-on-Demand-Bibliothek: über 220.000 Filme und Serien, jederzeit verfügbar.",
+      "Neben Live-TV bietet [SWIV TV](https://www.swiv-tv.nl) eine riesige Video-on-Demand-Bibliothek: über 220.000 Filme und Serien, jederzeit verfügbar.",
       "## IPTV filme serien abo — Schauen, wann du willst",
       "Wähle einen Titel in deinem Player und spiele ihn direkt ab, mit Untertiteln, wo verfügbar, in HD und 4K.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -2059,7 +2059,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV für firestick bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "IPTV für Firestick kaufen",
     lead: [
-      "Der Fire TV Stick ist ideal für IPTV. Das Abo von [SWIV TV](https://www.swivtv.be) funktioniert perfekt mit IPTV Smarters Pro und TiviMate auf deinem Firestick.",
+      "Der Fire TV Stick ist ideal für IPTV. Das Abo von [SWIV TV](https://www.swiv-tv.nl) funktioniert perfekt mit IPTV Smarters Pro und TiviMate auf deinem Firestick.",
       "## IPTV für firestick — Schnell eingerichtet",
       "Installiere die App, melde dich mit Xtream Codes oder M3U an und schau direkt. Nutze einen Ethernet-Adapter für das stabilste Bild.",
       "Bestelle unten und erhalte deine Daten per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -2077,7 +2077,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV für Smart TV bei SWIV TV: direkt schauen ohne Zusatzbox. Funktioniert mit Xtream und M3U, 15 Tage Geld-zurück.",
     h1: "IPTV für Smart TV kaufen",
     lead: [
-      "Schau IPTV direkt auf deinem Samsung, LG oder Android Smart TV. Das Abo von [SWIV TV](https://www.swivtv.be) funktioniert mit den meisten IPTV-Playern aus dem Store.",
+      "Schau IPTV direkt auf deinem Samsung, LG oder Android Smart TV. Das Abo von [SWIV TV](https://www.swiv-tv.nl) funktioniert mit den meisten IPTV-Playern aus dem Store.",
       "## IPTV für smart tv — Ohne Zusatzhardware",
       "Installiere einen Player, verbinde dein Abo mit Xtream Codes oder M3U und leg los. Bei älteren Modellen hilft ein günstiger Fire TV Stick.",
       "Sieh dir die Pakete unten an und hol dir Hilfe per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -2095,7 +2095,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV für Android bei SWIV TV: funktioniert auf Android TV, Box und Handy mit TiviMate oder IPTV Smarters Pro. 15 Tage Geld-zurück.",
     h1: "IPTV für Android kaufen",
     lead: [
-      "Android bietet die größte Auswahl an IPTV-Playern. Das Abo von [SWIV TV](https://www.swivtv.be) funktioniert auf Android TV, Boxen und Handys.",
+      "Android bietet die größte Auswahl an IPTV-Playern. Das Abo von [SWIV TV](https://www.swiv-tv.nl) funktioniert auf Android TV, Boxen und Handys.",
       "## IPTV für android — Große Player-Auswahl",
       "Nutze TiviMate, IPTV Smarters Pro oder einen anderen Player und verbinde dein Abo mit Xtream Codes oder M3U. Der Guide lädt automatisch.",
       "Bestelle unten und erhalte deine Daten per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -2113,7 +2113,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV für Apple TV bei SWIV TV: Premium-Erlebnis mit einem App-Store-Player. Xtream und M3U, 15 Tage Geld-zurück.",
     h1: "IPTV für Apple TV kaufen",
     lead: [
-      "Apple TV bietet ein Premium-Erlebnis und ist bestens für IPTV geeignet. Das Abo von [SWIV TV](https://www.swivtv.be) funktioniert mit App-Store-Playern.",
+      "Apple TV bietet ein Premium-Erlebnis und ist bestens für IPTV geeignet. Das Abo von [SWIV TV](https://www.swiv-tv.nl) funktioniert mit App-Store-Playern.",
       "## IPTV für apple tv — Premium und stabil",
       "Installiere einen Player, der Xtream Codes und M3U unterstützt, verbinde dein Abo und schau in HD oder 4K über eine stabile Verbindung.",
       "Bestelle unten und erhalte deine Daten per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -2131,7 +2131,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV Box kaufen? SWIV TV funktioniert mit jeder Android-Box und berät dich. 69.000+ Sender, 220.000+ VOD, 15 Tage Geld-zurück.",
     h1: "IPTV Box kaufen: Beratung und Abo",
     lead: [
-      "Eine IPTV-Box macht aus jedem Fernseher einen smarten Streaming-TV. [SWIV TV](https://www.swivtv.be) funktioniert mit jeder Android-Box und berät dich gern zur richtigen Wahl.",
+      "Eine IPTV-Box macht aus jedem Fernseher einen smarten Streaming-TV. [SWIV TV](https://www.swiv-tv.nl) funktioniert mit jeder Android-Box und berät dich gern zur richtigen Wahl.",
       "## IPTV box kaufen — Welche Box passt zu dir",
       "Wähle eine Box mit mindestens 2 GB RAM und 4K-Unterstützung. Beliebte Optionen sind die Nvidia Shield und Xiaomi Mi Box, mit HEVC für ein scharfes Bild.",
       "Sieh dir die Pakete unten an und frage Rat per [WhatsApp](https://wa.me/447462229301) an, mit 15 Tagen Geld-zurück-Garantie.",
@@ -2149,7 +2149,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV Receiver kaufen und direkt schauen mit SWIV TV: 69.000+ Sender und 220.000+ VOD in 4K. Funktioniert mit MAG, Formuler und Android.",
     h1: "IPTV Receiver kaufen",
     lead: [
-      "Ein IPTV-Receiver wird einfach an deinen Fernseher angeschlossen und du schaust direkt. [SWIV TV](https://www.swivtv.be) funktioniert mit MAG, Formuler und Android-Receivern.",
+      "Ein IPTV-Receiver wird einfach an deinen Fernseher angeschlossen und du schaust direkt. [SWIV TV](https://www.swiv-tv.nl) funktioniert mit MAG, Formuler und Android-Receivern.",
       "## IPTV receiver kaufen — Plug-and-play schauen",
       "Schließe den Receiver an, trage deine Portal- oder Xtream-Daten ein und die Senderliste lädt automatisch. Ideal, wenn du keinen Smart TV hast.",
       "Sieh dir die Pakete unten an und frage Rat per [WhatsApp](https://wa.me/447462229301) an, mit 15 Tagen Geld-zurück-Garantie.",
@@ -2167,7 +2167,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV 1 Monat bei SWIV TV: flexibel testen ohne lange Bindung. 69.000+ Sender, 220.000+ VOD. 15 Tage Geld-zurück.",
     h1: "IPTV 1 Monat Abo",
     lead: [
-      "Willst du flexibel bleiben? Mit einem Monatsabo bei [SWIV TV](https://www.swivtv.be) testest du den Dienst ohne lange Bindung.",
+      "Willst du flexibel bleiben? Mit einem Monatsabo bei [SWIV TV](https://www.swiv-tv.nl) testest du den Dienst ohne lange Bindung.",
       "## IPTV 1 monat — Flexibel und ohne Vertrag",
       "Du schaust einen Monat voll mit und verlängerst nur, wenn du zufrieden bist. Keine automatische Verlängerung, keine Kündigungsfrist.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -2185,7 +2185,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV Testzugang bei SWIV TV: prüfe risikofrei mit 15 Tagen Geld-zurück-Garantie. 69.000+ Sender und 220.000+ VOD.",
     h1: "IPTV Testzugang",
     lead: [
-      "Zuerst testen, bevor du dich entscheidest? Mit der Geld-zurück-Garantie von [SWIV TV](https://www.swivtv.be) prüfst du den Dienst risikofrei in deinem eigenen Netz.",
+      "Zuerst testen, bevor du dich entscheidest? Mit der Geld-zurück-Garantie von [SWIV TV](https://www.swiv-tv.nl) prüfst du den Dienst risikofrei in deinem eigenen Netz.",
       "## IPTV testzugang — So testest du richtig",
       "Prüfe während der Testphase die Bildqualität, deine Lieblingssender und den EPG-Programmführer, am besten per LAN-Verbindung und an einem vollen Abend.",
       "Sieh dir die Pakete unten an und starte deinen Test per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -2203,7 +2203,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV reseller werden bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV Reseller werden",
     lead: [
-      "Willst du selbst IPTV-Abos anbieten? [SWIV TV](https://www.swivtv.be) bespricht gern die Möglichkeiten für eine Zusammenarbeit.",
+      "Willst du selbst IPTV-Abos anbieten? [SWIV TV](https://www.swiv-tv.nl) bespricht gern die Möglichkeiten für eine Zusammenarbeit.",
       "## IPTV reseller werden — Zusammenarbeiten",
       "Nimm Kontakt auf für Informationen zu Bedingungen, Unterstützung und wie du Kunden mit einem stabilen, hochwertigen Dienst bedienen kannst.",
       "Interesse? Stelle deine Fragen direkt per [WhatsApp](https://wa.me/447462229301).",
@@ -2221,7 +2221,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Seriöser IPTV Anbieter SWIV TV: transparente Preise, stabiles Netz, echter Support und 15 Tage Geld-zurück-Garantie.",
     h1: "Seriöser IPTV Anbieter",
     lead: [
-      "Seriosität steht bei [SWIV TV](https://www.swivtv.be) an erster Stelle: transparente Preise, ein stabiles Netz und Support, bei dem du wirklich jemanden erreichst.",
+      "Seriosität steht bei [SWIV TV](https://www.swiv-tv.nl) an erster Stelle: transparente Preise, ein stabiles Netz und Support, bei dem du wirklich jemanden erreichst.",
       "## Seriöser IPTV anbieter — Woran du uns erkennst",
       "Offen gezeigte Pakete, eine täglich aktualisierte Sender- und VOD-Liste, schneller Support, eine nachvollziehbare Zahlung und eine Geld-zurück-Garantie. Keine anonymen Versprechen.",
       "Überzeuge dich mit 15 Tagen Geld-zurück-Garantie und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301).",
@@ -2239,7 +2239,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Legales IPTV bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV in Deutschland: ehrlich und transparent",
     lead: [
-      "Die Technik von IPTV, Fernsehen über das Internet, ist völlig legal. Bei [SWIV TV](https://www.swivtv.be) setzen wir auf Transparenz über das Unternehmen, die Bedingungen und den Support.",
+      "Die Technik von IPTV, Fernsehen über das Internet, ist völlig legal. Bei [SWIV TV](https://www.swiv-tv.nl) setzen wir auf Transparenz über das Unternehmen, die Bedingungen und den Support.",
       "## Legales IPTV — Verantwortungsvoll wählen",
       "Achte auf einen Anbieter, der offen über Preise und Bedingungen ist und eine Geld-zurück-Garantie bietet. Meide anonyme, unrealistisch günstige Angebote und prüfe im Zweifel die Lizenzlage.",
       "Fragen, wie wir arbeiten? Stelle sie gern per [WhatsApp](https://wa.me/447462229301), bevor du dich entscheidest.",
@@ -2257,7 +2257,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV ohne Ruckeln bei SWIV TV: stabiles Bild dank Relay-Servern und HEVC. Tipps für einen flüssigen Stream. 15 Tage Geld-zurück.",
     h1: "IPTV ohne Ruckeln",
     lead: [
-      "Nichts ist ärgerlicher als ein stotternder Stream. [SWIV TV](https://www.swivtv.be) setzt auf ein stabiles Netz mit Relay-Servern für ein flüssiges Bild.",
+      "Nichts ist ärgerlicher als ein stotternder Stream. [SWIV TV](https://www.swiv-tv.nl) setzt auf ein stabiles Netz mit Relay-Servern für ein flüssiges Bild.",
       "## IPTV ohne ruckeln — So bleibt es flüssig",
       "Nutze eine LAN-Verbindung, sorge für genügend Geschwindigkeit (16 Mbit/s für HD, 25 für 4K) und wähle einen Player mit den richtigen Einstellungen. HEVC hält das Bild bei geringerer Bandbreite scharf.",
       "Sieh dir die Pakete unten an und frage Tipps per [WhatsApp](https://wa.me/447462229301) an, mit 15 Tagen Geld-zurück-Garantie.",
@@ -2275,7 +2275,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "4k IPTV deutschland bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "4K IPTV in Deutschland",
     lead: [
-      "Schau in Deutschland in gestochen scharfem Ultra HD mit [SWIV TV](https://www.swivtv.be). Ein Teil der Sender und Filme ist in 4K verfügbar.",
+      "Schau in Deutschland in gestochen scharfem Ultra HD mit [SWIV TV](https://www.swiv-tv.nl). Ein Teil der Sender und Filme ist in 4K verfügbar.",
       "## 4k IPTV deutschland — Scharf und effizient",
       "Dank HEVC bleibt das Bild bei geringerer Bandbreite scharf. Für 4K rechnest du mit etwa 25 Mbit/s und am besten einer LAN-Verbindung.",
       "Sieh dir die 4K-Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -2293,7 +2293,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV mit paypal kaufen bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "IPTV bestellen und bezahlen",
     lead: [
-      "Bei [SWIV TV](https://www.swivtv.be) regelst du dein Abo schnell und klar. Wähle ein Paket und erhalte deine Zugangsdaten in wenigen Minuten.",
+      "Bei [SWIV TV](https://www.swiv-tv.nl) regelst du dein Abo schnell und klar. Wähle ein Paket und erhalte deine Zugangsdaten in wenigen Minuten.",
       "## IPTV mit paypal kaufen — So funktioniert es",
       "Wähle dein Paket, nimm per WhatsApp Kontakt auf und schließe die Zahlung ab. Danach erhältst du deine Serveradresse, deinen Benutzernamen und dein Passwort oder deinen M3U-Link.",
       "Sieh dir die Pakete unten an und starte per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -2311,7 +2311,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV abo kaufen deutschland bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "IPTV Abo kaufen in Deutschland",
     lead: [
-      "Ein IPTV Abo kaufst du schnell und sicher bei [SWIV TV](https://www.swivtv.be). Sieh dir die Pakete an und schau in wenigen Minuten.",
+      "Ein IPTV Abo kaufst du schnell und sicher bei [SWIV TV](https://www.swiv-tv.nl). Sieh dir die Pakete an und schau in wenigen Minuten.",
       "## IPTV abo kaufen deutschland — Direkt geregelt",
       "Wähle deine Laufzeit, bezahle und erhalte deine Daten per WhatsApp. Alles funktioniert auf deinen bestehenden Geräten, mit einem deutschsprachigen Guide.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -2329,7 +2329,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV anbieter deutschland bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "Seriöser IPTV Anbieter in Deutschland",
     lead: [
-      "Ein guter IPTV Anbieter zeichnet sich durch Qualität und Service aus. [SWIV TV](https://www.swivtv.be) steht für Transparenz, Stabilität und echten Support.",
+      "Ein guter IPTV Anbieter zeichnet sich durch Qualität und Service aus. [SWIV TV](https://www.swiv-tv.nl) steht für Transparenz, Stabilität und echten Support.",
       "## IPTV anbieter deutschland — Warum uns wählen",
       "Offene Preise, eine täglich aktualisierte Sender- und VOD-Liste, 4K-Qualität und 24/7 Support per WhatsApp. Und eine Geld-zurück-Garantie, um risikofrei zu starten.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -2347,7 +2347,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Deutscher IPTV Anbieter SWIV TV: deutsche Sender, Sport und 220.000+ Filme in 4K. Deutschsprachiger Support, 15 Tage Geld-zurück.",
     h1: "Deutscher IPTV Anbieter",
     lead: [
-      "Als auf Deutschland ausgerichteter Dienst bietet [SWIV TV](https://www.swivtv.be) die vertrauten Sender plus ein riesiges internationales Angebot.",
+      "Als auf Deutschland ausgerichteter Dienst bietet [SWIV TV](https://www.swiv-tv.nl) die vertrauten Sender plus ein riesiges internationales Angebot.",
       "## Deutscher IPTV anbieter — Auf Deutschland ausgerichtet",
       "Deutsche Sender, ein deutschsprachiger EPG und Support, und Server, die auf die Region optimiert sind, für ein stabiles Bild.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -2365,7 +2365,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Wähle dein IPTV Paket bei SWIV TV: von Test bis Jahresabo, mit 69.000+ Sendern und 220.000+ VOD. 15 Tage Geld-zurück.",
     h1: "Wähle dein IPTV Paket",
     lead: [
-      "Bei [SWIV TV](https://www.swivtv.be) wählst du das Paket, das zu dir passt, von kurz zum Testen bis zu einem günstigen Jahresabo. Sieh dir die Optionen unten an.",
+      "Bei [SWIV TV](https://www.swiv-tv.nl) wählst du das Paket, das zu dir passt, von kurz zum Testen bis zu einem günstigen Jahresabo. Sieh dir die Optionen unten an.",
       "## IPTV paket — Für jeden Zuschauer",
       "Jedes Paket gibt Zugriff auf 69.000+ Sender und 220.000+ Filme und Serien in 4K, auf all deinen Geräten. Längere Laufzeiten sind pro Monat günstiger.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -2383,7 +2383,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Sieh dir die IPTV Pakete und Preise von SWIV TV an: transparent, mit 69.000+ Sendern und 220.000+ VOD in 4K. 15 Tage Geld-zurück.",
     h1: "IPTV Pakete und Preise",
     lead: [
-      "Einen klaren Überblick über die IPTV Pakete von [SWIV TV](https://www.swivtv.be) findest du unten, mit transparenten Preisen ohne versteckte Kosten.",
+      "Einen klaren Überblick über die IPTV Pakete von [SWIV TV](https://www.swiv-tv.nl) findest du unten, mit transparenten Preisen ohne versteckte Kosten.",
       "## IPTV pakete — Transparent und komplett",
       "Alle Pakete bieten denselben kompletten Zugriff auf Sender und VOD; du wählst nur die Laufzeit. Je länger, desto günstiger pro Monat.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -2401,7 +2401,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Profitiere vom IPTV Deal bei SWIV TV: 12+3 Monate, 69.000+ Sender und 220.000+ VOD in 4K. 15 Tage Geld-zurück.",
     h1: "IPTV Deal: 12+3 Monate",
     lead: [
-      "Sichere dir den aktuellen IPTV Deal bei [SWIV TV](https://www.swivtv.be): extra Monate zu deinem Jahrespaket. Die Details siehst du oben und unten auf dieser Seite.",
+      "Sichere dir den aktuellen IPTV Deal bei [SWIV TV](https://www.swiv-tv.nl): extra Monate zu deinem Jahrespaket. Die Details siehst du oben und unten auf dieser Seite.",
       "## IPTV deal — Mehr Vorteil",
       "Mit der 12+3-Monate-Aktion erhältst du fünfzehn Monate Zugriff auf 69.000+ Sender und 220.000+ Filme und Serien in 4K.",
       "Sichere dir den Deal und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -2419,7 +2419,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Profitiere vom IPTV Rabatt bei SWIV TV: günstige Pakete mit 69.000+ Sendern und 220.000+ VOD. 15 Tage Geld-zurück.",
     h1: "IPTV mit Rabatt",
     lead: [
-      "Günstig schauen geht mit den aktuellen Angeboten von [SWIV TV](https://www.swivtv.be). Sieh dir die Pakete an und profitiere vom besten Preis pro Monat.",
+      "Günstig schauen geht mit den aktuellen Angeboten von [SWIV TV](https://www.swiv-tv.nl). Sieh dir die Pakete an und profitiere vom besten Preis pro Monat.",
       "## IPTV rabatt — Der größte Vorteil",
       "Längere Laufzeiten geben den größten Rabatt pro Monat. Kombiniere das mit der 12+3-Monate-Aktion für extra Vorteil.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -2437,7 +2437,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV DE Abo bei SWIV TV: deutsche Sender, Sport und 220.000+ Filme in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "IPTV DE Abo",
     lead: [
-      "Ein IPTV DE Abo bei [SWIV TV](https://www.swivtv.be) ist auf deutsche Zuschauer abgestimmt: vertraute Sender plus ein großes internationales Angebot.",
+      "Ein IPTV DE Abo bei [SWIV TV](https://www.swiv-tv.nl) ist auf deutsche Zuschauer abgestimmt: vertraute Sender plus ein großes internationales Angebot.",
       "## IPTV de abo — Komplett für DE",
       "Deutsche Sender, ein deutschsprachiger Guide, Sport und eine riesige VOD-Bibliothek, alles in einem transparenten Abo.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -2455,7 +2455,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Bestes IPTV kaufen bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "Das beste IPTV kaufen",
     lead: [
-      "Wer das beste IPTV kaufen will, achtet auf mehr als den Preis. [SWIV TV](https://www.swivtv.be) kombiniert Qualität, Stabilität und Service.",
+      "Wer das beste IPTV kaufen will, achtet auf mehr als den Preis. [SWIV TV](https://www.swiv-tv.nl) kombiniert Qualität, Stabilität und Service.",
       "## Bestes IPTV kaufen — Qualität, die zählt",
       "Ein stabiles Netz, 4K-Qualität, eine komplette Sender- und VOD-Liste und schneller Support machen den Unterschied. Und eine Geld-zurück-Garantie, um risikofrei zu starten.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -2473,7 +2473,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV günstig kaufen ohne Qualitätsverlust bei SWIV TV. 69.000+ Sender, 220.000+ VOD. 15 Tage Geld-zurück.",
     h1: "IPTV günstig kaufen",
     lead: [
-      "Günstig IPTV kaufen geht, ohne auf Qualität zu verzichten. [SWIV TV](https://www.swivtv.be) bietet scharfe Preise mit einem stabilen Dienst.",
+      "Günstig IPTV kaufen geht, ohne auf Qualität zu verzichten. [SWIV TV](https://www.swiv-tv.nl) bietet scharfe Preise mit einem stabilen Dienst.",
       "## IPTV günstig kaufen — Scharf kalkuliert",
       "Du erhältst 69.000+ Sender und 220.000+ Filme in 4K zu einem fairen Preis. Längere Laufzeiten sind pro Monat am günstigsten.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -2491,7 +2491,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Premium IPTV deutschland bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "Premium IPTV für Deutschland",
     lead: [
-      "Für das beste Erlebnis wählst du Premium IPTV. [SWIV TV](https://www.swivtv.be) liefert Top-Qualität und Stabilität, abgestimmt auf deutsche Zuschauer.",
+      "Für das beste Erlebnis wählst du Premium IPTV. [SWIV TV](https://www.swiv-tv.nl) liefert Top-Qualität und Stabilität, abgestimmt auf deutsche Zuschauer.",
       "## Premium IPTV deutschland — Premium in allem",
       "Gestochen scharfes Bild in 4K und auf geeigneten Inhalten 8K, ein stabiles Netz mit Relay-Servern und 24/7 deutschsprachiger Support per WhatsApp.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -2509,7 +2509,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV Abo Angebot bei SWIV TV: 12+3 Monate Vorteil, 69.000+ Sender und 220.000+ VOD in 4K. 15 Tage Geld-zurück.",
     h1: "IPTV Abo Angebot",
     lead: [
-      "Profitiere vom aktuellen Angebot auf das IPTV Abo von [SWIV TV](https://www.swivtv.be): extra Monate Vorteil zu deinem Jahrespaket.",
+      "Profitiere vom aktuellen Angebot auf das IPTV Abo von [SWIV TV](https://www.swiv-tv.nl): extra Monate Vorteil zu deinem Jahrespaket.",
       "## IPTV abo angebot — Jetzt besonders günstig",
       "Mit der 12+3-Monate-Aktion erhältst du fünfzehn Monate Zugriff auf alle Sender und die VOD-Bibliothek in 4K.",
       "Sichere dir das Angebot und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -2527,7 +2527,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV sofort aktiv bei SWIV TV: in wenigen Minuten schauen nach der Aktivierung. 69.000+ Sender und 220.000+ VOD. 15 Tage Geld-zurück.",
     h1: "IPTV sofort aktiv",
     lead: [
-      "Keine Wartezeit: Bei [SWIV TV](https://www.swivtv.be) bist du in wenigen Minuten aktiv. Bestelle, erhalte deine Daten und beginne direkt mit dem Schauen.",
+      "Keine Wartezeit: Bei [SWIV TV](https://www.swiv-tv.nl) bist du in wenigen Minuten aktiv. Bestelle, erhalte deine Daten und beginne direkt mit dem Schauen.",
       "## IPTV sofort aktiv — Sofort loslegen",
       "Installiere einen Player, melde dich mit Xtream Codes oder M3U an und die Senderliste mit EPG-Programmführer lädt automatisch. So einfach ist das.",
       "Sieh dir die Pakete unten an und starte per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -2545,7 +2545,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV 15 Monate (12+3 Aktion) bei SWIV TV: fünfzehn Monate schauen zum Preis eines Jahres. 69.000+ Sender, 15 Tage Geld-zurück.",
     h1: "IPTV 15 Monate: die 12+3 Aktion",
     lead: [
-      "Mit der 12+3-Monate-Aktion von [SWIV TV](https://www.swivtv.be) schaust du fünfzehn Monate: ein volles Jahr plus drei extra Monate.",
+      "Mit der 12+3-Monate-Aktion von [SWIV TV](https://www.swiv-tv.nl) schaust du fünfzehn Monate: ein volles Jahr plus drei extra Monate.",
       "## IPTV 15 monate — Maximaler Vorteil",
       "Du erhältst fünfzehn Monate Zugriff auf 69.000+ Sender und 220.000+ Filme und Serien in 4K, zum schärfsten Preis pro Monat.",
       "Sichere dir die Aktion und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -2563,7 +2563,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV kopen belgie bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV kopen in België",
     lead: [
-      "IPTV kopen in België doe je eenvoudig bij [SWIV TV](https://www.swivtv.be): Vlaamse en Nederlandse zenders, internationale kanalen, sport en een enorme filmbibliotheek in één abonnement.",
+      "IPTV kopen in België doe je eenvoudig bij [SWIV TV](https://www.swiv-tv.nl): Vlaamse en Nederlandse zenders, internationale kanalen, sport en een enorme filmbibliotheek in één abonnement.",
       "## IPTV kopen belgie — Afgestemd op de Benelux",
       "Onze servers zijn geoptimaliseerd voor de Benelux, met een stabiel beeld en Nederlandstalige support. Je kijkt op smart-tv, Fire TV, Android en Apple TV.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -2581,7 +2581,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV 3 maanden bij SWIV TV: ideaal om uitgebreid te testen. 69.000+ zenders, 220.000+ VOD in 4K. 15 dagen geld-terug.",
     h1: "IPTV 3 maanden abonnement",
     lead: [
-      "Een abonnement van 3 maanden bij [SWIV TV](https://www.swivtv.be) is ideaal om de dienst uitgebreid te ervaren zonder je meteen voor een jaar te binden.",
+      "Een abonnement van 3 maanden bij [SWIV TV](https://www.swiv-tv.nl) is ideaal om de dienst uitgebreid te ervaren zonder je meteen voor een jaar te binden.",
       "## IPTV 3 maanden — Flexibel testen",
       "Je krijgt volledige toegang tot alle zenders en de VOD-bibliotheek. Bevalt het, dan stap je eenvoudig over naar een voordeliger jaarpakket.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -2599,7 +2599,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV 6 maanden bij SWIV TV: halfjaar lang 69.000+ zenders en 220.000+ VOD in 4K. Scherpe prijs, 15 dagen geld-terug.",
     h1: "IPTV 6 maanden abonnement",
     lead: [
-      "Met een halfjaarabonnement bij [SWIV TV](https://www.swivtv.be) kijk je zes maanden zorgeloos tegen een scherpe prijs per maand.",
+      "Met een halfjaarabonnement bij [SWIV TV](https://www.swiv-tv.nl) kijk je zes maanden zorgeloos tegen een scherpe prijs per maand.",
       "## IPTV 6 maanden — De balans tussen flexibel en voordelig",
       "Langer dan een maandabonnement en voordeliger per maand, maar zonder meteen voor een vol jaar te kiezen.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -2617,7 +2617,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV maandabonnement bij SWIV TV: maandelijks flexibel, 69.000+ zenders en 220.000+ VOD. Geen contract, 15 dagen geld-terug.",
     h1: "IPTV maandabonnement",
     lead: [
-      "Wil je maandelijks flexibel blijven? Met een maandabonnement bij [SWIV TV](https://www.swivtv.be) kies je zelf wanneer je verlengt.",
+      "Wil je maandelijks flexibel blijven? Met een maandabonnement bij [SWIV TV](https://www.swiv-tv.nl) kies je zelf wanneer je verlengt.",
       "## IPTV maandabonnement — Zonder lange binding",
       "Geen stilzwijgende verlenging en geen contract. Je krijgt volledige toegang tot alle zenders en films.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -2635,7 +2635,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV kwartaalabonnement bij SWIV TV: drie maanden toegang tot 69.000+ zenders en 220.000+ VOD in 4K. 15 dagen geld-terug.",
     h1: "IPTV kwartaalabonnement",
     lead: [
-      "Een kwartaalabonnement bij [SWIV TV](https://www.swivtv.be) geeft je drie maanden volledige toegang, een fijne middenweg tussen maand en jaar.",
+      "Een kwartaalabonnement bij [SWIV TV](https://www.swiv-tv.nl) geeft je drie maanden volledige toegang, een fijne middenweg tussen maand en jaar.",
       "## IPTV kwartaalabonnement — Handig en voordelig",
       "Je betaalt per kwartaal en kijkt onbeperkt alle zenders en films, met 24/7 support.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -2653,7 +2653,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV halfjaarabonnement bij SWIV TV: zes maanden 69.000+ zenders en 220.000+ VOD in 4K. Scherpe prijs, 15 dagen geld-terug.",
     h1: "IPTV halfjaarabonnement",
     lead: [
-      "Met een halfjaarabonnement bij [SWIV TV](https://www.swivtv.be) kijk je zes maanden zorgeloos tegen een aantrekkelijke prijs per maand.",
+      "Met een halfjaarabonnement bij [SWIV TV](https://www.swiv-tv.nl) kijk je zes maanden zorgeloos tegen een aantrekkelijke prijs per maand.",
       "## IPTV halfjaarabonnement — Voordelig zonder jaarbinding",
       "Een mooie keuze als je de dienst al kent maar nog geen vol jaar wilt vastleggen.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -2671,7 +2671,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV proefmaand bij SWIV TV: een maand uitproberen met 15 dagen niet-goed-geld-terug. 69.000+ zenders en 220.000+ VOD.",
     h1: "IPTV proefmaand",
     lead: [
-      "Wil je IPTV eerst een maand uitproberen? Bij [SWIV TV](https://www.swivtv.be) test je risicoloos dankzij de geld-terug-garantie.",
+      "Wil je IPTV eerst een maand uitproberen? Bij [SWIV TV](https://www.swiv-tv.nl) test je risicoloos dankzij de geld-terug-garantie.",
       "## IPTV proefmaand — Zo test je goed",
       "Controleer tijdens de proefmaand de beeldkwaliteit, je favoriete zenders en de EPG, bij voorkeur bekabeld en op een drukke avond.",
       "Bekijk de pakketten hieronder en start je proefmaand via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -2689,7 +2689,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV voor fire tv stick bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV voor Fire TV Stick kopen",
     lead: [
-      "De Fire TV Stick is de populairste manier om IPTV te kijken. Het abonnement van [SWIV TV](https://www.swivtv.be) werkt er perfect mee via IPTV Smarters Pro of TiviMate.",
+      "De Fire TV Stick is de populairste manier om IPTV te kijken. Het abonnement van [SWIV TV](https://www.swiv-tv.nl) werkt er perfect mee via IPTV Smarters Pro of TiviMate.",
       "## IPTV voor fire tv stick — Snel ingesteld",
       "Installeer de app, log in met Xtream Codes of M3U en kijk direct. Een ethernet-adapter geeft het stabielste beeld.",
       "Bestel hieronder en ontvang je gegevens via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -2707,7 +2707,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV voor nvidia shield bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV voor Nvidia Shield kopen",
     lead: [
-      "De Nvidia Shield is een topkeuze voor IPTV in 4K. Het abonnement van [SWIV TV](https://www.swivtv.be) werkt er vlekkeloos mee via TiviMate of IPTV Smarters Pro.",
+      "De Nvidia Shield is een topkeuze voor IPTV in 4K. Het abonnement van [SWIV TV](https://www.swiv-tv.nl) werkt er vlekkeloos mee via TiviMate of IPTV Smarters Pro.",
       "## IPTV voor nvidia shield — Krachtig en scherp",
       "Dankzij de sterke hardware draait 4K met HEVC moeiteloos. Sluit de Shield aan via ethernet voor het stabielste beeld.",
       "Bestel hieronder en ontvang je gegevens via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -2725,7 +2725,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV voor mag box bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV voor MAG-box kopen",
     lead: [
-      "Heb je een MAG-box? Het abonnement van [SWIV TV](https://www.swivtv.be) werkt er direct mee via een portal-URL.",
+      "Heb je een MAG-box? Het abonnement van [SWIV TV](https://www.swiv-tv.nl) werkt er direct mee via een portal-URL.",
       "## IPTV voor mag box — Eenvoudig koppelen",
       "Vul de portal-URL van SWIV TV in de MAG-instellingen in; de zenderlijst en EPG laden automatisch. Sluit de box aan via ethernet.",
       "Bestel hieronder en ontvang je portal via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -2743,7 +2743,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV voor formuler bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV voor Formuler kopen",
     lead: [
-      "De Formuler Z-serie is een geliefde IPTV-box. Het abonnement van [SWIV TV](https://www.swivtv.be) werkt met MYTVOnline of een Xtream-/M3U-speler.",
+      "De Formuler Z-serie is een geliefde IPTV-box. Het abonnement van [SWIV TV](https://www.swiv-tv.nl) werkt met MYTVOnline of een Xtream-/M3U-speler.",
       "## IPTV voor formuler — Scherp in 4K",
       "Formuler ondersteunt 4K en HEVC voor een scherp beeld bij minder bandbreedte. Een kabel geeft een puffervrij beeld.",
       "Bestel hieronder en ontvang je gegevens via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -2761,7 +2761,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV voor windows bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV voor Windows kopen",
     lead: [
-      "Op een Windows-pc of laptop kijk je IPTV met gratis software. Het abonnement van [SWIV TV](https://www.swivtv.be) werkt met VLC, Kodi en IPTV Smarters.",
+      "Op een Windows-pc of laptop kijk je IPTV met gratis software. Het abonnement van [SWIV TV](https://www.swiv-tv.nl) werkt met VLC, Kodi en IPTV Smarters.",
       "## IPTV voor windows — Snel ingesteld",
       "In VLC plak je je M3U-URL; in IPTV Smarters log je in met Xtream Codes. Vul de gegevens van SWIV TV in.",
       "Bestel hieronder en ontvang je gegevens via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -2779,7 +2779,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV voor mac bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV voor Mac kopen",
     lead: [
-      "Ook op een Mac kijk je eenvoudig IPTV. Het abonnement van [SWIV TV](https://www.swivtv.be) werkt met VLC en diverse IPTV-spelers voor macOS.",
+      "Ook op een Mac kijk je eenvoudig IPTV. Het abonnement van [SWIV TV](https://www.swiv-tv.nl) werkt met VLC en diverse IPTV-spelers voor macOS.",
       "## IPTV voor mac — Instellen",
       "In VLC kies je Netwerkstream openen en plak je je M3U-URL van SWIV TV, of gebruik een IPTV-speler met Xtream Codes.",
       "Bestel hieronder en ontvang je gegevens via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -2797,7 +2797,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV voor tablet bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV voor tablet kopen",
     lead: [
-      "Een tablet is ideaal om onderweg of in bed IPTV te kijken. Het abonnement van [SWIV TV](https://www.swivtv.be) werkt op iPad en Android-tablets.",
+      "Een tablet is ideaal om onderweg of in bed IPTV te kijken. Het abonnement van [SWIV TV](https://www.swiv-tv.nl) werkt op iPad en Android-tablets.",
       "## IPTV voor tablet — Overal kijken",
       "Installeer een IPTV-speler, log in met Xtream Codes of M3U en kijk waar je wilt. Let buiten wifi op je dataverbruik.",
       "Bestel hieronder en ontvang je gegevens via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -2815,7 +2815,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV voor kodi bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV voor Kodi kopen",
     lead: [
-      "Kodi draait op bijna elk apparaat en ondersteunt IPTV via de PVR IPTV Simple Client. Het abonnement van [SWIV TV](https://www.swivtv.be) werkt er naadloos mee.",
+      "Kodi draait op bijna elk apparaat en ondersteunt IPTV via de PVR IPTV Simple Client. Het abonnement van [SWIV TV](https://www.swiv-tv.nl) werkt er naadloos mee.",
       "## IPTV voor kodi — Instellen",
       "Plak in de PVR IPTV Simple Client je M3U-URL en eventueel de EPG-URL van SWIV TV. De zenders verschijnen onder tv.",
       "Bestel hieronder en ontvang je gegevens via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -2833,7 +2833,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV smarters pro abonnement bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV Smarters Pro abonnement",
     lead: [
-      "Gebruik je IPTV Smarters Pro? Het abonnement van [SWIV TV](https://www.swivtv.be) werkt er naadloos mee via Xtream Codes of M3U.",
+      "Gebruik je IPTV Smarters Pro? Het abonnement van [SWIV TV](https://www.swiv-tv.nl) werkt er naadloos mee via Xtream Codes of M3U.",
       "## IPTV smarters pro abonnement — Direct aan de slag",
       "Vul in de app je serveradres, gebruikersnaam en wachtwoord in; zenders en EPG laden automatisch. Werkt op vrijwel elk apparaat.",
       "Bestel hieronder en ontvang je gegevens via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -2851,7 +2851,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Tivimate abonnement bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV abonnement voor TiviMate",
     lead: [
-      "TiviMate is de favoriet op Android TV. Het abonnement van [SWIV TV](https://www.swivtv.be) werkt er perfect mee via Xtream Codes of M3U.",
+      "TiviMate is de favoriet op Android TV. Het abonnement van [SWIV TV](https://www.swiv-tv.nl) werkt er perfect mee via Xtream Codes of M3U.",
       "## Tivimate abonnement — Alles op zijn plek",
       "Voeg je playlist toe en geniet van de strakke programmagids, favorietenlijsten en (in Premium) opnames.",
       "Bestel hieronder en ontvang je gegevens via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -2869,7 +2869,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV xtream codes abonnement bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV met Xtream Codes",
     lead: [
-      "Xtream Codes is de makkelijkste manier om je abonnement te koppelen. Bij [SWIV TV](https://www.swivtv.be) ontvang je direct je serveradres, gebruikersnaam en wachtwoord.",
+      "Xtream Codes is de makkelijkste manier om je abonnement te koppelen. Bij [SWIV TV](https://www.swiv-tv.nl) ontvang je direct je serveradres, gebruikersnaam en wachtwoord.",
       "## IPTV xtream codes abonnement — Werkt met elke speler",
       "IPTV Smarters Pro, TiviMate en de meeste spelers ondersteunen Xtream Codes; de zenders en EPG laden automatisch.",
       "Bestel hieronder en ontvang je Xtream-gegevens via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -2887,7 +2887,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV m3u abonnement bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV met M3U-link",
     lead: [
-      "Liever een M3U-afspeellijst? Bij [SWIV TV](https://www.swivtv.be) ontvang je één link met al je zenders, te laden in VLC, Kodi, IPTV Smarters en meer.",
+      "Liever een M3U-afspeellijst? Bij [SWIV TV](https://www.swiv-tv.nl) ontvang je één link met al je zenders, te laden in VLC, Kodi, IPTV Smarters en meer.",
       "## IPTV m3u abonnement — Eenvoudig laden",
       "Plak de M3U-URL van SWIV TV in je speler en de zenders verschijnen automatisch. Xtream Codes is ook beschikbaar.",
       "Bestel hieronder en ontvang je M3U-link via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -2905,7 +2905,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV met sport bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV met sport",
     lead: [
-      "Sportliefhebber? Het abonnement van [SWIV TV](https://www.swivtv.be) biedt een breed sportaanbod in HD en 4K op elk scherm.",
+      "Sportliefhebber? Het abonnement van [SWIV TV](https://www.swiv-tv.nl) biedt een breed sportaanbod in HD en 4K op elk scherm.",
       "## IPTV met sport — Zonder haperingen",
       "Dankzij relay-servers blijft het beeld vloeiend tijdens drukke sportavonden. Een duidelijke EPG helpt je de aftrap te vinden.",
       "Bekijk de pakketten hieronder en vraag naar de sportzenders via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -2923,7 +2923,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV met films en series bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV met films en series",
     lead: [
-      "Naast live-tv biedt [SWIV TV](https://www.swivtv.be) een enorme video-on-demand-bibliotheek: meer dan 220.000 films en series.",
+      "Naast live-tv biedt [SWIV TV](https://www.swiv-tv.nl) een enorme video-on-demand-bibliotheek: meer dan 220.000 films en series.",
       "## IPTV met films en series — Kijken wanneer jij wilt",
       "Kies een titel in je speler en speel hem direct af, met ondertiteling waar beschikbaar, in HD en 4K.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -2941,7 +2941,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV met eredivisie bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV met voetbal",
     lead: [
-      "Volg je favoriete competitie via [SWIV TV](https://www.swivtv.be) in hoge kwaliteit op je grote scherm.",
+      "Volg je favoriete competitie via [SWIV TV](https://www.swiv-tv.nl) in hoge kwaliteit op je grote scherm.",
       "## IPTV met eredivisie — Scherp en stabiel",
       "Dankzij 4K-ondersteuning en relay-servers kijk je vloeiend, met een duidelijke EPG zodat je geen aftrap mist.",
       "Bekijk de pakketten hieronder en vraag naar het sportaanbod via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -2959,7 +2959,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV met ziggo sport bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV met sportzenders",
     lead: [
-      "Zoek je sportzenders? Het abonnement van [SWIV TV](https://www.swivtv.be) biedt een ruim sportaanbod in HD en 4K.",
+      "Zoek je sportzenders? Het abonnement van [SWIV TV](https://www.swiv-tv.nl) biedt een ruim sportaanbod in HD en 4K.",
       "## IPTV met ziggo sport — Wat je mag verwachten",
       "Scherp en stabiel beeld met een duidelijke programmagids. Test tijdens de garantieperiode of jouw sportzenders goed werken.",
       "Bekijk de pakketten hieronder en vraag naar het sportaanbod via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -2977,7 +2977,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV met viaplay bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV met sport en films",
     lead: [
-      "Wil je sport én films in één abonnement? [SWIV TV](https://www.swivtv.be) combineert livezenders, sport en een enorme filmbibliotheek.",
+      "Wil je sport én films in één abonnement? [SWIV TV](https://www.swiv-tv.nl) combineert livezenders, sport en een enorme filmbibliotheek.",
       "## IPTV met viaplay — Alles-in-een",
       "Je hoeft geen losse abonnementen te stapelen: live-tv, sport, films en series in één transparant pakket.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -2995,7 +2995,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV met nederlandse zenders bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV met NPO, RTL en SBS",
     lead: [
-      "Wil je de vertrouwde Nederlandse zenders? [SWIV TV](https://www.swivtv.be) biedt de bekende publieke en commerciële zenders, met Nederlandstalige gids.",
+      "Wil je de vertrouwde Nederlandse zenders? [SWIV TV](https://www.swiv-tv.nl) biedt de bekende publieke en commerciële zenders, met Nederlandstalige gids.",
       "## IPTV met nederlandse zenders — Vertrouwd en compleet",
       "Naast de Nederlandse zenders krijg je internationale kanalen en een grote VOD-bibliotheek, alles in één abonnement.",
       "Bekijk de pakketten hieronder en vraag het zenderoverzicht via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -3013,7 +3013,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV met kinderzenders bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV met kinderzenders",
     lead: [
-      "Een IPTV-abonnement voor het hele gezin: [SWIV TV](https://www.swivtv.be) biedt kinderzenders naast films, series en sport.",
+      "Een IPTV-abonnement voor het hele gezin: [SWIV TV](https://www.swiv-tv.nl) biedt kinderzenders naast films, series en sport.",
       "## IPTV met kinderzenders — Voor jong en oud",
       "Iedereen kijkt wat hij wil op zijn eigen scherm, van kinderprogramma's tot sport en films.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -3031,7 +3031,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV met documentaires bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV met documentaires",
     lead: [
-      "Houd je van documentaires? [SWIV TV](https://www.swivtv.be) biedt natuur-, geschiedenis- en wetenschapszenders plus documentaires in de VOD.",
+      "Houd je van documentaires? [SWIV TV](https://www.swiv-tv.nl) biedt natuur-, geschiedenis- en wetenschapszenders plus documentaires in de VOD.",
       "## IPTV met documentaires — Breed aanbod",
       "Kijk live of on demand, in HD en 4K, en maak favorietenlijsten van je vaste documentairezenders.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -3049,7 +3049,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV met internationale zenders bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV met internationale zenders",
     lead: [
-      "[SWIV TV](https://www.swivtv.be) biedt naast Nederlandse zenders duizenden internationale kanalen uit heel Europa en daarbuiten.",
+      "[SWIV TV](https://www.swiv-tv.nl) biedt naast Nederlandse zenders duizenden internationale kanalen uit heel Europa en daarbuiten.",
       "## IPTV met internationale zenders — Voor meertalige gezinnen",
       "Kijk nieuws, sport en entertainment in je eigen taal, waar je ook woont. Orden ze met favorietenlijsten.",
       "Bekijk de pakketten hieronder en vraag naar specifieke landen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -3067,7 +3067,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV 4k sport bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV 4K sport abonnement",
     lead: [
-      "Sport is op zijn mooist in 4K. [SWIV TV](https://www.swivtv.be) biedt sportzenders in Ultra HD op geschikte content.",
+      "Sport is op zijn mooist in 4K. [SWIV TV](https://www.swiv-tv.nl) biedt sportzenders in Ultra HD op geschikte content.",
       "## IPTV 4k sport — Scherp en stabiel",
       "Dankzij HEVC en relay-servers geniet je van haarscherp beeld zonder haperingen. Voor 4K reken je op zo'n 25 Mbit/s.",
       "Bekijk de pakketten hieronder en vraag naar de 4K-sportzenders via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -3085,7 +3085,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV 8k abonnement bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV 8K abonnement",
     lead: [
-      "Voor het scherpste beeld: [SWIV TV](https://www.swivtv.be) ondersteunt streaming tot 8K op geschikte content, naast 4K en Full HD.",
+      "Voor het scherpste beeld: [SWIV TV](https://www.swiv-tv.nl) ondersteunt streaming tot 8K op geschikte content, naast 4K en Full HD.",
       "## IPTV 8k abonnement — Toekomstbestendig",
       "8K vraagt een geschikte tv en een snelle, stabiele verbinding. Met HEVC en relay-servers blijft het beeld vloeiend.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -3103,7 +3103,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV stabiele servers bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV met stabiele servers",
     lead: [
-      "Stabiliteit is alles bij IPTV. [SWIV TV](https://www.swivtv.be) zet in op een netwerk van relay-servers voor een vloeiend beeld, ook tijdens piekuren.",
+      "Stabiliteit is alles bij IPTV. [SWIV TV](https://www.swiv-tv.nl) zet in op een netwerk van relay-servers voor een vloeiend beeld, ook tijdens piekuren.",
       "## IPTV stabiele servers — Vloeiend, ook in de piek",
       "Dankzij relay-servers en HEVC blijft het beeld scherp en stabiel, zelfs op drukke sportavonden.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -3121,7 +3121,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV premium servers bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV op premium servers",
     lead: [
-      "[SWIV TV](https://www.swivtv.be) draait op premium servers die zijn geoptimaliseerd voor de Benelux, voor snelle en stabiele streams.",
+      "[SWIV TV](https://www.swiv-tv.nl) draait op premium servers die zijn geoptimaliseerd voor de Benelux, voor snelle en stabiele streams.",
       "## IPTV premium servers — Kwaliteit die telt",
       "Snelle zenderwisseling, een vloeiend beeld in 4K/8K en minimale buffering dankzij relay-servers.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -3139,7 +3139,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV snelle activatie bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV met snelle activatie",
     lead: [
-      "Geen wachttijd: bij [SWIV TV](https://www.swivtv.be) ontvang je je inloggegevens binnen enkele minuten en kijk je direct.",
+      "Geen wachttijd: bij [SWIV TV](https://www.swiv-tv.nl) ontvang je je inloggegevens binnen enkele minuten en kijk je direct.",
       "## IPTV snelle activatie — Binnen vijf minuten",
       "Installeer een speler, log in met Xtream Codes of M3U en de zenderlijst met EPG laadt automatisch.",
       "Bekijk de pakketten hieronder en start via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -3157,7 +3157,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV 24 7 support bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV met 24/7 support",
     lead: [
-      "Goede service maakt het verschil. [SWIV TV](https://www.swivtv.be) biedt 24/7 support via WhatsApp, zodat je altijd snel hulp hebt.",
+      "Goede service maakt het verschil. [SWIV TV](https://www.swiv-tv.nl) biedt 24/7 support via WhatsApp, zodat je altijd snel hulp hebt.",
       "## IPTV 24 7 support — Altijd bereikbaar",
       "Of je nu een vraag hebt over het instellen of een zender wilt controleren: het team helpt je snel, ook buiten kantooruren.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -3175,7 +3175,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV nederlandse klantenservice bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV met Nederlandse klantenservice",
     lead: [
-      "Prettig: bij [SWIV TV](https://www.swivtv.be) word je in het Nederlands geholpen, zodat je nooit vastloopt op taal.",
+      "Prettig: bij [SWIV TV](https://www.swiv-tv.nl) word je in het Nederlands geholpen, zodat je nooit vastloopt op taal.",
       "## IPTV nederlandse klantenservice — In je eigen taal",
       "Stel je vragen gewoon in het Nederlands via WhatsApp en krijg snel duidelijk antwoord, van bestellen tot instellen.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -3193,7 +3193,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV geld terug bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV met geld-terug-garantie",
     lead: [
-      "Zonder risico starten? [SWIV TV](https://www.swivtv.be) biedt 15 dagen niet-goed-geld-terug, zodat je rustig kunt testen.",
+      "Zonder risico starten? [SWIV TV](https://www.swiv-tv.nl) biedt 15 dagen niet-goed-geld-terug, zodat je rustig kunt testen.",
       "## IPTV geld terug — Vertrouwen in kwaliteit",
       "Een geld-terug-garantie laat zien dat een aanbieder op zijn dienst vertrouwt. Test je zenders, de gids en de kwaliteit thuis.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -3211,7 +3211,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV zonder contract bij SWIV TV: geen stilzwijgende verlenging, je verlengt zelf. 69.000+ zenders. 15 dagen geld-terug.",
     h1: "IPTV zonder contract",
     lead: [
-      "Geen zin in langlopende contracten? Bij [SWIV TV](https://www.swivtv.be) kies je zelf je looptijd zonder stilzwijgende verlenging.",
+      "Geen zin in langlopende contracten? Bij [SWIV TV](https://www.swiv-tv.nl) kies je zelf je looptijd zonder stilzwijgende verlenging.",
       "## IPTV zonder contract — Jij houdt de controle",
       "Je abonnement stopt vanzelf als je niet verlengt. Geen opzegtermijn, geen verrassingen.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -3229,7 +3229,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV zonder vastlopen bij SWIV TV: stabiel beeld dankzij relay-servers en HEVC. Tips voor een vloeiende stream. 15 dagen geld-terug.",
     h1: "IPTV zonder vastlopen",
     lead: [
-      "Een vloeiend beeld zonder vastlopen is het belangrijkst. [SWIV TV](https://www.swivtv.be) zet in op stabiele servers en geeft je de juiste tips.",
+      "Een vloeiend beeld zonder vastlopen is het belangrijkst. [SWIV TV](https://www.swiv-tv.nl) zet in op stabiele servers en geeft je de juiste tips.",
       "## IPTV zonder vastlopen — Zo blijft het soepel",
       "Gebruik een bekabelde verbinding, zorg voor voldoende snelheid en kies de juiste speler-instellingen. HEVC houdt het beeld scherp.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -3247,7 +3247,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV voor beginners bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV voor beginners",
     lead: [
-      "Nog nooit IPTV gebruikt? Geen zorgen. Bij [SWIV TV](https://www.swivtv.be) stap je eenvoudig in, met duidelijke uitleg en 24/7 hulp.",
+      "Nog nooit IPTV gebruikt? Geen zorgen. Bij [SWIV TV](https://www.swiv-tv.nl) stap je eenvoudig in, met duidelijke uitleg en 24/7 hulp.",
       "## IPTV voor beginners — In drie stappen",
       "Kies een pakket, installeer een speler zoals IPTV Smarters Pro en vul je gegevens in. De zenders en gids laden automatisch.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -3265,7 +3265,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV overstappen van kabel bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "Overstappen van kabel naar IPTV",
     lead: [
-      "Overweeg je de overstap van traditionele kabel-tv? Met [SWIV TV](https://www.swivtv.be) krijg je meer zenders en flexibiliteit, vaak voor minder.",
+      "Overweeg je de overstap van traditionele kabel-tv? Met [SWIV TV](https://www.swiv-tv.nl) krijg je meer zenders en flexibiliteit, vaak voor minder.",
       "## IPTV overstappen van kabel — Waarom overstappen",
       "Een veel groter zender- en VOD-aanbod, geen langlopende contracten en kijken op al je apparaten.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -3283,7 +3283,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV veilig betalen bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV veilig betalen",
     lead: [
-      "Veilig afrekenen hoort erbij. Bij [SWIV TV](https://www.swivtv.be) betaal je via nachvolgbare methoden met transparante prijzen, zonder verborgen kosten.",
+      "Veilig afrekenen hoort erbij. Bij [SWIV TV](https://www.swiv-tv.nl) betaal je via nachvolgbare methoden met transparante prijzen, zonder verborgen kosten.",
       "## IPTV veilig betalen — Duidelijk en veilig",
       "Kies je pakket, reken af en ontvang je inloggegevens direct via WhatsApp. Geen anonieme vooruitbetaling naar onbekende partijen.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -3301,7 +3301,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV direct geleverd bij SWIV TV: je inloggegevens binnen enkele minuten na bestelling. Kijk binnen 5 minuten. 15 dagen geld-terug.",
     h1: "IPTV direct geleverd",
     lead: [
-      "Geen wachttijd: bij [SWIV TV](https://www.swivtv.be) ontvang je je abonnementsgegevens direct na je bestelling.",
+      "Geen wachttijd: bij [SWIV TV](https://www.swiv-tv.nl) ontvang je je abonnementsgegevens direct na je bestelling.",
       "## IPTV direct geleverd — Meteen kijken",
       "Vul je gegevens in een speler in en de zenderlijst met EPG laadt automatisch. Binnen vijf minuten kijk je.",
       "Bekijk de pakketten hieronder en start via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -3319,7 +3319,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV beste kwaliteit bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV met de beste kwaliteit",
     lead: [
-      "Kwaliteit staat voorop bij [SWIV TV](https://www.swivtv.be): haarscherp beeld, een stabiel netwerk en een volledige, actuele zenderlijst.",
+      "Kwaliteit staat voorop bij [SWIV TV](https://www.swiv-tv.nl): haarscherp beeld, een stabiel netwerk en een volledige, actuele zenderlijst.",
       "## IPTV beste kwaliteit — Waar kwaliteit zit",
       "4K en op geschikte content 8K, HEVC voor scherp beeld bij minder bandbreedte en relay-servers voor stabiliteit.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -3337,7 +3337,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV meest complete bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "Het meest complete IPTV-abonnement",
     lead: [
-      "Alles in één: [SWIV TV](https://www.swivtv.be) biedt een zeer compleet aanbod van livezenders, sport, films en series in één transparant abonnement.",
+      "Alles in één: [SWIV TV](https://www.swiv-tv.nl) biedt een zeer compleet aanbod van livezenders, sport, films en series in één transparant abonnement.",
       "## IPTV meest complete — Compleet en overzichtelijk",
       "69.000+ zenders en 220.000+ VOD-titels, geordend met categorieën en een Nederlandstalige EPG.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -3355,7 +3355,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV grootste zenderpakket bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV met het grootste zenderpakket",
     lead: [
-      "Zoek je het grootste zenderaanbod? [SWIV TV](https://www.swivtv.be) biedt meer dan 69.000 livezenders uit heel de wereld, plus een enorme filmbibliotheek.",
+      "Zoek je het grootste zenderaanbod? [SWIV TV](https://www.swiv-tv.nl) biedt meer dan 69.000 livezenders uit heel de wereld, plus een enorme filmbibliotheek.",
       "## IPTV grootste zenderpakket — Overzicht houden",
       "Dankzij categorieën, favorietenlijsten en een EPG vind je snel wat je zoekt in het grote aanbod.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -3373,7 +3373,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV nederland en belgie bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV voor Nederland en België",
     lead: [
-      "Of je nu in Nederland of België woont: [SWIV TV](https://www.swivtv.be) biedt Nederlandse én Vlaamse zenders, plus internationaal en sport.",
+      "Of je nu in Nederland of België woont: [SWIV TV](https://www.swiv-tv.nl) biedt Nederlandse én Vlaamse zenders, plus internationaal en sport.",
       "## IPTV nederland en belgie — Benelux-dekking",
       "Onze servers zijn geoptimaliseerd voor de Benelux, voor een stabiel beeld aan beide kanten van de grens.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -3391,7 +3391,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV voor het hele gezin bij SWIV TV: kinderzenders, sport, films en series op elk scherm. 15 dagen geld-terug.",
     h1: "IPTV voor het hele gezin",
     lead: [
-      "Eén abonnement voor iedereen thuis: [SWIV TV](https://www.swivtv.be) biedt kinderzenders, sport, films en series op elk scherm.",
+      "Eén abonnement voor iedereen thuis: [SWIV TV](https://www.swiv-tv.nl) biedt kinderzenders, sport, films en series op elk scherm.",
       "## IPTV voor het hele gezin — Voor elk wat wils",
       "Iedereen kijkt zijn eigen programma op zijn eigen apparaat. Vraag naar meerdere verbindingen voor gelijktijdig kijken.",
       "Bekijk de pakketten hieronder en stel je vragen via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -3409,7 +3409,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV upgraden naar jaarabonnement bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV upgraden naar een jaarabonnement",
     lead: [
-      "Bevalt je kortere abonnement? Upgraden naar een jaarabonnement bij [SWIV TV](https://www.swivtv.be) levert de beste prijs per maand op.",
+      "Bevalt je kortere abonnement? Upgraden naar een jaarabonnement bij [SWIV TV](https://www.swiv-tv.nl) levert de beste prijs per maand op.",
       "## IPTV upgraden naar jaarabonnement — Zo werkt het",
       "Laat SWIV TV weten dat je wilt upgraden; je krijgt het voordeligste jaartarief en behoudt dezelfde gegevens.",
       "Vraag je upgrade aan via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug op nieuwe abonnementen.",
@@ -3427,7 +3427,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV cadeau geven bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV cadeau geven",
     lead: [
-      "Op zoek naar een origineel cadeau? Een IPTV-abonnement van [SWIV TV](https://www.swivtv.be) geeft maandenlang kijkplezier met duizenden zenders en films.",
+      "Op zoek naar een origineel cadeau? Een IPTV-abonnement van [SWIV TV](https://www.swiv-tv.nl) geeft maandenlang kijkplezier met duizenden zenders en films.",
       "## IPTV cadeau geven — Eenvoudig te regelen",
       "Kies een looptijd, geef door voor wie het is en ontvang de inloggegevens om cadeau te doen. Activatie is zo gebeurd.",
       "Bekijk de pakketten hieronder en vraag naar de mogelijkheden via [WhatsApp](https://wa.me/447462229301), met 15 dagen niet-goed-geld-terug.",
@@ -3445,7 +3445,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV kaufen österreich bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "IPTV kaufen in Österreich",
     lead: [
-      "IPTV kaufen für Österreich ist einfach bei [SWIV TV](https://www.swivtv.be): deutschsprachige Sender, internationale Kanäle, Sport und eine riesige Filmbibliothek in einem Abo.",
+      "IPTV kaufen für Österreich ist einfach bei [SWIV TV](https://www.swiv-tv.nl): deutschsprachige Sender, internationale Kanäle, Sport und eine riesige Filmbibliothek in einem Abo.",
       "## IPTV kaufen österreich — Für den DACH-Raum",
       "Unsere Server sind auf den deutschsprachigen Raum abgestimmt, mit stabilem Bild und deutschsprachigem Support. Du schaust auf Smart TV, Fire TV, Android und Apple TV.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3463,7 +3463,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV kaufen schweiz bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "IPTV kaufen in der Schweiz",
     lead: [
-      "IPTV kaufen für die Schweiz geht unkompliziert bei [SWIV TV](https://www.swivtv.be): deutschsprachige und internationale Sender, Sport und eine große Filmbibliothek.",
+      "IPTV kaufen für die Schweiz geht unkompliziert bei [SWIV TV](https://www.swiv-tv.nl): deutschsprachige und internationale Sender, Sport und eine große Filmbibliothek.",
       "## IPTV kaufen schweiz — Stabil in der Schweiz",
       "Unsere Server liefern ein stabiles Bild, und der Support hilft dir auf Deutsch. Du schaust auf jedem Gerät.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3481,7 +3481,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV 3 Monate bei SWIV TV: ideal zum ausgiebigen Testen. 69.000+ Sender, 220.000+ VOD in 4K. 15 Tage Geld-zurück.",
     h1: "IPTV 3 Monate Abo",
     lead: [
-      "Ein Abo über 3 Monate bei [SWIV TV](https://www.swivtv.be) ist ideal, um den Dienst ausgiebig zu erleben, ohne dich gleich für ein Jahr zu binden.",
+      "Ein Abo über 3 Monate bei [SWIV TV](https://www.swiv-tv.nl) ist ideal, um den Dienst ausgiebig zu erleben, ohne dich gleich für ein Jahr zu binden.",
       "## IPTV 3 monate — Flexibel testen",
       "Du erhältst vollen Zugriff auf alle Sender und die VOD-Bibliothek. Gefällt es, wechselst du einfach zu einem günstigeren Jahrespaket.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3499,7 +3499,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV 6 Monate bei SWIV TV: ein halbes Jahr 69.000+ Sender und 220.000+ VOD in 4K. Scharfer Preis, 15 Tage Geld-zurück.",
     h1: "IPTV 6 Monate Abo",
     lead: [
-      "Mit einem Halbjahresabo bei [SWIV TV](https://www.swivtv.be) schaust du sechs Monate sorgenfrei zu einem scharfen Preis pro Monat.",
+      "Mit einem Halbjahresabo bei [SWIV TV](https://www.swiv-tv.nl) schaust du sechs Monate sorgenfrei zu einem scharfen Preis pro Monat.",
       "## IPTV 6 monate — Die Balance",
       "Länger als ein Monatsabo und günstiger pro Monat, aber ohne dich gleich für ein ganzes Jahr festzulegen.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3517,7 +3517,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV Monatsabo bei SWIV TV: monatlich flexibel, 69.000+ Sender und 220.000+ VOD. Kein Vertrag, 15 Tage Geld-zurück.",
     h1: "IPTV Monatsabo",
     lead: [
-      "Willst du monatlich flexibel bleiben? Mit einem Monatsabo bei [SWIV TV](https://www.swivtv.be) entscheidest du selbst, wann du verlängerst.",
+      "Willst du monatlich flexibel bleiben? Mit einem Monatsabo bei [SWIV TV](https://www.swiv-tv.nl) entscheidest du selbst, wann du verlängerst.",
       "## IPTV monatsabo — Ohne lange Bindung",
       "Keine automatische Verlängerung und kein Vertrag. Du erhältst vollen Zugriff auf alle Sender und Filme.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3535,7 +3535,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV Quartalsabo bei SWIV TV: drei Monate Zugriff auf 69.000+ Sender und 220.000+ VOD in 4K. 15 Tage Geld-zurück.",
     h1: "IPTV Quartalsabo",
     lead: [
-      "Ein Quartalsabo bei [SWIV TV](https://www.swivtv.be) gibt dir drei Monate vollen Zugriff, ein guter Mittelweg zwischen Monat und Jahr.",
+      "Ein Quartalsabo bei [SWIV TV](https://www.swiv-tv.nl) gibt dir drei Monate vollen Zugriff, ein guter Mittelweg zwischen Monat und Jahr.",
       "## IPTV quartalsabo — Praktisch und günstig",
       "Du zahlst pro Quartal und schaust unbegrenzt alle Sender und Filme, mit 24/7 Support.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3553,7 +3553,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV Halbjahresabo bei SWIV TV: sechs Monate 69.000+ Sender und 220.000+ VOD in 4K. Scharfer Preis, 15 Tage Geld-zurück.",
     h1: "IPTV Halbjahresabo",
     lead: [
-      "Mit einem Halbjahresabo bei [SWIV TV](https://www.swivtv.be) schaust du sechs Monate sorgenfrei zu einem attraktiven Preis pro Monat.",
+      "Mit einem Halbjahresabo bei [SWIV TV](https://www.swiv-tv.nl) schaust du sechs Monate sorgenfrei zu einem attraktiven Preis pro Monat.",
       "## IPTV halbjahresabo — Günstig ohne Jahresbindung",
       "Eine schöne Wahl, wenn du den Dienst schon kennst, aber noch kein ganzes Jahr festlegen willst.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3571,7 +3571,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV Probemonat bei SWIV TV: einen Monat ausprobieren mit 15 Tagen Geld-zurück-Garantie. 69.000+ Sender und 220.000+ VOD.",
     h1: "IPTV Probemonat",
     lead: [
-      "Willst du IPTV erst einen Monat ausprobieren? Bei [SWIV TV](https://www.swivtv.be) testest du risikofrei dank der Geld-zurück-Garantie.",
+      "Willst du IPTV erst einen Monat ausprobieren? Bei [SWIV TV](https://www.swiv-tv.nl) testest du risikofrei dank der Geld-zurück-Garantie.",
       "## IPTV probemonat — So testest du richtig",
       "Prüfe im Probemonat die Bildqualität, deine Lieblingssender und den EPG, am besten per Kabel und an einem vollen Abend.",
       "Sieh dir die Pakete unten an und starte deinen Probemonat per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3589,7 +3589,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV für fire tv stick bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "IPTV für Fire TV Stick kaufen",
     lead: [
-      "Der Fire TV Stick ist der beliebteste Weg, IPTV zu schauen. Das Abo von [SWIV TV](https://www.swivtv.be) funktioniert perfekt damit über IPTV Smarters Pro oder TiviMate.",
+      "Der Fire TV Stick ist der beliebteste Weg, IPTV zu schauen. Das Abo von [SWIV TV](https://www.swiv-tv.nl) funktioniert perfekt damit über IPTV Smarters Pro oder TiviMate.",
       "## IPTV für fire tv stick — Schnell eingerichtet",
       "Installiere die App, melde dich mit Xtream Codes oder M3U an und schau direkt. Ein Ethernet-Adapter gibt das stabilste Bild.",
       "Bestelle unten und erhalte deine Daten per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3607,7 +3607,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV für nvidia shield bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "IPTV für Nvidia Shield kaufen",
     lead: [
-      "Die Nvidia Shield ist top für IPTV in 4K. Das Abo von [SWIV TV](https://www.swivtv.be) läuft darauf flüssig über TiviMate oder IPTV Smarters Pro.",
+      "Die Nvidia Shield ist top für IPTV in 4K. Das Abo von [SWIV TV](https://www.swiv-tv.nl) läuft darauf flüssig über TiviMate oder IPTV Smarters Pro.",
       "## IPTV für nvidia shield — Stark und scharf",
       "Dank der starken Hardware läuft 4K mit HEVC mühelos. Verbinde die Shield per Ethernet für das stabilste Bild.",
       "Bestelle unten und erhalte deine Daten per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3625,7 +3625,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV für mag box bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "IPTV für MAG-Box kaufen",
     lead: [
-      "Hast du eine MAG-Box? Das Abo von [SWIV TV](https://www.swivtv.be) funktioniert direkt über eine Portal-URL.",
+      "Hast du eine MAG-Box? Das Abo von [SWIV TV](https://www.swiv-tv.nl) funktioniert direkt über eine Portal-URL.",
       "## IPTV für mag box — Einfach koppeln",
       "Trage die Portal-URL von SWIV TV in den MAG-Einstellungen ein; Senderliste und EPG laden automatisch. Verbinde die Box per Ethernet.",
       "Bestelle unten und erhalte dein Portal per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3643,7 +3643,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV für formuler bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "IPTV für Formuler kaufen",
     lead: [
-      "Die Formuler Z-Serie ist eine beliebte IPTV-Box. Das Abo von [SWIV TV](https://www.swivtv.be) funktioniert mit MYTVOnline oder einem Xtream-/M3U-Player.",
+      "Die Formuler Z-Serie ist eine beliebte IPTV-Box. Das Abo von [SWIV TV](https://www.swiv-tv.nl) funktioniert mit MYTVOnline oder einem Xtream-/M3U-Player.",
       "## IPTV für formuler — Scharf in 4K",
       "Formuler unterstützt 4K und HEVC für ein scharfes Bild bei geringerer Bandbreite. Ein Kabel sorgt für ein pufferfreies Bild.",
       "Bestelle unten und erhalte deine Daten per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3661,7 +3661,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV für windows bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "IPTV für Windows kaufen",
     lead: [
-      "Auf einem Windows-PC oder Laptop schaust du IPTV mit kostenloser Software. Das Abo von [SWIV TV](https://www.swivtv.be) funktioniert mit VLC, Kodi und IPTV Smarters.",
+      "Auf einem Windows-PC oder Laptop schaust du IPTV mit kostenloser Software. Das Abo von [SWIV TV](https://www.swiv-tv.nl) funktioniert mit VLC, Kodi und IPTV Smarters.",
       "## IPTV für windows — Schnell eingerichtet",
       "In VLC fügst du deine M3U-URL ein; in IPTV Smarters meldest du dich mit Xtream Codes an. Trage die Daten von SWIV TV ein.",
       "Bestelle unten und erhalte deine Daten per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3679,7 +3679,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV für mac bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "IPTV für Mac kaufen",
     lead: [
-      "Auch auf einem Mac schaust du einfach IPTV. Das Abo von [SWIV TV](https://www.swivtv.be) funktioniert mit VLC und diversen IPTV-Playern für macOS.",
+      "Auch auf einem Mac schaust du einfach IPTV. Das Abo von [SWIV TV](https://www.swiv-tv.nl) funktioniert mit VLC und diversen IPTV-Playern für macOS.",
       "## IPTV für mac — Einrichten",
       "In VLC wählst du Netzwerkstream öffnen und fügst deine M3U-URL von SWIV TV ein, oder nutze einen IPTV-Player mit Xtream Codes.",
       "Bestelle unten und erhalte deine Daten per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3697,7 +3697,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV für tablet bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "IPTV für Tablet kaufen",
     lead: [
-      "Ein Tablet ist ideal, um unterwegs oder im Bett IPTV zu schauen. Das Abo von [SWIV TV](https://www.swivtv.be) funktioniert auf iPad und Android-Tablets.",
+      "Ein Tablet ist ideal, um unterwegs oder im Bett IPTV zu schauen. Das Abo von [SWIV TV](https://www.swiv-tv.nl) funktioniert auf iPad und Android-Tablets.",
       "## IPTV für tablet — Überall schauen",
       "Installiere einen IPTV-Player, melde dich mit Xtream Codes oder M3U an und schau, wo du willst. Achte außerhalb des WLANs auf den Datenverbrauch.",
       "Bestelle unten und erhalte deine Daten per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3715,7 +3715,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV für kodi bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "IPTV für Kodi kaufen",
     lead: [
-      "Kodi läuft auf fast jedem Gerät und unterstützt IPTV über den PVR IPTV Simple Client. Das Abo von [SWIV TV](https://www.swivtv.be) funktioniert nahtlos damit.",
+      "Kodi läuft auf fast jedem Gerät und unterstützt IPTV über den PVR IPTV Simple Client. Das Abo von [SWIV TV](https://www.swiv-tv.nl) funktioniert nahtlos damit.",
       "## IPTV für kodi — Einrichten",
       "Füge im PVR IPTV Simple Client deine M3U-URL und optional die EPG-URL von SWIV TV ein. Die Sender erscheinen unter TV.",
       "Bestelle unten und erhalte deine Daten per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3733,7 +3733,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV smarters pro abo bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV Smarters Pro Abo",
     lead: [
-      "Nutzt du IPTV Smarters Pro? Das Abo von [SWIV TV](https://www.swivtv.be) funktioniert nahtlos damit über Xtream Codes oder M3U.",
+      "Nutzt du IPTV Smarters Pro? Das Abo von [SWIV TV](https://www.swiv-tv.nl) funktioniert nahtlos damit über Xtream Codes oder M3U.",
       "## IPTV smarters pro abo — Sofort loslegen",
       "Trage in der App Serveradresse, Benutzernamen und Passwort ein; Sender und EPG laden automatisch. Läuft auf fast jedem Gerät.",
       "Bestelle unten und erhalte deine Daten per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3751,7 +3751,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV abo für tivimate bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "IPTV Abo für TiviMate",
     lead: [
-      "TiviMate ist der Favorit auf Android TV. Das Abo von [SWIV TV](https://www.swivtv.be) funktioniert perfekt damit über Xtream Codes oder M3U.",
+      "TiviMate ist der Favorit auf Android TV. Das Abo von [SWIV TV](https://www.swiv-tv.nl) funktioniert perfekt damit über Xtream Codes oder M3U.",
       "## IPTV abo für tivimate — Alles an seinem Platz",
       "Füge deine Playlist hinzu und genieße den sauberen Programmführer, Favoritenlisten und (in Premium) Aufnahmen.",
       "Bestelle unten und erhalte deine Daten per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3769,7 +3769,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV xtream codes abo bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV mit Xtream Codes",
     lead: [
-      "Xtream Codes ist der einfachste Weg, dein Abo zu koppeln. Bei [SWIV TV](https://www.swivtv.be) erhältst du direkt Serveradresse, Benutzernamen und Passwort.",
+      "Xtream Codes ist der einfachste Weg, dein Abo zu koppeln. Bei [SWIV TV](https://www.swiv-tv.nl) erhältst du direkt Serveradresse, Benutzernamen und Passwort.",
       "## IPTV xtream codes abo — Funktioniert mit jedem Player",
       "IPTV Smarters Pro, TiviMate und die meisten Player unterstützen Xtream Codes; Sender und EPG laden automatisch.",
       "Bestelle unten und erhalte deine Xtream-Daten per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3787,7 +3787,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV m3u abo bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV mit M3U-Link",
     lead: [
-      "Lieber eine M3U-Playlist? Bei [SWIV TV](https://www.swivtv.be) erhältst du einen Link mit all deinen Sendern, zu laden in VLC, Kodi, IPTV Smarters und mehr.",
+      "Lieber eine M3U-Playlist? Bei [SWIV TV](https://www.swiv-tv.nl) erhältst du einen Link mit all deinen Sendern, zu laden in VLC, Kodi, IPTV Smarters und mehr.",
       "## IPTV m3u abo — Einfach laden",
       "Füge die M3U-URL von SWIV TV in deinen Player ein und die Sender erscheinen automatisch. Xtream Codes gibt es auch.",
       "Bestelle unten und erhalte deinen M3U-Link per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3805,7 +3805,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV mit sport bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV mit Sport",
     lead: [
-      "Sportfan? Das Abo von [SWIV TV](https://www.swivtv.be) bietet ein breites Sportangebot in HD und 4K auf jedem Bildschirm.",
+      "Sportfan? Das Abo von [SWIV TV](https://www.swiv-tv.nl) bietet ein breites Sportangebot in HD und 4K auf jedem Bildschirm.",
       "## IPTV mit sport — Ohne Aussetzer",
       "Dank Relay-Servern bleibt das Bild an vollen Sportabenden flüssig. Ein klarer EPG hilft dir, den Anpfiff zu finden.",
       "Sieh dir die Pakete unten an und frage nach den Sportsendern per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3823,7 +3823,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV mit filmen und serien bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV mit Filmen und Serien",
     lead: [
-      "Neben Live-TV bietet [SWIV TV](https://www.swivtv.be) eine riesige Video-on-Demand-Bibliothek: über 220.000 Filme und Serien.",
+      "Neben Live-TV bietet [SWIV TV](https://www.swiv-tv.nl) eine riesige Video-on-Demand-Bibliothek: über 220.000 Filme und Serien.",
       "## IPTV mit filmen und serien — Schauen, wann du willst",
       "Wähle einen Titel in deinem Player und spiele ihn direkt ab, mit Untertiteln wo verfügbar, in HD und 4K.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3841,7 +3841,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV mit fußball bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV mit Fußball",
     lead: [
-      "Verfolge deine Lieblingsspiele über [SWIV TV](https://www.swivtv.be) in hoher Qualität auf deinem großen Bildschirm.",
+      "Verfolge deine Lieblingsspiele über [SWIV TV](https://www.swiv-tv.nl) in hoher Qualität auf deinem großen Bildschirm.",
       "## IPTV mit fußball — Scharf und stabil",
       "Dank 4K-Unterstützung und Relay-Servern schaust du flüssig, mit einem klaren EPG, damit du keinen Anpfiff verpasst.",
       "Sieh dir die Pakete unten an und frage nach dem Sportangebot per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3859,7 +3859,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV mit sky sendern bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV mit Sportsendern",
     lead: [
-      "Suchst du Sportsender? Das Abo von [SWIV TV](https://www.swivtv.be) bietet ein breites Sportangebot in HD und 4K.",
+      "Suchst du Sportsender? Das Abo von [SWIV TV](https://www.swiv-tv.nl) bietet ein breites Sportangebot in HD und 4K.",
       "## IPTV mit sky sendern — Was du erwarten darfst",
       "Scharfes und stabiles Bild mit klarem Programmführer. Teste in der Garantiezeit, ob deine Sportsender gut laufen.",
       "Sieh dir die Pakete unten an und frage nach dem Sportangebot per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3877,7 +3877,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV mit dazn bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV mit Sport und Filmen",
     lead: [
-      "Willst du Sport und Filme in einem Abo? [SWIV TV](https://www.swivtv.be) kombiniert Live-Sender, Sport und eine riesige Filmbibliothek.",
+      "Willst du Sport und Filme in einem Abo? [SWIV TV](https://www.swiv-tv.nl) kombiniert Live-Sender, Sport und eine riesige Filmbibliothek.",
       "## IPTV mit dazn — Alles-in-einem",
       "Du musst keine einzelnen Abos stapeln: Live-TV, Sport, Filme und Serien in einem transparenten Paket.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3895,7 +3895,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV mit deutschen sendern bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV mit deutschen Sendern",
     lead: [
-      "Willst du die vertrauten deutschen Sender? [SWIV TV](https://www.swivtv.be) bietet die bekannten öffentlich-rechtlichen und privaten Sender, mit deutschsprachigem Guide.",
+      "Willst du die vertrauten deutschen Sender? [SWIV TV](https://www.swiv-tv.nl) bietet die bekannten öffentlich-rechtlichen und privaten Sender, mit deutschsprachigem Guide.",
       "## IPTV mit deutschen sendern — Vertraut und komplett",
       "Neben den deutschen Sendern erhältst du internationale Kanäle und eine große VOD-Bibliothek, alles in einem Abo.",
       "Sieh dir die Pakete unten an und frage die Senderliste per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3913,7 +3913,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV mit kindersendern bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV mit Kindersendern",
     lead: [
-      "Ein IPTV-Abo für die ganze Familie: [SWIV TV](https://www.swivtv.be) bietet Kindersender neben Filmen, Serien und Sport.",
+      "Ein IPTV-Abo für die ganze Familie: [SWIV TV](https://www.swiv-tv.nl) bietet Kindersender neben Filmen, Serien und Sport.",
       "## IPTV mit kindersendern — Für Jung und Alt",
       "Jeder schaut auf seinem eigenen Bildschirm, was er mag, von Kinderprogrammen bis Sport und Film.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3931,7 +3931,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV mit dokumentationen bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV mit Dokumentationen",
     lead: [
-      "Magst du Dokumentationen? [SWIV TV](https://www.swivtv.be) bietet Natur-, Geschichts- und Wissenschaftssender plus Dokus in der VOD.",
+      "Magst du Dokumentationen? [SWIV TV](https://www.swiv-tv.nl) bietet Natur-, Geschichts- und Wissenschaftssender plus Dokus in der VOD.",
       "## IPTV mit dokumentationen — Breites Angebot",
       "Schau live oder on demand, in HD und 4K, und lege Favoritenlisten deiner Doku-Sender an.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3949,7 +3949,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV mit internationalen sendern bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV mit internationalen Sendern",
     lead: [
-      "[SWIV TV](https://www.swivtv.be) bietet neben deutschen Sendern tausende internationale Kanäle aus ganz Europa und darüber hinaus.",
+      "[SWIV TV](https://www.swiv-tv.nl) bietet neben deutschen Sendern tausende internationale Kanäle aus ganz Europa und darüber hinaus.",
       "## IPTV mit internationalen sendern — Für mehrsprachige Haushalte",
       "Schau Nachrichten, Sport und Unterhaltung in deiner Sprache, wo immer du wohnst. Ordne sie mit Favoritenlisten.",
       "Sieh dir die Pakete unten an und frage nach bestimmten Ländern per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3967,7 +3967,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV 4k sport bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV 4K Sport Abo",
     lead: [
-      "Sport ist am schönsten in 4K. [SWIV TV](https://www.swivtv.be) bietet Sportsender in Ultra HD auf geeigneten Inhalten.",
+      "Sport ist am schönsten in 4K. [SWIV TV](https://www.swiv-tv.nl) bietet Sportsender in Ultra HD auf geeigneten Inhalten.",
       "## IPTV 4k sport — Scharf und stabil",
       "Dank HEVC und Relay-Servern genießt du gestochen scharfes Bild ohne Aussetzer. Für 4K rechnest du mit etwa 25 Mbit/s.",
       "Sieh dir die Pakete unten an und frage nach den 4K-Sportsendern per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -3985,7 +3985,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV 8k abo bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV 8K Abo",
     lead: [
-      "Für das schärfste Bild: [SWIV TV](https://www.swivtv.be) unterstützt Streaming bis 8K auf geeigneten Inhalten, neben 4K und Full HD.",
+      "Für das schärfste Bild: [SWIV TV](https://www.swiv-tv.nl) unterstützt Streaming bis 8K auf geeigneten Inhalten, neben 4K und Full HD.",
       "## IPTV 8k abo — Zukunftssicher",
       "8K braucht einen geeigneten Fernseher und eine schnelle, stabile Verbindung. Mit HEVC und Relay-Servern bleibt das Bild flüssig.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -4003,7 +4003,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV stabile server bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "IPTV mit stabilen Servern",
     lead: [
-      "Stabilität ist alles bei IPTV. [SWIV TV](https://www.swivtv.be) setzt auf ein Netz aus Relay-Servern für ein flüssiges Bild, auch zu Spitzenzeiten.",
+      "Stabilität ist alles bei IPTV. [SWIV TV](https://www.swiv-tv.nl) setzt auf ein Netz aus Relay-Servern für ein flüssiges Bild, auch zu Spitzenzeiten.",
       "## IPTV stabile server — Flüssig, auch im Peak",
       "Dank Relay-Servern und HEVC bleibt das Bild scharf und stabil, selbst an vollen Sportabenden.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -4021,7 +4021,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV premium server bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "IPTV auf Premium-Servern",
     lead: [
-      "[SWIV TV](https://www.swivtv.be) läuft auf Premium-Servern, die für den deutschsprachigen Raum optimiert sind, für schnelle und stabile Streams.",
+      "[SWIV TV](https://www.swiv-tv.nl) läuft auf Premium-Servern, die für den deutschsprachigen Raum optimiert sind, für schnelle und stabile Streams.",
       "## IPTV premium server — Qualität, die zählt",
       "Schnelles Umschalten, ein flüssiges Bild in 4K/8K und minimales Buffering dank Relay-Servern.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -4039,7 +4039,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV schnelle aktivierung bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV mit schneller Aktivierung",
     lead: [
-      "Keine Wartezeit: Bei [SWIV TV](https://www.swivtv.be) erhältst du deine Zugangsdaten in wenigen Minuten und schaust direkt.",
+      "Keine Wartezeit: Bei [SWIV TV](https://www.swiv-tv.nl) erhältst du deine Zugangsdaten in wenigen Minuten und schaust direkt.",
       "## IPTV schnelle aktivierung — In fünf Minuten",
       "Installiere einen Player, melde dich mit Xtream Codes oder M3U an und die Senderliste mit EPG lädt automatisch.",
       "Sieh dir die Pakete unten an und starte per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -4057,7 +4057,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV 24 7 support bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV mit 24/7 Support",
     lead: [
-      "Guter Service macht den Unterschied. [SWIV TV](https://www.swivtv.be) bietet 24/7 Support per WhatsApp, sodass du immer schnell Hilfe hast.",
+      "Guter Service macht den Unterschied. [SWIV TV](https://www.swiv-tv.nl) bietet 24/7 Support per WhatsApp, sodass du immer schnell Hilfe hast.",
       "## IPTV 24 7 support — Immer erreichbar",
       "Ob Frage zur Einrichtung oder Sender-Check: das Team hilft dir schnell, auch außerhalb der Geschäftszeiten.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -4075,7 +4075,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV deutscher kundenservice bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV mit deutschem Kundenservice",
     lead: [
-      "Angenehm: Bei [SWIV TV](https://www.swivtv.be) wirst du auf Deutsch betreut, sodass du nie an der Sprache scheiterst.",
+      "Angenehm: Bei [SWIV TV](https://www.swiv-tv.nl) wirst du auf Deutsch betreut, sodass du nie an der Sprache scheiterst.",
       "## IPTV deutscher kundenservice — In deiner Sprache",
       "Stelle deine Fragen einfach auf Deutsch per WhatsApp und erhalte schnell klare Antworten, vom Bestellen bis zum Einrichten.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -4093,7 +4093,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV geld zurück bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV mit Geld-zurück-Garantie",
     lead: [
-      "Ohne Risiko starten? [SWIV TV](https://www.swivtv.be) bietet 15 Tage Geld-zurück-Garantie, sodass du in Ruhe testen kannst.",
+      "Ohne Risiko starten? [SWIV TV](https://www.swiv-tv.nl) bietet 15 Tage Geld-zurück-Garantie, sodass du in Ruhe testen kannst.",
       "## IPTV geld zurück — Vertrauen in Qualität",
       "Eine Geld-zurück-Garantie zeigt, dass ein Anbieter auf seinen Dienst vertraut. Teste deine Sender, den Guide und die Qualität zu Hause.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -4111,7 +4111,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV ohne Vertrag bei SWIV TV: keine automatische Verlängerung, du verlängerst selbst. 69.000+ Sender. 15 Tage Geld-zurück.",
     h1: "IPTV ohne Vertrag",
     lead: [
-      "Keine Lust auf langlaufende Verträge? Bei [SWIV TV](https://www.swivtv.be) wählst du selbst deine Laufzeit ohne automatische Verlängerung.",
+      "Keine Lust auf langlaufende Verträge? Bei [SWIV TV](https://www.swiv-tv.nl) wählst du selbst deine Laufzeit ohne automatische Verlängerung.",
       "## IPTV ohne vertrag — Du behältst die Kontrolle",
       "Dein Abo endet von selbst, wenn du nicht verlängerst. Keine Kündigungsfrist, keine Überraschungen.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -4129,7 +4129,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV ohne Einfrieren bei SWIV TV: stabiles Bild dank Relay-Servern und HEVC. Tipps für einen flüssigen Stream. 15 Tage Geld-zurück.",
     h1: "IPTV ohne Einfrieren",
     lead: [
-      "Ein flüssiges Bild ohne Einfrieren ist am wichtigsten. [SWIV TV](https://www.swivtv.be) setzt auf stabile Server und gibt dir die richtigen Tipps.",
+      "Ein flüssiges Bild ohne Einfrieren ist am wichtigsten. [SWIV TV](https://www.swiv-tv.nl) setzt auf stabile Server und gibt dir die richtigen Tipps.",
       "## IPTV ohne einfrieren — So bleibt es flüssig",
       "Nutze eine LAN-Verbindung, sorge für genügend Geschwindigkeit und wähle die richtigen Player-Einstellungen. HEVC hält das Bild scharf.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -4147,7 +4147,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV für anfänger bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "IPTV für Anfänger",
     lead: [
-      "Noch nie IPTV genutzt? Keine Sorge. Bei [SWIV TV](https://www.swivtv.be) steigst du einfach ein, mit klarer Erklärung und 24/7 Hilfe.",
+      "Noch nie IPTV genutzt? Keine Sorge. Bei [SWIV TV](https://www.swiv-tv.nl) steigst du einfach ein, mit klarer Erklärung und 24/7 Hilfe.",
       "## IPTV für anfänger — In drei Schritten",
       "Wähle ein Paket, installiere einen Player wie IPTV Smarters Pro und trage deine Daten ein. Sender und Guide laden automatisch.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -4165,7 +4165,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "Von kabel zu IPTV wechseln bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "Von Kabel zu IPTV wechseln",
     lead: [
-      "Überlegst du den Wechsel von klassischem Kabel-TV? Mit [SWIV TV](https://www.swivtv.be) bekommst du mehr Sender und Flexibilität, oft für weniger.",
+      "Überlegst du den Wechsel von klassischem Kabel-TV? Mit [SWIV TV](https://www.swiv-tv.nl) bekommst du mehr Sender und Flexibilität, oft für weniger.",
       "## Von kabel zu IPTV wechseln — Warum wechseln",
       "Ein viel größeres Sender- und VOD-Angebot, keine langlaufenden Verträge und Schauen auf all deinen Geräten.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -4183,7 +4183,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV sicher bezahlen bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "IPTV sicher bezahlen",
     lead: [
-      "Sicher bezahlen gehört dazu. Bei [SWIV TV](https://www.swivtv.be) zahlst du über nachvollziehbare Methoden mit transparenten Preisen, ohne versteckte Kosten.",
+      "Sicher bezahlen gehört dazu. Bei [SWIV TV](https://www.swiv-tv.nl) zahlst du über nachvollziehbare Methoden mit transparenten Preisen, ohne versteckte Kosten.",
       "## IPTV sicher bezahlen — Klar und sicher",
       "Wähle dein Paket, bezahle und erhalte deine Zugangsdaten direkt per WhatsApp. Keine anonyme Vorkasse an unbekannte Parteien.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -4201,7 +4201,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV sofort geliefert bei SWIV TV: deine Zugangsdaten in wenigen Minuten nach Bestellung. Schau in 5 Minuten. 15 Tage Geld-zurück.",
     h1: "IPTV sofort geliefert",
     lead: [
-      "Keine Wartezeit: Bei [SWIV TV](https://www.swivtv.be) erhältst du deine Abodaten direkt nach deiner Bestellung.",
+      "Keine Wartezeit: Bei [SWIV TV](https://www.swiv-tv.nl) erhältst du deine Abodaten direkt nach deiner Bestellung.",
       "## IPTV sofort geliefert — Sofort schauen",
       "Trage deine Daten in einen Player ein und die Senderliste mit EPG lädt automatisch. In fünf Minuten schaust du.",
       "Sieh dir die Pakete unten an und starte per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -4219,7 +4219,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV beste qualität bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV mit der besten Qualität",
     lead: [
-      "Qualität steht bei [SWIV TV](https://www.swivtv.be) an erster Stelle: gestochen scharfes Bild, ein stabiles Netz und eine vollständige, aktuelle Senderliste.",
+      "Qualität steht bei [SWIV TV](https://www.swiv-tv.nl) an erster Stelle: gestochen scharfes Bild, ein stabiles Netz und eine vollständige, aktuelle Senderliste.",
       "## IPTV beste qualität — Wo Qualität sitzt",
       "4K und auf geeigneten Inhalten 8K, HEVC für scharfes Bild bei geringerer Bandbreite und Relay-Server für Stabilität.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -4237,7 +4237,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV komplettes paket bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "Das kompletteste IPTV-Abo",
     lead: [
-      "Alles in einem: [SWIV TV](https://www.swivtv.be) bietet ein sehr komplettes Angebot aus Live-Sendern, Sport, Filmen und Serien in einem transparenten Abo.",
+      "Alles in einem: [SWIV TV](https://www.swiv-tv.nl) bietet ein sehr komplettes Angebot aus Live-Sendern, Sport, Filmen und Serien in einem transparenten Abo.",
       "## IPTV komplettes paket — Komplett und übersichtlich",
       "69.000+ Sender und 220.000+ VOD-Titel, geordnet mit Kategorien und einem deutschsprachigen EPG.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -4255,7 +4255,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV größtes senderpaket bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV mit dem größten Senderpaket",
     lead: [
-      "Suchst du das größte Senderangebot? [SWIV TV](https://www.swivtv.be) bietet mehr als 69.000 Live-Sender aus aller Welt, plus eine riesige Filmbibliothek.",
+      "Suchst du das größte Senderangebot? [SWIV TV](https://www.swiv-tv.nl) bietet mehr als 69.000 Live-Sender aus aller Welt, plus eine riesige Filmbibliothek.",
       "## IPTV größtes senderpaket — Überblick behalten",
       "Dank Kategorien, Favoritenlisten und einem EPG findest du schnell, was du suchst, im großen Angebot.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -4273,7 +4273,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV für die ganze Familie bei SWIV TV: Kindersender, Sport, Filme und Serien auf jedem Bildschirm. 15 Tage Geld-zurück.",
     h1: "IPTV für die ganze Familie",
     lead: [
-      "Ein Abo für alle zu Hause: [SWIV TV](https://www.swivtv.be) bietet Kindersender, Sport, Filme und Serien auf jedem Bildschirm.",
+      "Ein Abo für alle zu Hause: [SWIV TV](https://www.swiv-tv.nl) bietet Kindersender, Sport, Filme und Serien auf jedem Bildschirm.",
       "## IPTV für die ganze familie — Für jeden etwas",
       "Jeder schaut sein eigenes Programm auf seinem eigenen Gerät. Frag nach mehreren Verbindungen für gleichzeitiges Schauen.",
       "Sieh dir die Pakete unten an und stelle deine Fragen per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",
@@ -4291,7 +4291,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV auf jahresabo upgraden bij SWIV TV: 69.000+ zenders, 220.000+ films & series in 4K. Direct actief, 15 dagen geld-terug.",
     h1: "IPTV auf ein Jahresabo upgraden",
     lead: [
-      "Gefällt dir dein kürzeres Abo? Ein Upgrade auf ein Jahresabo bei [SWIV TV](https://www.swivtv.be) bringt den besten Preis pro Monat.",
+      "Gefällt dir dein kürzeres Abo? Ein Upgrade auf ein Jahresabo bei [SWIV TV](https://www.swiv-tv.nl) bringt den besten Preis pro Monat.",
       "## IPTV auf jahresabo upgraden — So funktioniert es",
       "Sag SWIV TV, dass du upgraden willst; du bekommst den günstigsten Jahrespreis und behältst dieselben Daten.",
       "Frag dein Upgrade per [WhatsApp](https://wa.me/447462229301) an, mit 15 Tagen Geld-zurück-Garantie auf neue Abos.",
@@ -4309,7 +4309,7 @@ const RAW_KEYWORD_PAGES: KeywordPage[] = [
     description: "IPTV verschenken bei SWIV TV: 69.000+ Sender, 220.000+ Filme & Serien in 4K. Sofort aktiv, 15 Tage Geld-zurück.",
     h1: "IPTV verschenken",
     lead: [
-      "Auf der Suche nach einem originellen Geschenk? Ein IPTV-Abo von [SWIV TV](https://www.swivtv.be) schenkt monatelangen Sehgenuss mit tausenden Sendern und Filmen.",
+      "Auf der Suche nach einem originellen Geschenk? Ein IPTV-Abo von [SWIV TV](https://www.swiv-tv.nl) schenkt monatelangen Sehgenuss mit tausenden Sendern und Filmen.",
       "## IPTV verschenken — Einfach zu regeln",
       "Wähle eine Laufzeit, gib an, für wen es ist, und erhalte die Zugangsdaten zum Verschenken. Die Aktivierung ist im Nu erledigt.",
       "Sieh dir die Pakete unten an und frage nach den Möglichkeiten per [WhatsApp](https://wa.me/447462229301), mit 15 Tagen Geld-zurück-Garantie.",

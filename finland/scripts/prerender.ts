@@ -22,16 +22,16 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
 const DIST = resolve(ROOT, "dist");
 // Canonical origin — must match the host that actually serves 200s.
-const SITE = "https://www.swivtv.be";
+const SITE = "https://www.swiv-tv.nl";
 const BRAND = "SWIV TV";
 
 // Must match index.html exactly — these are the anchors the template is patched on.
 const TPL_HTML_TAG = '<html lang="de">';
 const TPL_CANONICAL = `<link rel="canonical" href="${SITE}/" />`;
-const TPL_TITLE = "<title>SWIV TV — SWIV IPTV | Premium IPTV Abonnement | swivtv.be</title>";
+const TPL_TITLE = "<title>SWIV TV — SWIV IPTV | Premium IPTV Abonnement | swiv-tv.nl</title>";
 
 const HOME_DESCRIPTION =
-  "SWIV TV — SWIV IPTV auf swivtv.be: Premium IPTV Abonnement mit 69.000+ Live-Sendern und 220.000+ Filmen & Serien als VOD in bis zu 8K. SWIV TV für Smart TV, Android & Fire TV in Deutschland, Belgien und den Niederlanden. Jetzt SWIV TV holen. ★ 4.9/5 auf Basis von 300+ Bewertungen.";
+  "SWIV TV — SWIV IPTV auf swiv-tv.nl: Premium IPTV Abonnement mit 69.000+ Live-Sendern und 220.000+ Filmen & Serien als VOD in bis zu 8K. SWIV TV für Smart TV, Android & Fire TV in Deutschland, Belgien und den Niederlanden. Jetzt SWIV TV holen. ★ 4.9/5 auf Basis von 300+ Bewertungen.";
 
 const WA_URL = "https://wa.me/447462229301";
 const OFFER_HTML = [
@@ -439,14 +439,14 @@ const HOME_TITLE: Record<string, string> = {
   nl: "SWIV TV — SWIV IPTV Abonnement | Premium IPTV België & NL",
 };
 const HOME_DESC: Record<string, string> = {
-  de: "SWIV TV (SWIV IPTV) auf swivtv.be: Premium IPTV Abonnement mit 69.000+ Live-Sendern, 220.000+ Filmen & Serien in bis zu 8K. SWIV TV für Smart TV, Android & Fire TV in Deutschland, Belgien und den Niederlanden.",
-  en: "SWIV TV (SWIV IPTV) at swivtv.be: premium IPTV subscription with 69,000+ live channels, 220,000+ movies & series in up to 8K for Smart TV, Android & Fire TV in Belgium, the Netherlands and Germany.",
-  nl: "SWIV TV (SWIV IPTV) op swivtv.be: premium IPTV-abonnement met 69.000+ live zenders, 220.000+ films & series in tot 8K voor Smart TV, Android & Fire TV in België, Nederland en Duitsland.",
+  de: "SWIV TV (SWIV IPTV) auf swiv-tv.nl: Premium IPTV Abonnement mit 69.000+ Live-Sendern, 220.000+ Filmen & Serien in bis zu 8K. SWIV TV für Smart TV, Android & Fire TV in Deutschland, Belgien und den Niederlanden.",
+  en: "SWIV TV (SWIV IPTV) at swiv-tv.nl: premium IPTV subscription with 69,000+ live channels, 220,000+ movies & series in up to 8K for Smart TV, Android & Fire TV in Belgium, the Netherlands and Germany.",
+  nl: "SWIV TV (SWIV IPTV) op swiv-tv.nl: premium IPTV-abonnement met 69.000+ live zenders, 220.000+ films & series in tot 8K voor Smart TV, Android & Fire TV in België, Nederland en Duitsland.",
 };
 const HOME_BODY: Record<string, string[]> = {
   de: [
     `<h1>SWIV TV — SWIV IPTV: Premium IPTV Abonnement für Deutschland, Belgien & die Niederlande</h1>`,
-    `<p>SWIV TV auf swivtv.be ist Ihr SWIV IPTV Premium-Abonnement mit über 69.000 Live-Sendern und 220.000 Filmen und Serien als Video-on-Demand in bis zu 8K Ultra HD. SWIV TV läuft auf Smart TV, Android, Fire TV, MAG-Boxen und weiteren Geräten — in Deutschland, Belgien und den Niederlanden. Bei SWIV TV erhalten Sie das beste Preis-Leistungs-Verhältnis.</p>`,
+    `<p>SWIV TV auf swiv-tv.nl ist Ihr SWIV IPTV Premium-Abonnement mit über 69.000 Live-Sendern und 220.000 Filmen und Serien als Video-on-Demand in bis zu 8K Ultra HD. SWIV TV läuft auf Smart TV, Android, Fire TV, MAG-Boxen und weiteren Geräten — in Deutschland, Belgien und den Niederlanden. Bei SWIV TV erhalten Sie das beste Preis-Leistungs-Verhältnis.</p>`,
     `<h2>Warum SWIV TV (SWIV IPTV) wählen?</h2>`,
     `<ul>`,
     `<li>69.000+ Live-Sender aus Deutschland, Belgien, den Niederlanden und ganz Europa, inklusive Bundesliga, Pro League, Eredivisie und UEFA Champions League</li>`,
@@ -459,7 +459,7 @@ const HOME_BODY: Record<string, string[]> = {
   ],
   en: [
     `<h1>SWIV TV — SWIV IPTV: Premium IPTV Subscription for Belgium, the Netherlands & Germany</h1>`,
-    `<p>SWIV TV at swivtv.be is your SWIV IPTV premium subscription with over 69,000 live channels and 220,000 movies and series as video-on-demand in up to 8K Ultra HD. SWIV TV works on Smart TV, Android, Fire TV, MAG boxes and more — across Belgium, the Netherlands and Germany. With SWIV TV you get the best value for premium streaming.</p>`,
+    `<p>SWIV TV at swiv-tv.nl is your SWIV IPTV premium subscription with over 69,000 live channels and 220,000 movies and series as video-on-demand in up to 8K Ultra HD. SWIV TV works on Smart TV, Android, Fire TV, MAG boxes and more — across Belgium, the Netherlands and Germany. With SWIV TV you get the best value for premium streaming.</p>`,
     `<h2>Why choose SWIV TV (SWIV IPTV)?</h2>`,
     `<ul>`,
     `<li>69,000+ live channels from Belgium, the Netherlands, Germany and across Europe, including the Pro League, Eredivisie, Bundesliga and UEFA Champions League</li>`,
@@ -472,7 +472,7 @@ const HOME_BODY: Record<string, string[]> = {
   ],
   nl: [
     `<h1>SWIV TV — SWIV IPTV: Premium IPTV-abonnement voor België, Nederland & Duitsland</h1>`,
-    `<p>SWIV TV op swivtv.be is je SWIV IPTV premium-abonnement met meer dan 69.000 live zenders en 220.000 films en series als video-on-demand in maximaal 8K Ultra HD. SWIV TV werkt op Smart TV, Android, Fire TV, MAG-boxen en meer — in België, Nederland en Duitsland. Bij SWIV TV krijg je de beste prijs-kwaliteitverhouding.</p>`,
+    `<p>SWIV TV op swiv-tv.nl is je SWIV IPTV premium-abonnement met meer dan 69.000 live zenders en 220.000 films en series als video-on-demand in maximaal 8K Ultra HD. SWIV TV werkt op Smart TV, Android, Fire TV, MAG-boxen en meer — in België, Nederland en Duitsland. Bij SWIV TV krijg je de beste prijs-kwaliteitverhouding.</p>`,
     `<h2>Waarom kiezen voor SWIV TV (SWIV IPTV)?</h2>`,
     `<ul>`,
     `<li>69.000+ live zenders uit België, Nederland, Duitsland en heel Europa, inclusief Pro League, Eredivisie, Bundesliga en UEFA Champions League</li>`,
@@ -548,7 +548,7 @@ const rootWebsiteJsonLd = {
 };
 const rootHtml = buildPage({
   lang: "de",
-  title: `SWIV TV — SWIV IPTV | Premium IPTV Abonnement | swivtv.be`,
+  title: `SWIV TV — SWIV IPTV | Premium IPTV Abonnement | swiv-tv.nl`,
   description: HOME_DESCRIPTION,
   canonical: `${SITE}/`,
   ogType: "website",

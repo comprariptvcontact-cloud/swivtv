@@ -1,6 +1,6 @@
 ﻿import { BlogPost } from "./blogPosts";
 
-const SITE = "https://www.swivtv.be";
+const SITE = "https://www.swiv-tv.nl";
 const INSTA = "https://www.instagram.com/my8k.tv/";
 
 /**
@@ -9,7 +9,7 @@ const INSTA = "https://www.instagram.com/my8k.tv/";
  * bester iptv anbieter, iptv premium, iptv line, iptv alle sender, SWIV TV,
  * iptv champions league …). Jeder Beitrag ist auf genau ein Keyword
  * ausgerichtet, in natürlichem Deutsch geschrieben und verweist auf die
- * transparenten Pakete und den WhatsApp-Support von SWIV TV (swivtv.be).
+ * transparenten Pakete und den WhatsApp-Support von SWIV TV (swiv-tv.nl).
  */
 export const DE_BLOG_POSTS_16: BlogPost[] = [
   {

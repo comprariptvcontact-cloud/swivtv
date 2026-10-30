@@ -5,7 +5,7 @@ import { BlogPost } from "./blogPosts";
 // is optimized for the German keyword set (iptv abo, iptv-abonnement, bester
 // iptv anbieter, iptv anbieter liste, iptv bundesliga). Dated newest so it leads
 // the blog grid.
-const SITE = "https://www.swivtv.be";
+const SITE = "https://www.swiv-tv.nl";
 const BRAND = "SWIV TV";
 
 export const DE_OFFER_POSTS: BlogPost[] = [

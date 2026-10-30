@@ -27,7 +27,7 @@ import type { LangCode } from "./i18n";
 import RichText from "./components/RichText";
 import { getKeywordPage } from "./data/keywordPages";
 
-const SITE_ORIGIN = "https://www.swivtv.be";
+const SITE_ORIGIN = "https://www.swiv-tv.nl";
 
 const INDEXABLE = "index, follow, max-image-preview:large, max-snippet:-1";
 const NOT_INDEXABLE = "noindex, follow";

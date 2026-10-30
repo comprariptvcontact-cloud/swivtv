@@ -1,13 +1,13 @@
 ﻿import { BlogPost } from "./blogPosts";
 
-const SITE = "https://www.swivtv.be";
+const SITE = "https://www.swiv-tv.nl";
 const INSTA = "https://www.instagram.com/my8k.tv/";
 
 /**
  * SEO-Batch DE 14 — 20 deutschsprachige Ratgeber rund um die meistgesuchten
  * IPTV-Keywords (iptv test, iptv line, iptv abo, 4k iptv, iptv server …).
  * Jeder Beitrag ist auf ein Keyword ausgerichtet und verweist auf die Pakete
- * von SWIV TV (swivtv.be).
+ * von SWIV TV (swiv-tv.nl).
  */
 export const DE_BLOG_POSTS_14: BlogPost[] = [
   {
@@ -95,9 +95,9 @@ export const DE_BLOG_POSTS_14: BlogPost[] = [
       de: {
         title: "SWIV TV erklärt: Was SWIV TV bietet, was es kostet und für wen es sich lohnt",
         excerpt:
-          "SWIV TV, SWIV TV, swivtv.be: Hinter den Schreibweisen steckt derselbe Dienst. Dieser Überblick zeigt Senderzahl, Bildqualität, Pakete und Einrichtung auf einen Blick.",
+          "SWIV TV, SWIV TV, swiv-tv.nl: Hinter den Schreibweisen steckt derselbe Dienst. Dieser Überblick zeigt Senderzahl, Bildqualität, Pakete und Einrichtung auf einen Blick.",
         body: [
-          `Wer nach SWIV TV sucht, meint in der Regel [SWIV TV](${SITE}) unter der Adresse swivtv.be – einen IPTV-Dienst, der Live-Fernsehen, Sport und eine große Film- und Seriensammlung über das Internet bündelt. Statt Kabel oder Satellit brauchst du nur eine stabile Verbindung und ein Gerät, das eine App abspielen kann.`,
+          `Wer nach SWIV TV sucht, meint in der Regel [SWIV TV](${SITE}) unter der Adresse swiv-tv.nl – einen IPTV-Dienst, der Live-Fernsehen, Sport und eine große Film- und Seriensammlung über das Internet bündelt. Statt Kabel oder Satellit brauchst du nur eine stabile Verbindung und ein Gerät, das eine App abspielen kann.`,
           `Der Katalog ist der Kern des Angebots: über 69.000 Live-Sender und mehr als 220.000 Filme und Serien on demand, die täglich aktualisiert werden. Deutsche Sender in HD sind ebenso dabei wie internationale Kanäle, große Sport-Ligen und aktuelle Kinofilme.`,
           `Bei der Bildqualität setzt [SWIV TV](${SITE}) auf Streams bis 4K und auf kompatiblen Inhalten 8K. Damit das flüssig bleibt, läuft der Dienst über ein Netz aus Relay-Servern in ganz Europa mit Anti-Freeze-Technologie, das auch an vollen Fußballabenden Lastspitzen abfängt.`,
           `Die Pakete sind übersichtlich: Du wählst zwischen einem oder zwei gleichzeitigen Geräten und einer Laufzeit von 1, 3, 6, 12 oder 24 Monaten. Das 12-Monats-Paket enthält 3 Gratis-Monate, das 24-Monats-Paket 6. Zum Ausprobieren gibt es das 1-Monats-Testpaket ab 12,99 €.`,

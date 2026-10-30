@@ -3,14 +3,14 @@
  * the site's URLs so they get crawled without waiting for a scheduled recrawl.
  *
  * Prerequisites:
- *   1. The site must be LIVE at https://www.swivtv.be and serving the key file
- *      public/<KEY>.txt at https://www.swivtv.be/<KEY>.txt (it ships in public/).
+ *   1. The site must be LIVE at https://www.swiv-tv.nl and serving the key file
+ *      public/<KEY>.txt at https://www.swiv-tv.nl/<KEY>.txt (it ships in public/).
  *   2. Run this AFTER `npm run build` (it reads dist/ sitemaps for the URL list).
  *
  * Usage:  node scripts/indexnow-submit.mjs
  *
  * Also submit the sitemap in Bing Webmaster Tools once:
- *   https://www.bing.com/webmasters  →  Sitemaps  →  https://www.swivtv.be/sitemap.xml
+ *   https://www.bing.com/webmasters  →  Sitemaps  →  https://www.swiv-tv.nl/sitemap.xml
  */
 import { readFileSync, readdirSync } from "node:fs";
 import { resolve, dirname } from "node:path";
@@ -19,7 +19,7 @@ import { fileURLToPath } from "node:url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DIST = resolve(__dirname, "..", "dist");
 
-const HOST = "www.swivtv.be";
+const HOST = "www.swiv-tv.nl";
 const KEY = "89bdb7978a422a052dd599e166d0740e";
 const KEY_LOCATION = `https://${HOST}/${KEY}.txt`;
 
