@@ -31,7 +31,7 @@ const TPL_CANONICAL = `<link rel="canonical" href="${SITE}/" />`;
 const TPL_TITLE = "<title>SWIV TV — SWIV IPTV | Premium IPTV Abonnement | swiv-tv.nl</title>";
 
 const HOME_DESCRIPTION =
-  "SWIV TV — SWIV IPTV auf swiv-tv.nl: Premium IPTV Abonnement mit 69.000+ Live-Sendern und 220.000+ Filmen & Serien als VOD in bis zu 8K. SWIV TV für Smart TV, Android & Fire TV in Deutschland, Belgien und den Niederlanden. Jetzt SWIV TV holen. ★ 4.9/5 auf Basis von 300+ Bewertungen.";
+  "Swiv TV: Premium IPTV mit 69.000+ Sendern und 220.000+ Filmen in 4K/8K. IPTV kaufen beim zuverlässigen Anbieter. ★ 4.9/5";
 
 const WA_URL = "https://wa.me/447462229301";
 const OFFER_HTML = [
@@ -441,7 +441,7 @@ const HOME_TITLE: Record<string, string> = {
   nl: "SWIV TV — SWIV IPTV Abonnement | Premium IPTV België & NL",
 };
 const HOME_DESC: Record<string, string> = {
-  de: "SWIV TV (SWIV IPTV) auf swiv-tv.nl: Premium IPTV Abonnement mit 69.000+ Live-Sendern, 220.000+ Filmen & Serien in bis zu 8K. SWIV TV für Smart TV, Android & Fire TV in Deutschland, Belgien und den Niederlanden.",
+  de: "Swiv TV: Premium IPTV mit 69.000+ Sendern und 220.000+ Filmen in 4K/8K. IPTV kaufen beim zuverlässigen Anbieter. ★ 4.9/5",
   en: "SWIV TV (SWIV IPTV) at swiv-tv.nl: premium IPTV subscription with 69,000+ live channels, 220,000+ movies & series in up to 8K for Smart TV, Android & Fire TV in Belgium, the Netherlands and Germany.",
   nl: "SWIV TV (SWIV IPTV) op swiv-tv.nl: premium IPTV-abonnement met 69.000+ live zenders, 220.000+ films & series in tot 8K voor Smart TV, Android & Fire TV in België, Nederland en Duitsland.",
 };
